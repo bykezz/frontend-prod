@@ -1,0 +1,624 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 760px;
+  height: 49px;
+}
+.searchAnyCategory {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: inline-block;
+  width: 263px;
+}
+.octiconsearch24 {
+  position: absolute;
+  top: 12px;
+  left: 16.58px;
+  width: 23.94px;
+  height: 24px;
+  overflow: hidden;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 760px;
+  height: 49px;
+}
+.groupItem {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  width: 146px;
+  height: 46px;
+}
+.rectangleGroup,
+.register {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+}
+.rectangleGroup {
+  top: 6px;
+  left: 795px;
+  width: 146px;
+  height: 46px;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-silver-400);
+  width: 45px;
+  height: 45px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 59.26%;
+  width: 59.26%;
+  top: 22.22%;
+  right: 18.52%;
+  bottom: 18.52%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 970px;
+  width: 45px;
+  height: 45px;
+}
+.groupParent {
+  position: absolute;
+  top: 15px;
+
+  width: 100%;
+  height: 55px;
+}
+.frameItem,
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1140px;
+  height: 1984px;
+}
+.groupInner {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-sandybrown);
+  width: 293px;
+  height: 70px;
+}
+.save {
+  position: absolute;
+  top: 23px;
+  left: 126px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1465px;
+  left: 425px;
+  width: 293px;
+  height: 70px;
+}
+.productCategory,
+.productDescription,
+.productImage,
+.productName,
+.productPrice,
+.quantity {
+  position: absolute;
+  top: 296px;
+  left: 52px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-weight: 600;
+}
+.productCategory,
+.productDescription,
+.productImage,
+.productPrice,
+.quantity {
+  top: 380px;
+}
+.productCategory,
+.productImage,
+.productPrice,
+.quantity {
+  top: 644px;
+  left: 54px;
+}
+.productCategory,
+.productImage,
+.quantity {
+  top: 784px;
+}
+.productCategory,
+.productImage {
+  top: 200px;
+}
+.productImage {
+  top: 914px;
+  left: 53px;
+}
+.regularPrice,
+.salePrice {
+  position: absolute;
+  top: 700px;
+  left: 54px;
+  line-height: 125.4%;
+}
+.salePrice {
+  left: 325px;
+}
+.carrotsAreA,
+.n180,
+.n200 {
+  position: absolute;
+  top: 439px;
+  left: 62px;
+  line-height: 140%;
+  display: inline-block;
+  width: 965px;
+}
+.n180,
+.n200 {
+  top: 700px;
+  left: 185px;
+  width: 55px;
+}
+.n180 {
+  left: 430px;
+}
+.carrotsParent {
+  width: 241px;
+  position: absolute;
+  top: 285px;
+  left: 210px;
+}
+.frameInner,
+.rectangleInput {
+  background-color: transparent;
+  position: absolute;
+  top: 689px;
+  left: 175px;
+}
+.rectangleInput {
+  left: 420px;
+}
+.rectangleIcon,
+.vegetablesParent {
+  width: 210px;
+  position: absolute;
+  top: 190px;
+  left: 241px;
+}
+.rectangleIcon {
+  top: 965px;
+  left: 54px;
+  border-radius: var(--br-3xs);
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.rectangleDiv,
+.rectangleTextarea {
+  position: absolute;
+  top: 425px;
+  left: 52px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  background-color: var(--color-seagreen);
+  width: 1140px;
+  height: 100px;
+}
+.geolocation,
+.profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 94px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.geolocation {
+  left: 366px;
+}
+.ellipseDiv {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+.vectorIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  height: 35.27%;
+  width: 50%;
+  top: 32%;
+  right: 26%;
+  bottom: 32.73%;
+  left: 24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ellipseGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 1040px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  width: 101px;
+  height: 41px;
+}
+.products {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-gray-1000);
+  text-align: left;
+}
+.groupDiv,
+.groupWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 101px;
+  height: 41px;
+}
+.groupWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 29px;
+  left: 168px;
+}
+.orders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.ordersWrapper,
+.weatherForecast {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+}
+.ordersWrapper {
+  left: 289px;
+  width: 57px;
+  height: 25px;
+}
+.weatherForecast {
+  left: 505px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.minimumOrderQuantity,
+.totalQuantity {
+  position: absolute;
+  top: 841px;
+  left: 54px;
+  line-height: 125.4%;
+}
+.minimumOrderQuantity {
+  left: 325px;
+}
+.frameChild1,
+.frameChild2 {
+  background-color: transparent;
+  position: absolute;
+  top: 829px;
+  left: 175px;
+}
+.frameChild2 {
+  left: 527px;
+}
+.kg,
+.kg1 {
+  position: absolute;
+  top: 840px;
+  left: 185px;
+  line-height: 140%;
+  display: inline-block;
+  width: 66px;
+}
+.kg1 {
+  left: 538px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 101px;
+  left: 186px;
+  width: 1140px;
+  height: 1984px;
+  overflow-y: auto;
+  text-align: left;
+  color: var(--color-dimgray-600);
+}
+.dashboardNavigationChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.antDesignhomeOutlinedIcon {
+  position: absolute;
+  top: 9.35px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 38px;
+  left: 17px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.marketplace {
+  position: absolute;
+  top: 40px;
+  left: 4px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.claritystoreLineIcon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.logistics {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.fa6SolidtruckFastIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.bulkOrders,
+.storage {
+  position: absolute;
+  top: 39px;
+  left: 14px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.bulkOrders {
+  left: 6px;
+}
+.carbonmapIcon,
+.healthiconsfruitsOutline {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.carbonmapIcon {
+  top: 8px;
+  left: 17px;
+  width: 26px;
+  height: 26px;
+}
+.groupContainer {
+  position: absolute;
+  height: 74.35%;
+  width: 60%;
+  top: 15.21%;
+  right: 20%;
+  bottom: 10.44%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.farmjointLogo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.25%;
+  width: 83.5%;
+  top: 0.88%;
+  right: 8.5%;
+  bottom: 89.88%;
+  left: 8%;
+  background-image: url(/public/farmjointlogo2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dashboardNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 800px;
+}
+.cart {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent {
+  position: absolute;
+  top: 7.71px;
+  left: 0;
+  width: 30px;
+  height: 50px;
+}
+.div,
+.groupChild8 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.groupChild8 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+}
+.div {
+  width: 35.29%;
+  left: 35.29%;
+  display: inline-block;
+}
+.ellipseContainer {
+  position: absolute;
+  height: 30.12%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 69.88%;
+  left: 50%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.groupParent1 {
+  position: absolute;
+  top: 13px;
+  left: 1230px;
+  width: 34px;
+  height: 57.71px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-300);
+}
+.farmersDashboardAddNewPr {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 2200px;
+  font-size: var(--font-size-mid);
+  color: var(--color-gainsboro-500);
+}

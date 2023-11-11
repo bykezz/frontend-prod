@@ -1,0 +1,533 @@
+.bestselling1 {
+  font-weight: 500;
+}
+.products {
+  font-weight: 300;
+}
+.bestsellingProducts {
+  position: absolute;
+  height: 10.2%;
+  width: 57.25%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 99.7%;
+  top: 0;
+  right: 0.3%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.lettuce,
+.n2000 {
+  position: absolute;
+  height: 15.79%;
+  width: 99.39%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n2000 {
+  height: 14.21%;
+  width: 100%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.groupItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.08%;
+  top: 12.63%;
+  right: 22.11%;
+  bottom: 40%;
+  left: 21.81%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.lettuceRemovebgPreview2Icon {
+  position: absolute;
+  height: 34.21%;
+  width: 40.5%;
+  top: 19.47%;
+  right: 28.34%;
+  bottom: 46.32%;
+  left: 31.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 15.21%;
+  right: 67.75%;
+  bottom: 45.21%;
+  left: 17.48%;
+}
+.rectangleContainer,
+.rectangleGroup {
+  top: 60.21%;
+  right: 84.69%;
+  bottom: 0.21%;
+  left: 0.54%;
+}
+.rectangleContainer {
+  right: 50.82%;
+  left: 34.42%;
+}
+.lettuce3,
+.n20003 {
+  position: absolute;
+  height: 15.79%;
+  width: 99.39%;
+  top: 66.32%;
+  left: 0.61%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n20003 {
+  height: 14.21%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 60.21%;
+  right: 17.03%;
+  bottom: 0.21%;
+  left: 68.21%;
+}
+.carrot,
+.n20004 {
+  position: absolute;
+  height: 15.79%;
+  width: 100%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n20004 {
+  height: 14.21%;
+  width: 99.39%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.bba003827272830485a6b84d4dLarIcon {
+  position: absolute;
+  height: 40%;
+  width: 47.36%;
+  top: 15.26%;
+  right: 27.09%;
+  bottom: 44.74%;
+  left: 25.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 15.21%;
+  right: 0;
+  bottom: 45.21%;
+  left: 85.24%;
+}
+.rectangleParent2 {
+  top: 60.21%;
+  right: 67.75%;
+  bottom: 0.21%;
+  left: 17.48%;
+}
+.pngimg5Icon {
+  position: absolute;
+  height: 30.85%;
+  width: 39.88%;
+  top: 22.11%;
+  right: 31.46%;
+  bottom: 47.05%;
+  left: 28.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 15.21%;
+  right: 50.82%;
+  bottom: 45.21%;
+  left: 34.42%;
+}
+.n20007 {
+  position: absolute;
+  height: 14.21%;
+  width: 96.93%;
+  top: 79.47%;
+  left: 3.07%;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-100);
+  text-align: center;
+  display: inline-block;
+}
+.sweetRedPeppersCopy600x6Icon {
+  position: absolute;
+  height: 36.84%;
+  width: 43.62%;
+  top: 17.37%;
+  right: 28.34%;
+  bottom: 45.79%;
+  left: 28.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 15.21%;
+  right: 33.88%;
+  bottom: 45.21%;
+  left: 51.36%;
+}
+.groupChild12,
+.groupChild13 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupChild12 {
+  position: absolute;
+  width: 99.38%;
+  right: 0.62%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.groupChild13 {
+  width: 98.11%;
+  right: 1.89%;
+  border-radius: 0 var(--br-3xs) 0 0;
+  background-color: var(--color-crimson);
+}
+.groupChild13,
+.groupDiv,
+.off {
+  position: absolute;
+}
+.off {
+  height: 50%;
+  width: 92.45%;
+  top: 29.17%;
+  left: 7.55%;
+  font-size: var(--font-size-xs);
+  line-height: 13px;
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: justify;
+  display: inline-block;
+}
+.groupDiv {
+  height: 12.63%;
+  width: 32.92%;
+  top: 0;
+  right: 0;
+  bottom: 87.37%;
+  left: 67.08%;
+}
+.n20008,
+.spinach {
+  position: absolute;
+  height: 15.79%;
+  width: 99.69%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n20008 {
+  height: 14.21%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.groupChild14 {
+  position: absolute;
+  height: 47.37%;
+  width: 55.9%;
+  top: 12.63%;
+  right: 22.36%;
+  bottom: 40%;
+  left: 21.74%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.freshChineseSpinachPngClipIcon {
+  position: absolute;
+  height: 29.05%;
+  width: 43.48%;
+  top: 21.58%;
+  right: 27.95%;
+  bottom: 49.37%;
+  left: 28.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.72%;
+  top: 15.21%;
+  right: 16.98%;
+  bottom: 45.21%;
+  left: 68.3%;
+}
+.frameChild,
+.seeMore {
+  position: absolute;
+  top: 0;
+}
+.frameChild {
+  width: 100.31%;
+  right: -0.31%;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  height: 190px;
+}
+.seeMore {
+  width: 157.84%;
+  left: -27.45%;
+  font-size: var(--font-size-6xl);
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.teenyiconsarrowUpOutline {
+  position: absolute;
+  width: 49.02%;
+  top: 30px;
+  right: 24.51%;
+  left: 26.47%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 40px;
+}
+.frameButton,
+.seeMoreParent {
+  position: absolute;
+  width: 62.77%;
+  top: 73px;
+  right: 19.39%;
+  left: 17.85%;
+  height: 70px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 39.58%;
+  width: 14.72%;
+  top: 60.21%;
+  right: 0.13%;
+  bottom: 0.21%;
+  left: 85.14%;
+}
+.tomato {
+  position: absolute;
+  height: 15.79%;
+  width: 96.93%;
+  top: 66.32%;
+  left: 3.07%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.pngTomato187023Icon {
+  position: absolute;
+  height: 33.29%;
+  width: 41.13%;
+  top: 18.95%;
+  right: 27.72%;
+  bottom: 47.76%;
+  left: 31.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent6,
+.rectangleParent7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.58%;
+  width: 14.76%;
+  top: 15.21%;
+  right: 84.69%;
+  bottom: 45.21%;
+  left: 0.54%;
+}
+.rectangleParent7 {
+  top: 60.21%;
+  right: 33.88%;
+  bottom: 0.21%;
+  left: 51.36%;
+}
+.popular,
+.sortBy {
+  font-weight: 300;
+  font-family: var(--font-ek-mukta);
+}
+.popular {
+  font-weight: 500;
+}
+.sortByPopularContainer {
+  position: absolute;
+  height: 100%;
+  width: 93.76%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+}
+.riarrowUpSLineIcon {
+  position: absolute;
+  height: 76.69%;
+  width: 12%;
+  top: 11.43%;
+  right: 0;
+  bottom: 11.88%;
+  left: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.sortByPopularParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.86%;
+  width: 20.34%;
+  top: 1.76%;
+  right: 3%;
+}
+.off1 {
+  position: absolute;
+  height: 50%;
+  width: 92.45%;
+  top: 29.17%;
+  left: 7.55%;
+  line-height: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangleParent8 {
+  position: absolute;
+  height: 5%;
+  width: 5.37%;
+  top: 60.21%;
+  right: 67.72%;
+  bottom: 34.79%;
+  left: 26.9%;
+  text-align: justify;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.bestselling {
+  position: absolute;
+  width: 76.67%;
+  top: 453px;
+  right: 10.21%;
+  left: 13.13%;
+  height: 480px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-ek-mukta);
+}
+@media screen and (max-width: 1200px) {
+  .bestselling {
+    left: 16%;
+    width: 76%;
+  }
+}

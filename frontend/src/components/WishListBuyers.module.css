@@ -1,0 +1,116 @@
+.wishListBuyersChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.purchaseHistory {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 3.55%;
+  left: 19.03%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+  display: inline-block;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen);
+}
+.wishList {
+  position: absolute;
+  top: 10%;
+  left: 24.4%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 13.55%;
+  top: 2.93%;
+  right: 48.39%;
+  bottom: 90.9%;
+  left: 38.06%;
+}
+.profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+}
+.profileWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 4.03%;
+  top: 3.86%;
+  right: 89.92%;
+  bottom: 91.51%;
+  left: 6.05%;
+}
+.product {
+  position: absolute;
+  top: 19.61%;
+  left: 2.59%;
+}
+.costkg,
+.farm,
+.rectangleGroup {
+  position: absolute;
+  top: 19.61%;
+  left: 42.51%;
+}
+.costkg,
+.rectangleGroup {
+  left: 81.84%;
+}
+.rectangleGroup {
+  height: 7.87%;
+  width: 40.4%;
+  top: 18.36%;
+  right: 53.55%;
+  bottom: 73.77%;
+  left: 6.05%;
+}
+.wishListBuyers {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-ek-mukta);
+}

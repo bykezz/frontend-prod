@@ -1,0 +1,829 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 760px;
+  height: 49px;
+}
+.searchAnyCategory {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: inline-block;
+  width: 263px;
+}
+.octiconsearch24 {
+  position: absolute;
+  top: 12px;
+  left: 16.58px;
+  width: 23.94px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 760px;
+  height: 49px;
+  font-size: var(--font-size-mid);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  width: 146px;
+  height: 46px;
+}
+.rectangleGroup,
+.register {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+}
+.rectangleGroup {
+  top: 8px;
+  left: 795px;
+  width: 146px;
+  height: 46px;
+  color: var(--color-white);
+}
+.cart {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent,
+.groupInner {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 50px;
+}
+.groupInner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: 35.29%;
+}
+.ellipseParent {
+  height: 29.31%;
+  width: 50%;
+  right: 0;
+  bottom: 70.69%;
+  left: 50%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 1044px;
+  width: 34px;
+  height: 58px;
+  color: var(--color-darkslategray-300);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-silver-400);
+  width: 45px;
+  height: 45px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 59.26%;
+  width: 59.26%;
+  top: 22.22%;
+  right: 18.52%;
+  bottom: 18.52%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2px;
+  left: 970px;
+  width: 45px;
+  height: 45px;
+}
+.groupParent {
+  position: absolute;
+  top: 13px;
+  left: 186px;
+  width: 1078px;
+  height: 58px;
+}
+.farmersOrdersChild,
+.farmersOrdersItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1140px;
+  height: 1609px;
+}
+.farmersOrdersItem {
+  top: 247px;
+  background-color: var(--color-seagreen);
+  height: 49px;
+}
+.customer,
+.location {
+  position: absolute;
+  top: 261px;
+  left: 164px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.location {
+  left: 487px;
+}
+.customerDetailsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen-100);
+}
+.abuja,
+.at725Am,
+.pending,
+.sarahDanjuma {
+  position: absolute;
+  top: 21.28%;
+  line-height: 125.4%;
+}
+.sarahDanjuma {
+  left: 14.39%;
+  font-size: var(--font-size-xl);
+}
+.abuja,
+.at725Am,
+.pending {
+  left: 42.72%;
+}
+.at725Am,
+.pending {
+  left: 60%;
+  color: var(--color-dimgray-700);
+}
+.at725Am {
+  left: 77.02%;
+}
+.customerDetails,
+.rectangleDiv {
+  position: absolute;
+  top: 296px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.rectangleDiv {
+  top: 0;
+  background-color: var(--color-seagreen-100);
+}
+.at725Am1,
+.cancelled,
+.jamesKanu {
+  position: absolute;
+  top: 20px;
+  line-height: 125.4%;
+}
+.jamesKanu {
+  left: 164px;
+  font-size: var(--font-size-xl);
+}
+.at725Am1,
+.cancelled {
+  left: 684px;
+  color: var(--color-sandybrown);
+}
+.at725Am1 {
+  left: 878px;
+  color: var(--color-dimgray-700);
+}
+.groupChild1,
+.rectangleContainer {
+  position: absolute;
+  top: 484px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild1 {
+  top: 0;
+  background-color: var(--color-gray-1100);
+}
+.adoEkiti,
+.delivered {
+  position: absolute;
+  top: 20px;
+  left: 487px;
+  line-height: 125.4%;
+}
+.delivered {
+  left: 684px;
+  color: var(--color-seagreen);
+}
+.groupDiv,
+.rectangleParent1,
+.rectangleParent2 {
+  position: absolute;
+  top: 390px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  top: 672px;
+}
+.rectangleParent2 {
+  top: 578px;
+}
+.pending1 {
+  position: absolute;
+  top: 20px;
+  left: 684px;
+  line-height: 125.4%;
+  color: var(--color-dimgray-700);
+}
+.rectangleParent3,
+.rectangleParent4 {
+  position: absolute;
+  top: 860px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.rectangleParent4 {
+  top: 954px;
+}
+.groupChild9,
+.rectangleParent5,
+.rectangleParent6,
+.rectangleParent7 {
+  position: absolute;
+  top: 1048px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild9,
+.rectangleParent6,
+.rectangleParent7 {
+  top: 1236px;
+}
+.groupChild9,
+.rectangleParent7 {
+  top: 1142px;
+}
+.groupChild9 {
+  top: 0;
+  background-color: var(--color-seagreen-100);
+  height: 93px;
+}
+.akure,
+.at725Am10,
+.delivered6,
+.peterAnyawu {
+  position: absolute;
+  top: 20px;
+  line-height: 125.4%;
+}
+.peterAnyawu {
+  left: 156px;
+  font-size: var(--font-size-xl);
+}
+.akure,
+.at725Am10,
+.delivered6 {
+  left: 479px;
+}
+.at725Am10,
+.delivered6 {
+  left: 676px;
+  color: var(--color-seagreen);
+}
+.at725Am10 {
+  left: 870px;
+  color: var(--color-dimgray-700);
+}
+.groupChild11,
+.rectangleParent8,
+.rectangleParent9 {
+  position: absolute;
+  top: 1424px;
+  left: 0;
+  width: 1140px;
+  height: 93px;
+}
+.rectangleParent8 {
+  left: 0.5%;
+}
+.groupChild11,
+.rectangleParent9 {
+  top: 1330px;
+  height: 94px;
+}
+.groupChild11 {
+  top: 0;
+  background-color: var(--color-gray-1100);
+  height: 92px;
+}
+.at725Am12,
+.blessingNnamdi,
+.delivered8,
+.portHarcourt {
+  position: absolute;
+  top: 19px;
+  line-height: 125.4%;
+  display: inline-block;
+}
+.blessingNnamdi {
+  left: 161px;
+  font-size: var(--font-size-xl);
+  width: 146px;
+  height: 25px;
+}
+.at725Am12,
+.delivered8,
+.portHarcourt {
+  left: 488px;
+  width: 105px;
+  height: 23px;
+}
+.at725Am12,
+.delivered8 {
+  left: 683px;
+  color: var(--color-seagreen);
+  width: 90px;
+}
+.at725Am12 {
+  left: 873px;
+  color: var(--color-dimgray-700);
+  width: 184px;
+}
+.rectangleParent10 {
+  position: absolute;
+  top: 1517px;
+  left: 0;
+  width: 1140px;
+  height: 92px;
+}
+.deliveryStatus {
+  position: absolute;
+  top: 261px;
+  left: 684px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 273px;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 182px;
+  height: 41px;
+}
+.filterByLocation {
+  position: absolute;
+  top: 10px;
+  left: 280px;
+  line-height: 125.4%;
+}
+.groupChild12 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 495px;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 154px;
+  height: 41px;
+}
+.filterByDate {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  line-height: 125.4%;
+}
+.groupChild13 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 233px;
+  height: 41px;
+}
+.filterByDelivery {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  line-height: 125.4%;
+}
+.groupChild14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-seagreen);
+  width: 70px;
+  height: 41px;
+}
+.filter {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 689px;
+  width: 70px;
+  height: 41px;
+}
+.rectangleParent11 {
+  position: absolute;
+  top: 150px;
+  left: 71px;
+  width: 759px;
+  height: 41px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-400);
+}
+.date {
+  position: absolute;
+  top: 261px;
+  left: 878px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.farmersOrdersChild1,
+.farmersOrdersInner,
+.polygonIcon {
+  position: absolute;
+  top: 166.75px;
+  left: 284px;
+  width: 12.99px;
+  height: 11.25px;
+}
+.farmersOrdersChild1,
+.polygonIcon {
+  left: 502px;
+}
+.farmersOrdersChild1 {
+  left: 692px;
+}
+.farmersOrdersChild2,
+.rectangleParent12 {
+  position: absolute;
+  top: 766px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.farmersOrdersChild2 {
+  top: 0;
+  background-color: var(--color-seagreen);
+  height: 100px;
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+.vectorIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  height: 35.27%;
+  width: 50%;
+  top: 32%;
+  right: 26%;
+  bottom: 32.73%;
+  left: 24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ellipseContainer,
+.geolocation,
+.products,
+.weatherForecast {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.ellipseContainer {
+  top: 25px;
+  left: 1040px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.geolocation,
+.products,
+.weatherForecast {
+  top: 37px;
+  left: 168px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.geolocation,
+.weatherForecast {
+  left: 381px;
+}
+.weatherForecast {
+  left: 502px;
+}
+.groupChild16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  width: 101px;
+  height: 41px;
+}
+.orders {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-black);
+  text-align: left;
+}
+.rectangleParent13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 29px;
+  left: 260px;
+  width: 101px;
+  height: 41px;
+}
+.farmersOrders,
+.profile {
+  position: absolute;
+  text-align: left;
+}
+.farmersOrders {
+  top: 101px;
+  left: 186px;
+  width: 1140px;
+  height: 699px;
+  overflow-y: auto;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-ek-mukta);
+}
+.profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 85px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  display: inline-block;
+}
+.dashboardNavigationChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.antDesignhomeOutlinedIcon {
+  position: absolute;
+  top: 9.35px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 38px;
+  left: 17px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.rectangleParent14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.marketplace {
+  position: absolute;
+  top: 40px;
+  left: 4px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.claritystoreLineIcon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.logistics {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.fa6SolidtruckFastIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.bulkOrders,
+.storage {
+  position: absolute;
+  top: 39px;
+  left: 14px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.bulkOrders {
+  left: 6px;
+}
+.carbonmapIcon,
+.healthiconsfruitsOutline {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.carbonmapIcon {
+  top: 8px;
+  left: 17px;
+  width: 26px;
+  height: 26px;
+}
+.frameDiv {
+  position: absolute;
+  height: 74.35%;
+  width: 60%;
+  top: 15.21%;
+  right: 20%;
+  bottom: 10.44%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.farmjointLogo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.25%;
+  width: 83.5%;
+  top: 0.88%;
+  right: 8.5%;
+  bottom: 89.88%;
+  left: 8%;
+  background-image: url(/public/farmjointlogo2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dashboardNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 800px;
+}
+.farmersDashboardOrders {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 800px;
+  font-size: var(--font-size-smi);
+  color: var(--color-gainsboro-500);
+}

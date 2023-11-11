@@ -1,0 +1,735 @@
+.frameChild,
+.groupChild {
+  position: absolute;
+  top: 19px;
+  left: 94px;
+  background-color: var(--color-whitesmoke-100);
+  width: 1340px;
+  height: 1390px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-400);
+  height: 696px;
+}
+.fa6SolidenvelopeOpenTextIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  overflow: hidden;
+}
+.contactfarmjointcom,
+.emailUs {
+  position: absolute;
+  top: 0;
+  left: 68px;
+  display: inline-block;
+  width: 76px;
+}
+.contactfarmjointcom {
+  top: 14px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-yellowgreen-200);
+  width: 309px;
+}
+.fa6SolidenvelopeOpenTextParent {
+  position: absolute;
+  top: 96px;
+  left: 395px;
+  width: 377px;
+  height: 64px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.copyright2023Farmjoint,
+.signUpAnd {
+  position: absolute;
+  top: 346px;
+  left: 950px;
+  display: inline-block;
+  width: 294px;
+}
+.copyright2023Farmjoint {
+  top: 625px;
+  left: 59px;
+  width: 368px;
+}
+.about {
+  margin: 0;
+}
+.aboutBlogContactContainer,
+.myAccountShoppingContainer,
+.yourEmail {
+  position: absolute;
+  top: 346px;
+  left: 673px;
+  display: inline-block;
+  width: 99px;
+}
+.myAccountShoppingContainer,
+.yourEmail {
+  left: 380px;
+  width: 172px;
+}
+.yourEmail {
+  top: 416px;
+  left: 979px;
+  width: 124px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 227.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 1341px;
+  height: 1px;
+}
+.groupInner {
+  top: 595.5px;
+}
+.account,
+.address,
+.information,
+.subscribe {
+  position: absolute;
+  top: 300px;
+  left: 59px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  color: var(--color-whitesmoke-300);
+  width: 84px;
+}
+.account,
+.information,
+.subscribe {
+  left: 380px;
+  width: 87px;
+}
+.information,
+.subscribe {
+  left: 673px;
+  width: 131px;
+}
+.subscribe {
+  left: 950px;
+}
+.groupChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 411px;
+  left: 950px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 334px;
+  height: 52px;
+}
+.groupChild1 {
+  left: 1199px;
+  border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
+  background-color: var(--color-yellowgreen-200);
+  width: 85px;
+}
+.callUs247,
+.div {
+  position: absolute;
+  top: 0;
+  left: 71px;
+  display: inline-block;
+  width: 112px;
+}
+.div {
+  top: 20px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-yellowgreen-200);
+  width: 255px;
+}
+.faSolidheadphonesAltIcon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+}
+.callUs247Parent {
+  position: absolute;
+  top: 93px;
+  left: 59px;
+  width: 326px;
+  height: 70px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.followUs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100px;
+}
+.fafacebookIcon {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 10px;
+  height: 18px;
+  overflow: hidden;
+}
+.mdiinstagramIcon,
+.mdilinkedinIcon,
+.mditwitterIcon {
+  position: absolute;
+  top: 30px;
+  left: 13px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.mdilinkedinIcon,
+.mditwitterIcon {
+  top: 29px;
+  left: 38px;
+  width: 24px;
+  height: 24px;
+}
+.mdilinkedinIcon {
+  top: 30px;
+  left: 65px;
+}
+.followUsParent {
+  position: absolute;
+  top: 98px;
+  left: 857px;
+  width: 100px;
+  height: 54px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 713px;
+  left: 93px;
+  width: 1340px;
+  height: 696px;
+}
+.groupChild2,
+.groupChild3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1240px;
+  height: 648px;
+}
+.groupChild3 {
+  background-color: var(--color-seagreen);
+  height: 100px;
+}
+.editProfile,
+.farmName {
+  position: absolute;
+  font-weight: 500;
+}
+.editProfile {
+  top: 25px;
+  left: 30px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  text-align: center;
+}
+.farmName {
+  top: 201px;
+  left: 390px;
+}
+.groupChild4,
+.groupChild15,
+.groupChild5,
+.rectangleInput {
+  background-color: transparent;
+  position: absolute;
+  top: 201px;
+  left: 550px;
+}
+.groupChild4,
+.groupChild5 {
+  top: 249px;
+}
+.groupChild15 {
+  top: 292px;
+}
+.groupChild5 {
+  top: 335px;
+}
+.email,
+.username {
+  position: absolute;
+  top: 246px;
+  left: 388px;
+  font-weight: 500;
+}
+.username1 {
+  position: absolute;
+  top: 291px;
+  left: 388px;
+  font-weight: 500;
+}
+.email {
+  top: 340px;
+}
+.groupChild6 {
+  background-color: transparent;
+  position: absolute;
+  top: 377px;
+  left: 550px;
+}
+.groupChild16 {
+  background-color: transparent;
+  position: absolute;
+  top: 420px;
+  left: 550px;
+}
+.groupChild17 {
+  background-color: transparent;
+  position: absolute;
+  top: 463px;
+  left: 550px;
+}
+.farmAddress {
+  position: absolute;
+  top: 379px;
+  left: 388px;
+  font-weight: 500;
+}
+.farmAddress1 {
+  position: absolute;
+  top: 422px;
+  left: 388px;
+  font-weight: 500;
+}
+.farmAddress2 {
+  position: absolute;
+  top: 465px;
+  left: 388px;
+  font-weight: 500;
+}
+.groupIcon {
+  position: absolute;
+  top: 160px;
+  left: 19px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.changeProfilePicture {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 477px;
+  left: 76px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-sandybrown);
+  text-align: left;
+  display: inline-block;
+}
+.groupChild7 {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-sandybrown);
+  width: 93px;
+  height: 40px;
+  border-radius: 10px;
+}
+.save {
+  position: absolute;
+  top: 21px;
+  left: 128px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 490px;
+  left: 781px;
+  width: 293px;
+  height: 70px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+}
+.groupChild8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 91px;
+  height: 40px;
+}
+.save1 {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: -1498px;
+  left: 913px;
+  width: 91px;
+  height: 40px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 87px;
+  left: 3px;
+  width: 1433px;
+  height: 713px;
+  overflow-y: auto;
+}
+.groupChild9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 760px;
+  height: 49px;
+}
+.searchAnyCategory {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: inline-block;
+  width: 263px;
+}
+.octiconsearch24 {
+  position: absolute;
+  top: 12px;
+  left: 16.58px;
+  width: 23.94px;
+  height: 24px;
+  overflow: hidden;
+}
+.groupDiv {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 760px;
+  height: 49px;
+  font-size: var(--font-size-mid);
+}
+.groupChild10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  width: 146px;
+  height: 46px;
+}
+.register {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 8px;
+  left: 795px;
+  width: 146px;
+  height: 46px;
+  color: var(--color-white);
+}
+.cart {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 50px;
+}
+.ellipseDiv {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+}
+.div1,
+.ellipseDiv,
+.ellipseParent {
+  position: absolute;
+  top: 0;
+}
+.div1 {
+  height: 100%;
+  width: 35.29%;
+  left: 35.29%;
+  display: inline-block;
+}
+.ellipseParent {
+  height: 29.31%;
+  width: 50%;
+  right: 0;
+  bottom: 70.69%;
+  left: 50%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 1044px;
+  width: 34px;
+  height: 58px;
+  color: var(--color-darkslategray-300);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-silver-400);
+  width: 45px;
+  height: 45px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 59.26%;
+  width: 59.26%;
+  top: 22.22%;
+  right: 18.52%;
+  bottom: 18.52%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2px;
+  left: 970px;
+  width: 45px;
+  height: 45px;
+}
+.groupParent {
+  position: absolute;
+  top: 13px;
+  left: 186px;
+  width: 1078px;
+  height: 58px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-gainsboro-500);
+}
+.dashboardNavigationChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.antDesignhomeOutlinedIcon {
+  position: absolute;
+  top: 9.35px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 38px;
+  left: 17px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.rectangleParent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.marketplace {
+  position: absolute;
+  top: 40px;
+  left: 4px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.claritystoreLineIcon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.logistics {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.fa6SolidtruckFastIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.bulkOrders,
+.storage {
+  position: absolute;
+  top: 39px;
+  left: 14px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.bulkOrders {
+  left: 6px;
+}
+.carbonmapIcon,
+.healthiconsfruitsOutline {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.carbonmapIcon {
+  top: 8px;
+  left: 17px;
+  width: 26px;
+  height: 26px;
+}
+.frameDiv {
+  position: absolute;
+  height: 74.35%;
+  width: 60%;
+  top: 15.21%;
+  right: 20%;
+  bottom: 10.44%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.farmjointLogo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.25%;
+  width: 83.5%;
+  top: 0.88%;
+  right: 8.5%;
+  bottom: 89.88%;
+  left: 8%;
+  background-image: url(/public/farmjointlogo2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dashboardNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 800px;
+}
+.farmersDashboardEditProfil {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 800px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-silver-200);
+}

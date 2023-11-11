@@ -1,0 +1,437 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 76px;
+  height: 110px;
+}
+.frameItem {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 60px;
+  height: 60.06px;
+}
+.frameGroup,
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76px;
+  height: 110px;
+}
+.frameWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1000px;
+}
+.fish {
+  position: absolute;
+  top: 77px;
+  width: 100%;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 76px;
+  height: 110px;
+}
+.groupItem {
+  top: 8px;
+  left: 8px;
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.nuts {
+  position: absolute;
+  top: 77px;
+  width: 100%;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.emojioneMonotonepeanutsIcon {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+}
+.groupInner,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  width: 76px;
+  height: 110px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 900px;
+}
+.groupInner {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #ffdb7e;
+}
+.hot {
+  width: 100%;
+  position: absolute;
+  top: 77px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-black);
+  text-align: center;
+}
+.octiconfire24 {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76px;
+  height: 110px;
+}
+.vegetables {
+  position: absolute;
+  top: 77px;
+  left: 10px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.phcarrotLightIcon {
+  position: absolute;
+  top: 21px;
+  left: 18px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 76px;
+  height: 110px;
+}
+.fruits {
+  position: absolute;
+  top: 77px;
+  left: 23px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.iconParkOutlineorange {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 76px;
+  height: 110px;
+}
+.tubers {
+  position: absolute;
+  top: 77px;
+  left: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.emojioneMonotonepotatoIcon {
+  position: absolute;
+  top: 18px;
+  left: 19px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 800px;
+  width: 76px;
+  height: 110px;
+}
+.legumes {
+  position: absolute;
+  top: 77px;
+  left: 15px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.fluentEmojiHighContrastbeaIcon {
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+}
+.rectangleParent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 76px;
+  height: 110px;
+}
+.grains {
+  position: absolute;
+  top: 77px;
+  left: 22px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.emojioneMonotoneearOfCornIcon {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+}
+.rectangleParent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 76px;
+  height: 110px;
+}
+.seafoods {
+  position: absolute;
+  top: 77px;
+  left: 14.01px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.gameIconsshrimp {
+  position: absolute;
+  top: 19.46px;
+  left: 26.81px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.frameParent,
+.rectangleParent4 {
+  position: absolute;
+  top: 0;
+  height: 110px;
+}
+.rectangleParent4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1100px;
+  width: 76px;
+}
+.frameParent {
+  left: 0;
+  width: 1176px;
+}
+.processedFoods {
+  position: absolute;
+  top: 78px;
+  left: 5px;
+  font-size: var(--font-size-xs);
+  line-height: 11px;
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+}
+.processedFoodss {
+  width: 66px;
+  position: absolute;
+  top: 78px;
+  left: 5px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-black);
+  text-align: center;
+  line-height: 11px;
+  display: inline-block;
+}
+.frameChild1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+}
+.frameChild1,
+.rectangleWrapper1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+}
+.frameDiv,
+.frameIcon {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  width: 35px;
+  height: 35px;
+}
+.frameDiv {
+  top: 8px;
+  left: 8px;
+  width: 60px;
+  height: 60px;
+}
+.marketplaceCategoriesInner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 76px;
+  height: 110px;
+}
+.emojioneMonotonegoatIcon {
+  position: absolute;
+  top: 23px;
+  left: 21px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.livestock {
+  position: absolute;
+  top: 77px;
+  left: 14px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.healthiconsanimalChickenOut {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+.rectangleParent5 {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  width: 76px;
+  height: 110px;
+}
+.poultry {
+  position: absolute;
+  top: 77px;
+  left: 19px;
+  font-weight: 600;
+}
+.marketplaceCategories,
+.rectangleParent6 {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 76px;
+  height: 110px;
+}
+.marketplaceCategories {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: auto;
+}
+.marketplaceCategories1 {
+  position: absolute;
+  top: 101px;
+  left: 218px;
+  width: 1043px;
+  height: 110px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  background-color: var(--color-whitesmoke-100);
+  font-family: var(--font-ek-mukta);
+}

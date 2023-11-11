@@ -1,0 +1,157 @@
+.frameChild {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-seagreen);
+  width: 70px;
+  height: 41px;
+}
+.filter,
+.frameChild,
+.rectangleWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleWrapper {
+  width: 70px;
+  height: 41px;
+}
+.filter {
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.filterWrapper {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 41px;
+  height: 21px;
+}
+.frameParent,
+.groupChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.frameParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 16.59%;
+  left: 83.41%;
+}
+.groupChild {
+  width: 100%;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.filterByType {
+  position: absolute;
+  top: 24.39%;
+  left: 4.61%;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-400);
+  text-align: left;
+}
+.groupItem {
+  position: absolute;
+  height: 27.44%;
+  width: 8.55%;
+  top: 40.85%;
+  right: 9.87%;
+  bottom: 31.71%;
+  left: 81.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 36.02%;
+  top: 0;
+  right: 63.98%;
+  bottom: 0;
+  left: 0;
+}
+.frameItem {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+}
+.frameItem,
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 41px;
+}
+.filterBySize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-400);
+  text-align: left;
+}
+.filterBySizeWrapper,
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 21px;
+}
+.frameInner {
+  top: 3px;
+  left: 120px;
+  width: 15px;
+  height: 15px;
+}
+.frameContainer,
+.frameGroup {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  width: 130px;
+  height: 21px;
+}
+.frameGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 35.55%;
+  top: 0;
+  right: 22.51%;
+  bottom: 0;
+  left: 41.94%;
+}
+.storageFilter {
+  position: absolute;
+  top: 488px;
+  left: 979px;
+  width: 422px;
+  height: 41px;
+}

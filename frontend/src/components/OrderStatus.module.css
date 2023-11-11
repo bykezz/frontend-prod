@@ -1,0 +1,164 @@
+.groupChild {
+  position: absolute;
+  height: 49.11%;
+  width: 87.42%;
+  top: 0;
+  right: 3.63%;
+  bottom: 50.89%;
+  left: 8.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupItem {
+  position: absolute;
+  height: 8.93%;
+  width: 100%;
+  top: 22.32%;
+  right: 0;
+  bottom: 68.75%;
+  left: 0;
+  background: linear-gradient(to right, #218061 60%, #d9d9d9 10%);
+}
+.lasortIcon,
+.mdipackageVariantClosedDelIcon {
+  position: absolute;
+  height: 27.68%;
+  width: 2.5%;
+  top: 12.5%;
+  right: 13.95%;
+  bottom: 59.82%;
+  left: 83.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lasortIcon {
+  height: 28.57%;
+  width: 2.58%;
+  right: 31.37%;
+  bottom: 58.93%;
+  left: 66.05%;
+}
+.biboxFillIcon,
+.fa6SolidtruckFastIcon,
+.fluentEmojiHighContrastpalIcon {
+  position: absolute;
+  height: 19.55%;
+  width: 2.18%;
+  top: 16.07%;
+  right: 48.79%;
+  bottom: 64.38%;
+  left: 49.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.biboxFillIcon,
+.fluentEmojiHighContrastpalIcon {
+  height: 22.32%;
+  width: 2.02%;
+  right: 66.29%;
+  bottom: 61.61%;
+  left: 31.69%;
+}
+.biboxFillIcon {
+  height: 17.86%;
+  width: 1.61%;
+  top: 17.86%;
+  right: 83.87%;
+  bottom: 64.29%;
+  left: 14.52%;
+}
+.orderPlaced {
+  position: absolute;
+  top: 53.57%;
+  left: 11.21%;
+  font-weight: 500;
+}
+.jul20,
+.jul201,
+.jul21,
+.jul23,
+.jul24 {
+  position: absolute;
+  top: 73.21%;
+  left: 13.47%;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.jul201,
+.jul21,
+.jul23,
+.jul24 {
+  left: 30.89%;
+}
+.jul21,
+.jul23,
+.jul24 {
+  left: 48.47%;
+}
+.jul23,
+.jul24 {
+  left: 65.97%;
+}
+.jul24 {
+  left: 83.15%;
+}
+.delivered,
+.inTransit,
+.orderReceived,
+.sortingOrder {
+  position: absolute;
+  top: 53.57%;
+  left: 27.9%;
+  font-weight: 500;
+}
+.delivered,
+.inTransit,
+.sortingOrder {
+  left: 47.1%;
+}
+.delivered,
+.sortingOrder {
+  left: 63.15%;
+}
+.delivered {
+  left: 82.02%;
+}
+.frameParent {
+  position: absolute;
+  height: 42.26%;
+  width: 100%;
+  top: 57.74%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.inTransit1 {
+  color: var(--color-seagreen);
+}
+.estimatedDeliveryDate,
+.orderStatusInContainer {
+  position: absolute;
+  top: 0;
+  left: 38.06%;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+}
+.estimatedDeliveryDate {
+  top: 20%;
+  left: 38.31%;
+  font-size: var(--font-size-xl);
+}
+.orderStatus {
+  position: absolute;
+  top: 218px;
+  left: 143px;
+  width: 1240px;
+  height: 265px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}

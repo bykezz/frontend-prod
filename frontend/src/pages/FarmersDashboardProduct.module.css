@@ -1,0 +1,1123 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 760px;
+  height: 49px;
+}
+.searchAnyCategory {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: inline-block;
+  width: 263px;
+}
+.octiconsearch24 {
+  position: absolute;
+  top: 12px;
+  left: 16.58px;
+  width: 23.94px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 760px;
+  height: 49px;
+  font-size: var(--font-size-mid);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  width: 146px;
+  height: 46px;
+}
+.rectangleGroup,
+.register {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+}
+.rectangleGroup {
+  top: 8px;
+  left: 795px;
+  width: 146px;
+  height: 46px;
+  color: var(--color-white);
+}
+.cart {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent,
+.groupInner {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 50px;
+}
+.groupInner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: 35.29%;
+}
+.ellipseParent {
+  height: 29.31%;
+  width: 50%;
+  right: 0;
+  bottom: 70.69%;
+  left: 50%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 1044px;
+  width: 34px;
+  height: 58px;
+  color: var(--color-darkslategray-300);
+}
+.groupParent {
+  position: absolute;
+  top: 13px;
+  left: 186px;
+  width: 1078px;
+  height: 58px;
+}
+.farmerProductsChild,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1140px;
+  height: 1685px;
+}
+.rectangleDiv {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-sandybrown);
+  width: 172px;
+  height: 41px;
+}
+.addNewProduct {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 141px;
+  left: 69px;
+  width: 172px;
+  height: 41px;
+}
+.farmerProductsItem {
+  position: absolute;
+  top: 320px;
+  left: 0;
+  background-color: var(--color-seagreen);
+  width: 1140px;
+  height: 49px;
+}
+.name,
+.stock {
+  position: absolute;
+  top: 334px;
+  left: 217px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.stock {
+  left: 487px;
+}
+.farmersProductDetailsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen-100);
+}
+.farmersProductDetailsItem {
+  position: absolute;
+  height: 63.83%;
+  width: 5.26%;
+  top: 11.7%;
+  right: 82.98%;
+  bottom: 24.47%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.carrots {
+  left: 19.04%;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.carrots,
+.inStock,
+.n1500,
+.vegetables {
+  position: absolute;
+  top: 21.28%;
+  line-height: 125.4%;
+}
+.inStock {
+  left: 42.72%;
+  color: #26a73a;
+}
+.n1500,
+.vegetables {
+  left: 53.6%;
+}
+.n1500 {
+  color: #5e5e5e;
+}
+.vegetables {
+  left: 63.42%;
+  color: var(--color-sandybrown);
+}
+.edit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 47.87%;
+  left: 19.04%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-seagreen);
+  text-align: left;
+  display: inline-block;
+}
+.time,
+.delete,
+.edit {
+  position: absolute;
+  line-height: 125.4%;
+}
+.delete {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 47.87%;
+  left: 22.54%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: #942828;
+  text-align: left;
+  display: inline-block;
+}
+.time {
+  top: 21.28%;
+  left: 77.02%;
+  color: #5e5e5e;
+}
+.farmersProductDetails,
+.groupChild1 {
+  position: absolute;
+  top: 369px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild1 {
+  top: 0;
+  background-color: var(--color-seagreen-100);
+}
+.rectangleIcon {
+  position: absolute;
+  top: 20px;
+  left: 137px;
+  width: 54px;
+  height: 36px;
+  object-fit: cover;
+}
+.n15001,
+.onions,
+.outOfStock {
+  position: absolute;
+  top: 20px;
+  line-height: 125.4%;
+}
+.onions {
+  left: 217px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.n15001,
+.outOfStock {
+  left: 487px;
+}
+.n15001 {
+  left: 611px;
+  color: var(--color-dimgray-700);
+}
+.at725Am1,
+.delete1,
+.edit1,
+.vegetables1 {
+  position: absolute;
+  top: 20px;
+  left: 723px;
+  line-height: 125.4%;
+}
+.at725Am1,
+.delete1,
+.edit1 {
+  left: 878px;
+  color: var(--color-dimgray-700);
+}
+.delete1,
+.edit1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 45px;
+  left: 217px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-seagreen);
+  text-align: left;
+  display: inline-block;
+}
+.delete1 {
+  left: 257px;
+  color: var(--color-brown);
+}
+.groupChild2,
+.groupDiv {
+  position: absolute;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupDiv {
+  top: 557px;
+  color: var(--color-sandybrown);
+}
+.groupChild2 {
+  top: 0;
+  background-color: var(--color-gray-1100);
+}
+.groupChild3 {
+  position: absolute;
+  top: 16px;
+  left: 140px;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.at725Am2,
+.inStock1,
+.n15002 {
+  position: absolute;
+  top: 20px;
+  line-height: 125.4%;
+}
+.inStock1 {
+  left: 487px;
+  color: var(--color-forestgreen);
+}
+.at725Am2,
+.n15002 {
+  left: 611px;
+}
+.at725Am2 {
+  left: 878px;
+}
+.groupChild5,
+.rectangleParent1 {
+  position: absolute;
+  top: 463px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild5 {
+  top: 3px;
+  left: 134px;
+  width: 60px;
+  height: 62px;
+  object-fit: cover;
+}
+.n15003 {
+  position: absolute;
+  top: 20px;
+  left: 611px;
+  font-size: var(--font-size-mini);
+  line-height: 125.4%;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 745px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.delete4 {
+  position: absolute;
+  top: 45px;
+  left: 257px;
+  line-height: 125.4%;
+  color: var(--color-brown);
+}
+.groupChild7 {
+  position: absolute;
+  top: 16px;
+  left: 137px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.groupChild9,
+.rectangleParent3 {
+  position: absolute;
+  top: 651px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild9 {
+  top: 6px;
+  left: 129px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.grains {
+  position: absolute;
+  top: 20px;
+  left: 723px;
+  line-height: 125.4%;
+  color: var(--color-sandybrown);
+}
+.groupChild11,
+.rectangleParent4 {
+  position: absolute;
+  top: 933px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild11 {
+  top: 16px;
+  left: 137px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.at725Am6 {
+  position: absolute;
+  top: 20px;
+  left: 878px;
+  font-size: var(--font-size-mini);
+  line-height: 125.4%;
+}
+.groupChild13,
+.rectangleParent5 {
+  position: absolute;
+  top: 1027px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild13 {
+  top: 25px;
+  left: 134px;
+  width: 51px;
+  height: 28px;
+  object-fit: cover;
+}
+.groupChild15,
+.rectangleParent6 {
+  position: absolute;
+  top: 1121px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.groupChild15 {
+  top: 20px;
+  left: 122px;
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+}
+.rectangleParent7 {
+  top: 1309px;
+  height: 94px;
+  color: var(--color-sandybrown);
+}
+.groupChild18,
+.rectangleParent7,
+.rectangleParent8 {
+  position: absolute;
+  left: 0;
+  width: 1140px;
+}
+.rectangleParent8 {
+  top: 1215px;
+  height: 94px;
+  color: var(--color-sandybrown);
+}
+.groupChild18 {
+  top: 0;
+  background-color: var(--color-seagreen-100);
+  height: 93px;
+}
+.groupChild19 {
+  position: absolute;
+  top: 19px;
+  left: 137px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.cabbage,
+.inStock7 {
+  position: absolute;
+  top: 19px;
+  line-height: 125.4%;
+}
+.cabbage {
+  left: 217px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.inStock7 {
+  left: 487px;
+  color: var(--color-forestgreen);
+}
+.n150010 {
+  left: 611px;
+}
+.at725Am10,
+.n150010,
+.vegetables8 {
+  position: absolute;
+  top: 19px;
+  line-height: 125.4%;
+}
+.vegetables8 {
+  left: 723px;
+  color: var(--color-sandybrown);
+}
+.at725Am10 {
+  left: 878px;
+}
+.groupChild22,
+.rectangleParent10,
+.rectangleParent9 {
+  position: absolute;
+  top: 1498px;
+  left: 0;
+  width: 1140px;
+  height: 93px;
+}
+.groupChild22,
+.rectangleParent10 {
+  top: 1403px;
+  height: 94px;
+}
+.groupChild22 {
+  top: 0;
+  background-color: var(--color-gray-1100);
+  height: 92px;
+}
+.bellPepper,
+.inStock9 {
+  position: absolute;
+  line-height: 125.4%;
+  display: inline-block;
+}
+.bellPepper {
+  top: 21px;
+  left: 217px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+  width: 120px;
+  height: 25px;
+}
+.inStock9 {
+  top: 19px;
+  left: 488px;
+  color: var(--color-forestgreen);
+  width: 71px;
+  height: 23px;
+}
+.n150012 {
+  left: 610px;
+  width: 68px;
+}
+.at725Am12,
+.n150012,
+.vegetables10 {
+  position: absolute;
+  top: 19px;
+  line-height: 125.4%;
+  display: inline-block;
+  height: 23px;
+}
+.vegetables10 {
+  left: 723px;
+  color: var(--color-sandybrown);
+  width: 93px;
+}
+.at725Am12 {
+  left: 873px;
+  width: 173px;
+}
+.groupChild23 {
+  position: absolute;
+  top: 8.46px;
+  left: 143.43px;
+  width: 49.26px;
+  height: 49.26px;
+  object-fit: cover;
+}
+.rectangleParent11 {
+  position: absolute;
+  top: 1593px;
+  left: 0;
+  width: 1140px;
+  height: 92px;
+}
+.categories,
+.price {
+  position: absolute;
+  top: 334px;
+  left: 611px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.categories {
+  left: 723px;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 245px;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 194px;
+  height: 41px;
+}
+.filterByCategory {
+  position: absolute;
+  top: 10px;
+  left: 252px;
+  line-height: 125.4%;
+}
+.groupChild24 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 464px;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 154px;
+  height: 41px;
+}
+.rectangleInput {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 815px;
+}
+.filterByDate,
+.searchProduct {
+  position: absolute;
+  top: 10px;
+  left: 469px;
+  line-height: 125.4%;
+}
+.searchProduct {
+  left: 855px;
+  font-size: 19px;
+}
+.groupChild25 {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-300);
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 220px;
+  height: 41px;
+}
+.filterByStock {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  line-height: 125.4%;
+}
+.groupChild26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-seagreen);
+  width: 70px;
+  height: 41px;
+}
+.filter {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 643px;
+  width: 70px;
+  height: 41px;
+}
+.rectangleParent12 {
+  position: absolute;
+  top: 223px;
+  left: 71px;
+  width: 999px;
+  height: 41px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-400);
+}
+.date {
+  position: absolute;
+  top: 334px;
+  left: 878px;
+  font-size: var(--font-size-mid);
+  line-height: 125.4%;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.farmerProductsChild1,
+.farmerProductsInner,
+.polygonIcon {
+  position: absolute;
+  top: 239.75px;
+  left: 263px;
+  width: 12.99px;
+  height: 11.25px;
+}
+.farmerProductsChild1,
+.polygonIcon {
+  left: 482px;
+}
+.farmerProductsChild1 {
+  left: 661px;
+}
+.biimageIcon,
+.materialSymbolssearchIcon {
+  position: absolute;
+  top: 334px;
+  left: 152px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.materialSymbolssearchIcon {
+  top: 233px;
+  left: 900px;
+}
+.groupChild28 {
+  position: absolute;
+  top: 11px;
+  left: 134px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.outOfStock3 {
+  position: absolute;
+  top: 20px;
+  left: 487px;
+  line-height: 125.4%;
+  color: var(--color-sandybrown);
+}
+.farmerProductsChild2,
+.rectangleParent13 {
+  position: absolute;
+  top: 839px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.farmerProductsChild2 {
+  top: 0;
+  background-color: var(--color-seagreen);
+  height: 100px;
+}
+.geolocation,
+.orders,
+.weatherForecast {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 289px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.geolocation,
+.weatherForecast {
+  left: 366px;
+}
+.weatherForecast {
+  left: 487px;
+}
+.groupChild29 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  width: 101px;
+  height: 41px;
+}
+.products {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: #010101;
+  text-align: left;
+}
+.rectangleParent14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 29px;
+  left: 168px;
+  width: 101px;
+  height: 41px;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+.vectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 35.27%;
+  width: 50%;
+  top: 32%;
+  right: 26%;
+  bottom: 32.73%;
+  left: 24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ellipseGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 1045px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.farmerProducts,
+.profile {
+  position: absolute;
+  text-align: left;
+}
+.farmerProducts {
+  top: 101px;
+  left: 186px;
+  width: 1140px;
+  height: 696px;
+  overflow-y: auto;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-700);
+  font-family: var(--font-ek-mukta);
+}
+.profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 37px;
+  left: 90px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  display: inline-block;
+}
+.dashboardNavigationChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.antDesignhomeOutlinedIcon {
+  position: absolute;
+  top: 9.35px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 38px;
+  left: 17px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.rectangleParent15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.marketplace {
+  position: absolute;
+  top: 40px;
+  left: 4px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.claritystoreLineIcon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.logistics {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.fa6SolidtruckFastIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.bulkOrders,
+.storage {
+  position: absolute;
+  top: 39px;
+  left: 14px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.bulkOrders {
+  left: 6px;
+}
+.carbonmapIcon,
+.healthiconsfruitsOutline {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.carbonmapIcon {
+  top: 8px;
+  left: 17px;
+  width: 26px;
+  height: 26px;
+}
+.frameDiv {
+  position: absolute;
+  height: 74.35%;
+  width: 60%;
+  top: 15.21%;
+  right: 20%;
+  bottom: 10.44%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.farmjointLogo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.25%;
+  width: 83.5%;
+  top: 0.88%;
+  right: 8.5%;
+  bottom: 89.88%;
+  left: 8%;
+  background-image: url(/public/farmjointlogo2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dashboardNavigation,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 800px;
+}
+.frameItem {
+  border-radius: 50%;
+  background-color: var(--color-silver-400);
+  width: 45px;
+  height: 45px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 59.26%;
+  width: 59.26%;
+  top: 22.22%;
+  right: 18.52%;
+  bottom: 18.52%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 1156px;
+  width: 45px;
+  height: 45px;
+}
+.farmersDashboardProduct {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 800px;
+  font-size: var(--font-size-smi);
+  color: var(--color-gainsboro-500);
+}

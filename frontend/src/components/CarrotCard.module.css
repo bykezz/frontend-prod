@@ -1,0 +1,61 @@
+.carrotCardChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.carrot,
+.n2000 {
+  position: absolute;
+  top: 66.32%;
+  left: 35%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+}
+.n2000 {
+  top: 79.47%;
+  left: 34.38%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.carrotCardItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.25%;
+  top: 12.63%;
+  right: 21.88%;
+  bottom: 40%;
+  left: 21.88%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.bba003827272830485a6b84d4dLarIcon {
+  position: absolute;
+  height: 40%;
+  width: 47.5%;
+  top: 15.26%;
+  right: 26.88%;
+  bottom: 44.74%;
+  left: 25.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.carrotCard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 160px;
+  height: 190px;
+}

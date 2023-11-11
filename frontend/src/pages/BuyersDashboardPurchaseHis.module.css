@@ -1,0 +1,619 @@
+.frameChild {
+  position: absolute;
+  top: 19px;
+  left: 94px;
+  background-color: var(--color-whitesmoke-100);
+  width: 1340px;
+  height: 1390px;
+}
+.cabbage,
+.kg,
+.n10000,
+.thJuly2023 {
+  position: absolute;
+  top: 11px;
+  left: 78px;
+  font-weight: 300;
+}
+.cabbage,
+.kg,
+.n10000 {
+  left: 374px;
+}
+.kg,
+.n10000 {
+  top: 12px;
+  left: 541px;
+}
+.n10000 {
+  left: 678px;
+}
+.pngimgIcon {
+  position: absolute;
+  top: 0;
+  left: 311px;
+  width: 50px;
+  height: 49.49px;
+  object-fit: cover;
+}
+.phxCircleLight,
+.vectorIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 79.69%;
+  width: 79.69%;
+  top: 10.16%;
+  right: 10.16%;
+  bottom: 10.16%;
+  left: 10.16%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.phxCircleLight {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.thJuly2023Parent {
+  position: absolute;
+  top: 243px;
+  left: 166px;
+  width: 734px;
+  height: 49.49px;
+}
+.kg1,
+.n100001,
+.thJuly20231,
+.tomato {
+  position: absolute;
+  top: 16px;
+  left: 78px;
+  font-weight: 300;
+}
+.kg1,
+.n100001,
+.tomato {
+  top: 3px;
+  left: 678px;
+}
+.kg1,
+.tomato {
+  left: 541px;
+}
+.tomato {
+  top: 11px;
+  left: 377px;
+}
+.pngTomato18702Icon {
+  position: absolute;
+  top: 0;
+  left: 311px;
+  width: 50px;
+  height: 47.92px;
+  object-fit: cover;
+}
+.phxCircleLight1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.thJuly2023Group {
+  position: absolute;
+  top: 343px;
+  left: 166px;
+  width: 734px;
+  height: 47.92px;
+}
+.kg2,
+.n100002,
+.spinach,
+.thJuly20232 {
+  position: absolute;
+  top: 13px;
+  left: 78px;
+  font-weight: 300;
+}
+.kg2,
+.n100002,
+.spinach {
+  top: 0;
+  left: 678px;
+}
+.kg2,
+.spinach {
+  left: 541px;
+}
+.spinach {
+  top: 8px;
+  left: 376px;
+}
+.freshChineseSpinachPngClipIcon {
+  position: absolute;
+  top: 3px;
+  left: 311px;
+  width: 50px;
+  height: 39.42px;
+  object-fit: cover;
+}
+.phxCircleLight2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.thJuly2023Container,
+.thMay2023Parent {
+  position: absolute;
+  top: 445px;
+  left: 166px;
+  width: 734px;
+  height: 42.42px;
+}
+.thMay2023Parent {
+  top: 541px;
+  height: 47.92px;
+}
+.frameItem,
+.groupChild {
+  position: absolute;
+  top: 172px;
+  left: 219px;
+  background-color: var(--color-seagreen);
+  width: 693px;
+  height: 51px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+}
+.date,
+.product {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+.product {
+  left: 259px;
+}
+.cost,
+.quantity,
+.rectangleGroup {
+  position: absolute;
+  top: 10px;
+  left: 489px;
+}
+.cost,
+.rectangleGroup {
+  left: 630px;
+}
+.rectangleGroup {
+  top: 172px;
+  left: 219px;
+  width: 693px;
+  height: 51px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.groupItem {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-400);
+  height: 696px;
+}
+.about,
+.blog,
+.contact,
+.copyright2023Farmjoint,
+.myAccount,
+.service,
+.signUpAnd {
+  position: absolute;
+  width: 29.1%;
+  top: 348px;
+  left: 70.9%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-silver-200);
+  display: inline-block;
+}
+.about,
+.blog,
+.contact,
+.copyright2023Farmjoint,
+.myAccount,
+.service {
+  width: 60.67%;
+  top: 627px;
+  left: 4.4%;
+}
+.about,
+.blog,
+.contact,
+.myAccount,
+.service {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 17.84%;
+  top: 348px;
+  left: 50.22%;
+  font-family: var(--font-ek-mukta);
+  text-align: left;
+}
+.blog,
+.contact,
+.myAccount,
+.service {
+  top: 383px;
+}
+.contact,
+.myAccount,
+.service {
+  top: 418px;
+}
+.myAccount,
+.service {
+  top: 453px;
+}
+.myAccount {
+  width: 17.99%;
+  top: 348px;
+  left: 28.36%;
+}
+.groupInner,
+.lineDiv {
+  position: absolute;
+  width: 100.07%;
+  top: 229.5px;
+  right: -0.04%;
+  left: -0.04%;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 1px;
+}
+.lineDiv {
+  top: 597.5px;
+}
+.fa6SolidenvelopeOpenTextIcon {
+  position: absolute;
+  width: 3.81%;
+  top: 101px;
+  right: 52.76%;
+  left: 43.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 51px;
+}
+.callUs247 {
+  position: absolute;
+  width: 28.88%;
+  top: 95px;
+  left: 9.7%;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  display: inline-block;
+}
+.account,
+.address,
+.information,
+.subscribe {
+  position: absolute;
+  width: 13.13%;
+  top: 302px;
+  left: 4.4%;
+  display: inline-block;
+}
+.account,
+.information,
+.subscribe {
+  width: 17.99%;
+  left: 28.36%;
+}
+.information,
+.subscribe {
+  width: 17.84%;
+  left: 50.22%;
+}
+.subscribe {
+  width: 25.75%;
+  left: 70.9%;
+}
+.contactfarmjointcom,
+.div,
+.emailUs,
+.followUs {
+  position: absolute;
+  width: 25.45%;
+  top: 95px;
+  left: 47.84%;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  display: inline-block;
+}
+.contactfarmjointcom,
+.div,
+.followUs {
+  width: 14.1%;
+  left: 80.07%;
+}
+.contactfarmjointcom,
+.div {
+  width: 31.57%;
+  top: 115px;
+  left: 9.7%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-yellowgreen-200);
+}
+.contactfarmjointcom {
+  width: 30.22%;
+  left: 47.84%;
+}
+.faSolidheadphonesAltIcon {
+  width: 4.03%;
+  top: 249px;
+  right: 91.57%;
+  left: 4.4%;
+  max-width: 100%;
+  height: 54px;
+}
+.faSolidheadphonesAltIcon,
+.fafacebook,
+.vectorIcon4 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon4 {
+  height: 100%;
+  width: 96.43%;
+  top: 0;
+  right: 0.11%;
+  bottom: 0;
+  left: 3.46%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.fafacebook {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 0.75%;
+  top: 132px;
+  right: 19.03%;
+  left: 80.22%;
+  height: 18px;
+}
+.vectorIcon5 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mdiinstagram,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  overflow: hidden;
+}
+.mdiinstagram {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 1.64%;
+  top: 129px;
+  right: 17.09%;
+  left: 81.27%;
+  height: 22px;
+}
+.vectorIcon6 {
+  height: 70.83%;
+  width: 87.17%;
+  top: 16.67%;
+  right: 6.42%;
+  bottom: 12.5%;
+  left: 6.42%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mditwitter {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 1.79%;
+  top: 129px;
+  right: 15%;
+  left: 83.21%;
+  height: 24px;
+}
+.mdilinkedin,
+.mditwitter,
+.vectorIcon7 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon7 {
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mdilinkedin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 1.79%;
+  top: 129px;
+  right: 12.91%;
+  left: 85.3%;
+  height: 24px;
+}
+.rectangleInput {
+  border: 1px solid var(--color-yellowgreen-200);
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  width: 19.63%;
+  top: 453px;
+  right: 10.75%;
+  left: 69.63%;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  box-sizing: border-box;
+  height: 52px;
+}
+.rectangleContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 696px;
+}
+.faSolidheadphonesAltIcon1 {
+  position: absolute;
+  width: 4.03%;
+  top: 102px;
+  right: 91.57%;
+  left: 4.4%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 54px;
+}
+.frameInner,
+.rectangleWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 52px;
+}
+.frameInner {
+  width: 100%;
+  right: 0;
+  border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
+  background-color: var(--color-yellowgreen-200);
+  border: 1px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+}
+.rectangleWrapper {
+  width: 85px;
+}
+.submit,
+.submitWrapper {
+  position: absolute;
+  height: 22px;
+}
+.submit {
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.submitWrapper {
+  width: 92.94%;
+  top: 15px;
+  right: 3.53%;
+  left: 3.53%;
+}
+.footerInner,
+.frameParent {
+  position: absolute;
+  height: 52px;
+}
+.frameParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 85px;
+}
+.footerInner {
+  width: 6.34%;
+  top: 453px;
+  right: 4.4%;
+  left: 89.25%;
+}
+.footer,
+.shoppingCart {
+  position: absolute;
+  text-align: left;
+  font-family: var(--font-ek-mukta);
+}
+.shoppingCart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 17.99%;
+  top: 383px;
+  left: 28.36%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-silver-200);
+  display: inline-block;
+}
+.footer {
+  width: 93.51%;
+  top: 714px;
+  right: -0.07%;
+  left: 6.56%;
+  height: 696px;
+  font-size: var(--font-size-xl);
+  color: var(--color-whitesmoke-300);
+}
+.rectangleParent {
+  position: absolute;
+  top: 107px;
+  left: 7px;
+  width: 1433px;
+  height: 1408px;
+  overflow-y: auto;
+}
+.buyersDashboardPurchaseHis {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 800px;
+  font-size: var(--font-size-base);
+}
+@media screen and (max-width: 1200px) {
+  .footerInner {
+    display: flex;
+  }
+}

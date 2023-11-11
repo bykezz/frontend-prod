@@ -1,0 +1,121 @@
+.buyersProfileChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.purchaseHistory,
+.wishList {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 3.55%;
+  left: 21.69%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+  display: inline-block;
+}
+.wishList {
+  left: 41.37%;
+}
+.addressArea2,
+.emailJamesokekegmailcom,
+.nameJamesOkeke {
+  position: absolute;
+  top: 18.52%;
+  left: 2.42%;
+  font-weight: 500;
+}
+.addressArea2,
+.emailJamesokekegmailcom {
+  top: 25.46%;
+}
+.addressArea2 {
+  top: 32.41%;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen);
+}
+.profile {
+  position: absolute;
+  top: 12.5%;
+  left: 32.14%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 11.29%;
+  top: 3.09%;
+  right: 86.29%;
+  bottom: 90.74%;
+  left: 2.42%;
+}
+.groupItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.editProfile {
+  position: absolute;
+  top: 10%;
+  left: 21.12%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 12.98%;
+  top: 49.85%;
+  right: 84.6%;
+  bottom: 43.98%;
+  left: 2.42%;
+}
+.buyersProfile {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}

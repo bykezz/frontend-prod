@@ -1,0 +1,30 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 352px;
+  height: 200px;
+}
+.thankYouYour {
+  position: absolute;
+  top: 56px;
+  left: 44px;
+  line-height: 125.4%;
+  display: inline-block;
+  width: 263px;
+}
+.rectangleParent {
+  width: 352px;
+  height: 200px;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-ek-mukta);
+}

@@ -1,0 +1,268 @@
+.groupChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.farmersDealProductDescriptiInner,
+.frameChild,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 784px;
+  height: 630px;
+}
+.frameChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 771px;
+  height: 1042px;
+}
+.farmNameSunny {
+  margin: 0;
+}
+.cabbageIsAContainer {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  display: inline-block;
+  width: 747px;
+}
+.productDescription {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 0;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-300);
+  display: inline-block;
+}
+.productDescription,
+.productRatings,
+.productSpecification {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  text-align: center;
+}
+.productSpecification {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 268px;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-300);
+  display: inline-block;
+}
+.productRatings {
+  left: 537px;
+  display: none;
+}
+.groupItem {
+  position: absolute;
+  top: 50.5px;
+  left: 22.5px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.cabbageIsAVersatileVegetabParent {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 747px;
+  height: 143px;
+}
+.component2frame5 {
+  position: absolute;
+  top: 367px;
+  left: 24px;
+  width: 722px;
+  height: 407px;
+}
+.minimumOrderQuantityContainer,
+.n180kg {
+  position: absolute;
+  width: 65.17%;
+  top: 43.34px;
+  left: 5.88%;
+  display: inline-block;
+  height: 33px;
+}
+.n180kg {
+  width: 60%;
+  top: 89.34px;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  color: var(--color-yellowgreen-200);
+  height: 58px;
+}
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-11xl);
+  height: 55.86px;
+}
+.groupInner {
+  width: 29.88%;
+  top: 159.56px;
+  right: 64.23%;
+  left: 5.88%;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-yellowgreen-200);
+}
+.addToCart {
+  position: absolute;
+  width: 48.45%;
+  top: 13.96px;
+  left: 25.77%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 32.92px;
+}
+.button,
+.button1,
+.input,
+.rectangleGroup {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.rectangleGroup {
+  cursor: pointer;
+  padding: 0;
+  width: 45.64%;
+  top: 159.56px;
+  right: 13.88%;
+  left: 40.47%;
+  height: 55.86px;
+}
+.button,
+.button1,
+.input {
+  font-weight: 300;
+  font-family: var(--font-ek-mukta);
+  font-size: var(--font-size-11xl);
+  top: 174.34px;
+  color: var(--color-gray-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  cursor: pointer;
+  padding: 0;
+  width: 4%;
+  left: 28.24%;
+  height: 30.92px;
+}
+.button1,
+.input {
+  width: 12.71%;
+  left: 14.12%;
+  height: 31px;
+}
+.button1 {
+  cursor: pointer;
+  padding: 0;
+  width: 4%;
+  left: 10.12%;
+  height: 30.92px;
+}
+.lineDiv {
+  position: absolute;
+  width: 100.24%;
+  top: 248.34px;
+  right: -0.12%;
+  left: -0.12%;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.groupIcon {
+  position: absolute;
+  width: 28.23%;
+  top: 0;
+  right: 65.88%;
+  left: 5.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 23.49px;
+}
+.minimumOrderQuantity100kgParent {
+  position: absolute;
+  width: 55.13%;
+  top: 103.66px;
+  right: 1.43%;
+  left: 43.45%;
+  height: 248.84px;
+}
+.lettuceRemovebgPreview5Icon {
+  position: absolute;
+  top: 31px;
+  left: 52px;
+  width: 232px;
+  height: 232px;
+  object-fit: cover;
+}
+.lettuce {
+  position: absolute;
+  top: 7px;
+  left: 46.69%;
+  font-size: var(--font-size-15xl);
+  font-weight: 300;
+  text-align: center;
+}
+.groupItem1 {
+  position: absolute;
+
+  top: 50.5px;
+  left: 39%;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 771px;
+  height: 1042px;
+}
+.farmersDealProductDescriptiChild {
+  position: absolute;
+  top: 24px;
+  left: 7px;
+  width: 771px;
+  height: 582px;
+  overflow-y: auto;
+}
+.farmersDealProductDescripti {
+  position: relative;
+  width: 784px;
+  height: 630px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-ek-mukta);
+}

@@ -1,0 +1,41 @@
+.truck,
+.truckWrapper {
+  position: absolute;
+  left: 0;
+  color: black;
+}
+.truck {
+  top: 0;
+  font-weight: 500;
+}
+.truckWrapper {
+  height: 11.83%;
+  width: 100%;
+  top: 64.49%;
+  right: 85.31%;
+  bottom: 9.68%;
+}
+.capacity1000050000 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  color: black;
+  font-weight: 500;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}
+.groupParent {
+  position: relative;
+  height: 320px;
+  width: 320px;
+  top: 13.71%;
+  right: 62.39%;
+  left: 5%;
+  font-size: var(--font-size-xl);
+}

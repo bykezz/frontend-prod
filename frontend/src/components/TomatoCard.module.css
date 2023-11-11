@@ -1,0 +1,61 @@
+.tomatoCardChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.n2000,
+.tomato {
+  position: absolute;
+  top: 66.32%;
+  left: 31.88%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+}
+.n2000 {
+  top: 79.47%;
+  left: 34.38%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.tomatoCardItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.25%;
+  top: 12.63%;
+  right: 21.88%;
+  bottom: 40%;
+  left: 21.88%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.pngTomato187023Icon {
+  position: absolute;
+  height: 33.29%;
+  width: 41.25%;
+  top: 18.95%;
+  right: 27.5%;
+  bottom: 47.76%;
+  left: 31.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tomatoCard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 160px;
+  height: 190px;
+}

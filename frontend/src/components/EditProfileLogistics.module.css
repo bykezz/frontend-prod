@@ -1,0 +1,126 @@
+.editProfileLogisticsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.editProfile,
+.nameOfLogistics {
+  position: absolute;
+  font-weight: 500;
+}
+.editProfile {
+  top: 4.63%;
+  left: 2.42%;
+  font-size: var(--font-size-11xl);
+}
+.nameOfLogistics {
+  top: 18.52%;
+  left: 1.85%;
+}
+.editProfileLogisticsInner,
+.editProfileLogisticsItem,
+.rectangleInput,
+.rectangleInput1,
+.rectangleInput2 {
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 20.81%;
+  top: 18.52%;
+  right: 63.79%;
+  bottom: 76.85%;
+  left: 15.4%;
+}
+.editProfileLogisticsInner,
+.rectangleInput {
+  top: 25.93%;
+  bottom: 69.44%;
+}
+.rectangleInput,
+.rectangleInput1,
+.rectangleInput2 {
+  top: 39.56%;
+  bottom: 62.81%;
+}
+.rectangleInput1,
+.rectangleInput2 {
+  top: 46.56%;
+}
+.rectangleInput2 {
+  top: 53.56%;
+}
+.email,
+.officeAddress,
+.officeAddress1,
+.officeAddress2,
+.officeAddress3 {
+  position: absolute;
+  top: 25.46%;
+  left: 2.42%;
+  font-weight: 500;
+}
+.officeAddress,
+.officeAddress1,
+.officeAddress2,
+.officeAddress3 {
+  top: 32.41%;
+}
+.officeAddress1,
+.officeAddress2,
+.officeAddress3 {
+  top: 39.46%;
+}
+
+.officeAddress2,
+.officeAddress3 {
+  top: 46.46%;
+}
+
+.officeAddress3 {
+  top: 53.46%;
+}
+.editProfileLogistics {
+  position: absolute;
+  top: 19px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 91px;
+  height: 40px;
+}
+.save {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 450px;
+  left: 350px;
+  width: 91px;
+  height: 40px;
+}

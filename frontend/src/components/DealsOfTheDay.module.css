@@ -1,0 +1,240 @@
+.bestsellerChild {
+  position: absolute;
+  height: 95.54%;
+  width: 100%;
+  top: 4.46%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.dealsOfThe {
+  position: absolute;
+  top: 0;
+  left: 4.05%;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  text-align: center;
+}
+.bestsellerInner,
+.bestsellerItem,
+.lineDiv {
+  position: absolute;
+  height: 0.22%;
+  width: 92.71%;
+  top: 35.38%;
+  right: 5.47%;
+  bottom: 64.4%;
+  left: 1.82%;
+  border-top: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.bestsellerInner,
+.lineDiv {
+  top: 60.6%;
+  bottom: 39.17%;
+}
+.lineDiv {
+  top: 85.83%;
+  bottom: 13.95%;
+}
+.pngTomato187022Icon {
+  position: absolute;
+  height: 88.9%;
+  width: 49.07%;
+  top: 3.53%;
+  right: 63.93%;
+  bottom: 7.57%;
+  left: -5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tomatoes {
+  width: 53.42%;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupChild,
+.n20000,
+.tomatoes {
+  position: absolute;
+  left: 46.58%;
+}
+.groupChild {
+  height: 20.18%;
+  width: 31.96%;
+  top: 38.82%;
+  right: 21.46%;
+  bottom: 40.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.n20000 {
+  width: 53.42%;
+  top: 61.18%;
+  font-weight: 600;
+  color: var(--color-olivedrab);
+  text-align: center;
+  display: inline-block;
+}
+.pngTomato187022Parent {
+  position: absolute;
+  height: 18.97%;
+  width: 88.66%;
+  top: 13.39%;
+  right: 0;
+  bottom: 67.63%;
+  left: 11.34%;
+}
+.onions {
+  width: 94.02%;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupItem,
+.n200001,
+.onions {
+  position: absolute;
+  left: 0;
+}
+.groupItem {
+  height: 20.18%;
+  width: 59.83%;
+  top: 38.82%;
+  right: 40.17%;
+  bottom: 40.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.n200001 {
+  width: 100%;
+  top: 61.18%;
+  font-weight: 600;
+  color: var(--color-olivedrab);
+  text-align: center;
+  display: inline-block;
+}
+.onionsParent,
+.pngimg4Icon {
+  position: absolute;
+  height: 100%;
+  width: 53.42%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 46.58%;
+}
+.pngimg4Icon {
+  height: 84.77%;
+  width: 36.07%;
+  top: 14.12%;
+  right: 63.93%;
+  bottom: 1.11%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupParent {
+  position: absolute;
+  height: 18.97%;
+  width: 88.66%;
+  top: 38.62%;
+  right: 0;
+  bottom: 42.41%;
+  left: 11.34%;
+}
+.groupDiv,
+.potatoes,
+.potatoesParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.potatoes {
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv,
+.potatoesParent {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+}
+.groupDiv {
+  height: 18.97%;
+  width: 47.37%;
+  top: 63.84%;
+  bottom: 17.19%;
+  left: 52.63%;
+}
+.potatoPngImages2Icon {
+  position: absolute;
+  height: 15.93%;
+  width: 32.39%;
+  top: 65.4%;
+  right: 56.68%;
+  bottom: 18.67%;
+  left: 10.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.viewMore {
+  position: absolute;
+  width: 136.54%;
+  top: 1px;
+  left: -62.5%;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-olivedrab);
+  text-align: right;
+  display: inline-block;
+}
+.riarrowUpSLineIcon {
+  position: absolute;
+  width: 28.85%;
+  top: 0;
+  right: 0;
+  left: 71.15%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.viewMoreParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.7%;
+  width: 42.11%;
+  top: 88.84%;
+  right: 25.1%;
+  bottom: 4.46%;
+  left: 32.79%;
+}
+.bestseller {
+  position: absolute;
+  width: 17.15%;
+  top: 2168px;
+  right: 30.35%;
+  left: 52.5%;
+  height: 448px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen);
+  font-family: var(--font-ek-mukta);
+}

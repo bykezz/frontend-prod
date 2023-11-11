@@ -1,0 +1,61 @@
+.spinachCardChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.n2000,
+.spinach {
+  position: absolute;
+  top: 66.32%;
+  left: 31.25%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+}
+.n2000 {
+  top: 79.47%;
+  left: 34.38%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.spinachCardItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.25%;
+  top: 12.63%;
+  right: 21.88%;
+  bottom: 40%;
+  left: 21.88%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.freshChineseSpinachPngClipIcon {
+  position: absolute;
+  height: 29.05%;
+  width: 43.75%;
+  top: 21.58%;
+  right: 27.5%;
+  bottom: 49.37%;
+  left: 28.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.spinachCard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 160px;
+  height: 190px;
+}

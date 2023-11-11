@@ -1,0 +1,289 @@
+.groupChild {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.groupItem,
+.searchbarInner {
+  position: absolute;
+  width: 68.62%;
+  top: 13.79%;
+  right: 31.38%;
+  left: 0;
+  height: 84.48%;
+}
+.groupItem {
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  height: 100%;
+}
+.register {
+  position: absolute;
+  width: 68.85%;
+  top: 26.09%;
+  left: 18.29%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  right: 12.71%;
+  left: 0%;
+  height: 73.75%;
+}
+.groupWrapper,
+.signIn,
+.signInWrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.signIn {
+  width: 100%;
+  left: -8%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+}
+.groupWrapper,
+.signInWrapper {
+  right: 0;
+  height: 44%;
+}
+.groupWrapper {
+  top: 60%;
+  left: -25%;
+}
+.groupParent,
+.phuserLightIcon {
+  cursor: pointer;
+  position: absolute;
+}
+.phuserLightIcon {
+  top: 0;
+  right: 5.41%;
+  left: 2.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupParent {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 50%;
+  top: -10%;
+  left: 68.5%;
+  height: 86.21%;
+}
+.cart {
+  position: absolute;
+  width: 150%;
+  text-align: left;
+  top: 60%;
+  left: -25%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+}
+.bibasketFillIcon {
+  width: 100%;
+  top: 30%;
+  right: 0;
+  left: 0;
+  bottom: 40%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cartParent {
+  position: absolute;
+  height: 80%;
+  width: 88.24%;
+  top: 13.79%;
+  right: 11.76%;
+  bottom: 0;
+  left: 0;
+}
+.groupInner {
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+  height: 17px;
+}
+.div,
+.ellipseParent,
+.groupInner {
+  position: absolute;
+  top: 0;
+}
+.div {
+  width: 50%;
+  left: 28%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.ellipseParent {
+  width: 50%;
+  right: 0;
+  left: 50%;
+  height: 29.31%;
+}
+.groupContainer,
+.searchbar {
+  position: absolute;
+  height: 58px;
+}
+.groupContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 3.45%;
+  top: 0;
+  right: 0;
+  left: 96.85%;
+}
+.searchbar {
+  width: 76%;
+  top: 7px;
+  right: 10.63%;
+  left: 195px;
+}
+.hello {
+  position: absolute;
+  top: 95%;
+  left: 55%;
+  font-weight: 800;
+  width: 100%;
+  color: seagreen;
+}
+
+.profileButtonContainer {
+  position: absolute;
+  align-items: center;
+  left: 70%;
+  top: 5%;
+  width: 25%;
+  height: 100%;
+}
+
+.signOutButton {
+  padding: 4px 10px;
+  position: absolute;
+  top: 10%;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-right: 2%; /* Use percentage for spacing */
+  font-weight: bold;
+}
+
+.groupWrapper1 {
+  position: absolute;
+  width: 100%;
+  left: -33%;
+  margin-top: 30%;
+}
+
+.phuserLightIcon1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 35%;
+  overflow: hidden;
+  z-index: 30;
+}
+
+.ellipseGroup2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 0%;
+  background-color: var(--color-silver-400);
+  position: absolute;
+  top: 2px;
+  left: 60%;
+  width: 50%;
+}
+
+.searchDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 68.5%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  vertical-align: bottom;
+}
+
+.searchDropdown div {
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchDropdown div:hover {
+  background-color: #f0f0f0;
+}
+.pic {
+  position: absolute;
+  left: 2%;
+
+  max-width: 25px;
+  max-height: 25px;
+}
+.item {
+  position: relative;
+  left: 8%;
+}
+.in {
+  position: absolute;
+  left: 82%;
+  font-style: italic;
+  color: #aba8a8;
+  font-size: small;
+}
+.cat {
+  position: absolute;
+  left: 85%;
+  font-style: italic;
+  color: #aba8a8;
+  font-size: small;
+  vertical-align: bottom;
+}

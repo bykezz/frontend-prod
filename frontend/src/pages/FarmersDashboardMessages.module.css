@@ -1,0 +1,924 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 760px;
+  height: 49px;
+}
+.searchAnyCategory {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: inline-block;
+  width: 263px;
+}
+.octiconsearch24 {
+  position: absolute;
+  top: 12px;
+  left: 16.58px;
+  width: 23.94px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 760px;
+  height: 49px;
+  font-size: var(--font-size-mid);
+  color: var(--color-gainsboro-500);
+}
+.groupItem,
+.signIn {
+  position: absolute;
+  top: 36px;
+  left: 975px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  width: 146px;
+  height: 46px;
+}
+.rectangleGroup,
+.register {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+}
+.rectangleGroup {
+  top: 8px;
+  left: 795px;
+  width: 146px;
+  height: 46px;
+  color: var(--color-white);
+}
+.phuserLightIcon {
+  position: absolute;
+  top: 8px;
+  left: 976px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.cart {
+  position: absolute;
+  top: 28px;
+  left: 4px;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 50px;
+}
+.groupInner {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+}
+.div,
+.ellipseParent,
+.groupInner {
+  position: absolute;
+  top: 0;
+}
+.div {
+  height: 100%;
+  width: 35.29%;
+  left: 35.29%;
+  display: inline-block;
+}
+.ellipseParent {
+  height: 29.31%;
+  width: 50%;
+  right: 0;
+  bottom: 70.69%;
+  left: 50%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.groupContainer,
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 1044px;
+  width: 34px;
+  height: 58px;
+}
+.groupParent {
+  top: 13px;
+  left: 186px;
+  width: 1078px;
+}
+.farmerDashboardAllMessageChild,
+.farmerDashboardAllMessageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1140px;
+  height: 1147px;
+}
+.farmerDashboardAllMessageItem {
+  background-color: var(--color-seagreen);
+  height: 100px;
+}
+.archive,
+.delete,
+.markUnread,
+.read,
+.unread {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 494px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.archive,
+.delete,
+.read,
+.unread {
+  left: 411px;
+}
+.delete,
+.read,
+.unread {
+  left: 336px;
+}
+.read,
+.unread {
+  left: 274px;
+}
+.unread {
+  left: 192px;
+}
+.farmerDashboardAllMessageInner {
+  position: absolute;
+  top: 25px;
+  left: 1040px;
+}
+.newPurchaseAlert {
+  font-family: var(--font-ek-mukta);
+}
+.newPurchaseAlertContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 5.77%;
+  left: 8.51%;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.messageItemChild,
+.messageItemItem {
+  position: absolute;
+  box-sizing: border-box;
+}
+.messageItemChild {
+  height: 57.69%;
+  width: 2.63%;
+  top: 0;
+  right: 95.18%;
+  bottom: 42.31%;
+  left: 2.19%;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+}
+.messageItemItem {
+  height: 1.92%;
+  width: 100.09%;
+  top: 99.04%;
+  right: -0.04%;
+  bottom: -0.96%;
+  left: -0.04%;
+  border-top: 1px solid var(--color-gainsboro-400);
+}
+.messageItem {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  width: 1140.01px;
+  height: 52px;
+}
+.newPurchaseAlertContainer1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 199px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.lineDiv,
+.rectangleInput {
+  position: absolute;
+  box-sizing: border-box;
+}
+.rectangleInput {
+  top: 196px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  width: 30px;
+  height: 30px;
+}
+.lineDiv {
+  top: 247.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlertContainer2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 274px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild1 {
+  position: absolute;
+  top: 271px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild2 {
+  position: absolute;
+  top: 322.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 349px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild3 {
+  position: absolute;
+  top: 346px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild4 {
+  position: absolute;
+  top: 397.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 424px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild5 {
+  position: absolute;
+  top: 421px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild6 {
+  position: absolute;
+  top: 472.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 499px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild7 {
+  position: absolute;
+  top: 496px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild8 {
+  position: absolute;
+  top: 547.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 574px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild9 {
+  position: absolute;
+  top: 571px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild10 {
+  position: absolute;
+  top: 622.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 649px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild11 {
+  position: absolute;
+  top: 646px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild12 {
+  position: absolute;
+  top: 697.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 724px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild13 {
+  position: absolute;
+  top: 721px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild14 {
+  position: absolute;
+  top: 772.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 799px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild15 {
+  position: absolute;
+  top: 796px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild16 {
+  position: absolute;
+  top: 847.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert10 {
+  position: absolute;
+  top: 874px;
+  left: 97px;
+  line-height: 125.4%;
+}
+.farmerDashboardAllMessageChild17 {
+  position: absolute;
+  top: 871px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild18 {
+  position: absolute;
+  top: 922.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.newPurchaseAlert11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 949px;
+  left: 97px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.farmerDashboardAllMessageChild19 {
+  position: absolute;
+  top: 946px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild20 {
+  position: absolute;
+  top: 997.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.button,
+.button1,
+.newPurchaseAlert12 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+}
+.newPurchaseAlert12 {
+  position: absolute;
+  top: 1024px;
+  left: 97px;
+  line-height: 125.4%;
+  color: var(--color-dimgray-400);
+  text-align: left;
+  display: inline-block;
+}
+.button,
+.button1 {
+  width: 22px;
+}
+.button {
+  position: absolute;
+  top: 1100px;
+  left: 888px;
+  line-height: 125.4%;
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  text-align: center;
+  display: inline-block;
+  height: 21px;
+}
+.button1 {
+  left: 911px;
+}
+.button1,
+.button2,
+.button3,
+.div1 {
+  position: absolute;
+  top: 1100px;
+  line-height: 125.4%;
+  font-weight: 500;
+  color: var(--color-darkgray-200);
+  text-align: center;
+  display: inline-block;
+  height: 21px;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 934px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  width: 22px;
+}
+.button3,
+.div1 {
+  left: 952px;
+  width: 27px;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 981px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  width: 22px;
+}
+.farmerDashboardAllMessageChild21 {
+  position: absolute;
+  top: 1021px;
+  left: 25px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.farmerDashboardAllMessageChild22 {
+  position: absolute;
+  top: 1072.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1141.01px;
+  height: 1px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 62.39%;
+  width: 83.33%;
+  top: 16.78%;
+  right: 8.34%;
+  bottom: 20.83%;
+  left: 8.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bxsupArrow,
+.bxsupArrow1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1123px;
+  left: 868px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.bxsupArrow1 {
+  top: 1099px;
+  left: 1031px;
+  transform: rotate(90deg);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  width: 101px;
+  height: 41px;
+}
+.all {
+  position: absolute;
+  top: 8px;
+  left: 39px;
+  font-size: var(--font-size-xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-black);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 71px;
+  width: 101px;
+  height: 41px;
+}
+.farmerDashboardAllMessage {
+  position: absolute;
+  top: 87px;
+  left: 186px;
+  width: 1140px;
+  height: 713px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-400);
+}
+.dashboardNavigationChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.antDesignhomeOutlinedIcon {
+  position: absolute;
+  top: 9.35px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 38px;
+  left: 17px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.marketplace {
+  position: absolute;
+  top: 40px;
+  left: 4px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.claritystoreLineIcon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.logistics {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.fa6SolidtruckFastIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+}
+.bulkOrders,
+.storage {
+  position: absolute;
+  top: 39px;
+  left: 14px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-silver-300);
+  text-align: center;
+}
+.bulkOrders {
+  left: 6px;
+}
+.carbonmapIcon,
+.healthiconsfruitsOutline {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.carbonmapIcon {
+  top: 8px;
+  left: 17px;
+  width: 26px;
+  height: 26px;
+}
+.frameDiv {
+  position: absolute;
+  height: 74.35%;
+  width: 60%;
+  top: 15.21%;
+  right: 20%;
+  bottom: 10.44%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.farmjointLogo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.25%;
+  width: 83.5%;
+  top: 0.88%;
+  right: 8.5%;
+  bottom: 89.88%;
+  left: 8%;
+  background-image: url(/public/farmjointlogo2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dashboardNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 800px;
+}
+.farmersDashboardMessages {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 800px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-300);
+}

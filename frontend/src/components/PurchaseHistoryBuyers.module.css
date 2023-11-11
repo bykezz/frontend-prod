@@ -1,0 +1,80 @@
+.groupChild,
+.purchaseHistoryBuyersChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild {
+  background-color: var(--color-seagreen);
+}
+.purchaseHistory {
+  position: absolute;
+  top: 10%;
+  left: 7.14%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 13.55%;
+  top: 2.93%;
+  right: 68.39%;
+  bottom: 90.9%;
+  left: 18.06%;
+}
+.profile,
+.wishList {
+  position: absolute;
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+}
+.wishList {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 3.55%;
+  left: 41.37%;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+.profile {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+}
+.profileWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 4.03%;
+  top: 3.86%;
+  right: 89.92%;
+  bottom: 91.51%;
+  left: 6.05%;
+}
+.purchaseHistoryBuyers {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+}

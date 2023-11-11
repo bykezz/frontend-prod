@@ -1,0 +1,76 @@
+.instructionsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instructions1 {
+  position: absolute;
+  top: 9.35%;
+  left: 40.53%;
+  line-height: 125.4%;
+  font-weight: 600;
+}
+.step1 {
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+}
+.step1EnsureThatYouHaveS {
+  margin: 0;
+}
+.step1EnsureContainer {
+  position: absolute;
+  width: 83.72%;
+  top: 27.85%;
+  left: 8.14%;
+  line-height: 180%;
+  display: inline-block;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.next {
+  position: absolute;
+  top: 17.39%;
+  left: 21.95%;
+  font-size: var(--font-size-4xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.35%;
+  width: 12.83%;
+  top: 83.13%;
+  right: 17.53%;
+  bottom: 7.52%;
+  left: 69.64%;
+}
+.instructions {
+  position: relative;
+  width: 639px;
+  height: 492px;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-ek-mukta);
+}

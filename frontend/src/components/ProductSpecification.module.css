@@ -1,0 +1,205 @@
+.cabbageIsA {
+  margin: 0;
+}
+.suggestedUses {
+  margin: 0;
+  font-weight: 600;
+}
+.itCanAlsoBeCookedSuchAs {
+  margin-bottom: 0;
+}
+.cabbageCanBeEatenRawInSa {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.cabbageIsAContainer {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  font-size: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 747px;
+}
+.productDescription,
+.productRatings,
+.productSpecification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.productRatings,
+.productSpecification {
+  left: 262px;
+}
+.productRatings {
+  left: 538px;
+}
+.groupChild {
+  position: absolute;
+  top: 50.5px;
+  left: 23.5px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.cabbageIsAVersatileVegetabParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 748px;
+  height: 407px;
+}
+.property1frame5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-ek-mukta);
+}
+.size1012InchesContainer {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  font-size: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 721px;
+}
+.groupItem {
+  position: absolute;
+  top: 50.5px;
+  left: 270px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.groupInner,
+.property1frame6,
+.size1012InchesInDiameterParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 722px;
+  height: 539px;
+}
+.groupInner,
+.property1frame6 {
+  top: 0;
+  left: 20px;
+  height: 521px;
+}
+.groupInner {
+  top: 50.5px;
+  left: 550.5px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 146.02px;
+  height: 3px;
+}
+.productDescriptionParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 708px;
+  height: 52px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+}
+.thisCabbageIsContainer {
+  position: absolute;
+  top: 35px;
+  left: 0.44px;
+  display: inline-block;
+  width: 721px;
+}
+.groupIcon {
+  position: absolute;
+  height: 23.32%;
+  width: 16.63%;
+  top: 0;
+  right: 83.37%;
+  bottom: 76.68%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild1,
+.thisCabbageIsPerfectForCoParent {
+  position: absolute;
+  top: 79px;
+  left: 0.56px;
+  width: 721.44px;
+  height: 101px;
+}
+.groupChild1 {
+  height: 5.49%;
+  width: 16.63%;
+  top: 0;
+  right: 83.37%;
+  bottom: 94.51%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iWasExpectingContainer {
+  position: absolute;
+  top: 166px;
+  left: 0.44px;
+  display: inline-block;
+  width: 721px;
+}
+.groupChild2 {
+  position: absolute;
+  height: 5.49%;
+  width: 16.63%;
+  top: 30.54%;
+  right: 83.37%;
+  bottom: 63.97%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iWasAContainer {
+  position: absolute;
+  top: 330px;
+  left: 0.44px;
+  display: inline-block;
+  width: 721px;
+}
+.groupChild3 {
+  position: absolute;
+  height: 5.49%;
+  width: 16.63%;
+  top: 68.76%;
+  right: 83.37%;
+  bottom: 25.75%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iLoveUsingThisCabbageInSParent,
+.property1frame7 {
+  position: absolute;
+  top: 210px;
+  left: 0.56px;
+  width: 721.44px;
+  height: 429px;
+}
+.property1frame7 {
+  top: 1127px;
+  left: 20px;
+  width: 722px;
+  height: 341px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}

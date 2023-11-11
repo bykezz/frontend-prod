@@ -1,0 +1,25 @@
+.storages {
+  font-weight: 500;
+}
+.available {
+  font-weight: 300;
+}
+.storagesAvailable {
+  position: absolute;
+  height: 3.41%;
+  width: 38.04%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.availableStorage {
+  position: absolute;
+  top: 475px;
+  left: 122px;
+  width: 1279px;
+  height: 1437px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-ek-mukta);
+}

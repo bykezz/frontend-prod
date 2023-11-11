@@ -1,0 +1,61 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 167px;
+  height: 222px;
+}
+.newest,
+.oldest,
+.popular,
+.price,
+.rating {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.newest,
+.oldest,
+.price,
+.rating {
+  top: 60px;
+}
+.newest,
+.oldest,
+.rating {
+  top: 100px;
+}
+.newest,
+.oldest {
+  top: 140px;
+}
+.oldest {
+  top: 180px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 167px;
+  height: 222px;
+}
+.sortBy {
+  position: relative;
+  width: 167px;
+  height: 222px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}

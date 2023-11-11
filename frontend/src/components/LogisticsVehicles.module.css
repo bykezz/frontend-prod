@@ -1,0 +1,166 @@
+.groupChild,
+.logisticsVehiclesChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild {
+  background-color: var(--color-seagreen);
+}
+.vehicles {
+  position: absolute;
+  top: 10%;
+  left: 29.17%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 13.55%;
+  top: 2.93%;
+  right: 68.39%;
+  bottom: 90.9%;
+  left: 18.06%;
+}
+.profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+}
+.profileWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 4.03%;
+  top: 3.86%;
+  right: 89.92%;
+  bottom: 91.51%;
+  left: 6.05%;
+}
+.groupItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.addNewVehicle {
+  position: absolute;
+  top: 10%;
+  left: 6.21%;
+  font-weight: 500;
+}
+.rectangleGroup {
+  position: absolute;
+  height: 6.17%;
+  width: 12.98%;
+  top: 90%;
+  right: 6.05%;
+  bottom: 18.98%;
+  left: 80.97%;
+  cursor: pointer;
+}
+.logisticsVehicles {
+  position: absolute;
+  top: 0px;
+  left: 144px;
+  width: 1240px;
+  height: 800px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-ek-mukta);
+}
+
+.truck,
+.truckWrapper {
+  position: absolute;
+  left: 0;
+  color: black;
+}
+.truck {
+  top: 0;
+  font-weight: 500;
+}
+.truckWrapper {
+  height: 11.83%;
+  width: 100%;
+  top: 64.49%;
+  right: 85.31%;
+  bottom: 9.68%;
+}
+.capacity1000050000 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  color: black;
+  font-weight: 500;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}
+.groupParent {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  top: 13.71%;
+  right: 62.39%;
+  left: 5%;
+  font-size: var(--font-size-xl);
+}
+.capacity1000,
+.trailer {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  font-weight: 500;
+  color: black;
+}
+.trailer {
+  top: 65%;
+  font-size: var(--font-size-xl);
+  text-align: left;
+}
+.capacity100010000TonneParent,
+.capacity50000100000TonParent {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  top: 13.71%;
+  right: 35.52%;
+  bottom: 66.06%;
+  left: 33%;
+}
+.capacity50000100000TonParent {
+  right: 8.65%;
+  left: 61%;
+}

@@ -1,0 +1,92 @@
+.editProfileBuyersChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.editProfile,
+.name {
+  position: absolute;
+  left: 2.42%;
+  font-weight: 500;
+}
+.editProfile {
+  top: 4.63%;
+  font-size: var(--font-size-11xl);
+}
+.name {
+  top: 19%;
+}
+.editProfileBuyersInner,
+.editProfileBuyersItem,
+.rectangleInput,
+.rectangleInput1,
+.rectangleInput2 {
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 20.81%;
+  top: 19%;
+  right: 69.76%;
+  bottom: 76.85%;
+  left: 12%;
+}
+.editProfileBuyersInner,
+.rectangleInput,
+.rectangleInput1,
+.rectangleInput2 {
+  top: 26%;
+  bottom: 69.44%;
+}
+.rectangleInput,
+.rectangleInput1,
+.rectangleInput2 {
+  top: 40%;
+  bottom: 62.81%;
+}
+.rectangleInput1 {
+  top: 47%;
+}
+.rectangleInput2 {
+  top: 54%;
+}
+.address,
+.address1,
+.address2,
+.address3,
+.email {
+  position: absolute;
+  top: 26%;
+  left: 2.42%;
+  font-weight: 500;
+}
+.address1,
+.address2,
+.address3,
+.address {
+  top: 33%;
+}
+.address1 {
+  top: 40%;
+}
+.address2 {
+  top: 47%;
+}
+.address3 {
+  top: 54%;
+}
+.editProfileBuyers {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}

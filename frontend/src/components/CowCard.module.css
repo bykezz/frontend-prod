@@ -1,0 +1,61 @@
+.onionCardChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.n2000,
+.onions {
+  position: absolute;
+  top: 66.32%;
+  left: 33.13%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+}
+.n2000 {
+  top: 79.47%;
+  left: 34.38%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.onionCardItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.25%;
+  top: 12.63%;
+  right: 21.88%;
+  bottom: 40%;
+  left: 21.88%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.pngimg5Icon {
+  position: absolute;
+  height: 30.85%;
+  width: 48%;
+  top: 22.11%;
+  right: 31.25%;
+  bottom: 47.05%;
+  left: 24.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.onionCard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 160px;
+  height: 190px;
+}

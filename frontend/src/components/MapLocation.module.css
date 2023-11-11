@@ -1,0 +1,30 @@
+.mapLocationChild {
+  border: 0;
+  position: absolute;
+  height: 87.61%;
+  width: 100%;
+  top: 12.39%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.akure {
+  color: var(--color-seagreen);
+}
+.liveLocationAkureContainer {
+  position: absolute;
+  top: 0;
+  left: 38.58%;
+  font-weight: 500;
+}
+.mapLocation {
+  position: absolute;
+  top: 575px;
+  left: 208px;
+  width: 1112px;
+  height: 799px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}

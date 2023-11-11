@@ -1,0 +1,114 @@
+.farmersProductDetailsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen-100);
+}
+.farmersProductDetailsItem {
+  position: absolute;
+  height: 63.83%;
+  width: 5.26%;
+  top: 11.7%;
+  right: 82.98%;
+  bottom: 24.47%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.carrots {
+  left: 19.04%;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.carrots,
+.n1500 {
+  position: absolute;
+  top: 21.28%;
+  line-height: 125.4%;
+}
+.inStock {
+  position: absolute;
+  top: 21.28%;
+  text-align: center;
+  line-height: 125.4%;
+  color: #26a73a;
+  left: 460px;
+  width: 9%;
+}
+.n1500,
+.vegetables {
+  left: 53.6%;
+}
+.n1500 {
+  color: #5e5e5e;
+}
+.vegetables {
+  position: absolute;
+  top: 21.28%;
+  line-height: 125.4%;
+  width: 10%;
+  text-align: center;
+  left: 63.42%;
+  color: var(--color-sandybrown);
+}
+.edit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 47.87%;
+  left: 19.04%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-seagreen);
+  text-align: left;
+  display: inline-block;
+}
+.time,
+.delete,
+.edit {
+  position: absolute;
+  line-height: 125.4%;
+}
+.delete {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 47.87%;
+  left: 22.54%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: #942828;
+  text-align: left;
+  display: inline-block;
+}
+.time {
+  width: 24%;
+  top: 21.28%;
+  left: 76%;
+  color: #5e5e5e;
+}
+.farmersProductDetails,
+.groupChild1 {
+  position: relative;
+  top: 369px;
+  left: 0;
+  width: 1140px;
+  height: 94px;
+}
+.outOfStock {
+  position: absolute;
+  top: 20px;
+  left: 460px;
+  width: 9%;
+  text-align: center;
+  line-height: 125.4%;
+  color: var(--color-sandybrown);
+}

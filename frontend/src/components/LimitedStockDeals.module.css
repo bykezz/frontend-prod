@@ -1,0 +1,492 @@
+.limitedStock {
+  font-weight: 500;
+}
+.span {
+  font-weight: 600;
+}
+.deals {
+  font-weight: 300;
+}
+.limitedStockDealsContainer {
+  position: absolute;
+  height: 10.19%;
+  width: 56.07%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 99.92%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0.08%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.lettuce,
+.n2000 {
+  position: absolute;
+  height: 15.79%;
+  width: 99.61%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n2000 {
+  height: 14.21%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.groupItem {
+  position: absolute;
+  height: 47.37%;
+  width: 56.21%;
+  top: 12.63%;
+  right: 21.86%;
+  bottom: 40%;
+  left: 21.94%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.lettuceRemovebgPreview2Icon {
+  position: absolute;
+  height: 34.21%;
+  width: 40.59%;
+  top: 19.47%;
+  right: 28.1%;
+  bottom: 46.32%;
+  left: 31.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.85%;
+  top: 16.01%;
+  right: 84.42%;
+  bottom: 44.49%;
+  left: 0.73%;
+}
+.groupInner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.carrot,
+.n20001 {
+  position: absolute;
+  height: 15.79%;
+  width: 99.69%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n20001 {
+  height: 14.21%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.ellipseDiv {
+  position: absolute;
+  height: 47.37%;
+  width: 56.25%;
+  top: 12.63%;
+  right: 21.87%;
+  bottom: 40%;
+  left: 21.88%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.bba003827272830485a6b84d4dLarIcon {
+  position: absolute;
+  height: 40%;
+  width: 47.5%;
+  top: 15.26%;
+  right: 26.87%;
+  bottom: 44.74%;
+  left: 25.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 16.01%;
+  right: 0.41%;
+  bottom: 44.49%;
+  left: 84.75%;
+}
+.pngTomato187023Icon {
+  position: absolute;
+  height: 33.29%;
+  width: 41.25%;
+  top: 18.95%;
+  right: 27.5%;
+  bottom: 47.76%;
+  left: 31.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 16.01%;
+  right: 67.62%;
+  bottom: 44.49%;
+  left: 17.53%;
+}
+.pngimg5Icon {
+  position: absolute;
+  height: 30.85%;
+  width: 40%;
+  top: 22.11%;
+  right: 31.25%;
+  bottom: 47.05%;
+  left: 28.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 16.01%;
+  right: 50.82%;
+  bottom: 44.49%;
+  left: 34.34%;
+}
+.sweetRedPeppersCopy600x6Icon {
+  position: absolute;
+  height: 36.84%;
+  width: 43.75%;
+  top: 17.37%;
+  right: 28.12%;
+  bottom: 45.79%;
+  left: 28.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 16.01%;
+  right: 34.02%;
+  bottom: 44.49%;
+  left: 51.14%;
+}
+.groupChild6,
+.groupChild7 {
+  position: absolute;
+  height: 100%;
+  width: 99.38%;
+  top: 0;
+  right: 0.62%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.groupChild7 {
+  width: 98.11%;
+  right: 1.89%;
+  border-radius: 0 var(--br-3xs) 0 0;
+  background-color: var(--color-crimson);
+}
+.off {
+  position: absolute;
+  height: 50%;
+  width: 92.45%;
+  top: 29.17%;
+  left: 7.55%;
+  font-size: var(--font-size-xs);
+  line-height: 13px;
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: justify;
+  display: inline-block;
+}
+.groupChild8,
+.groupDiv {
+  position: absolute;
+  height: 12.63%;
+  width: 32.92%;
+  top: 0;
+  right: 0;
+  bottom: 87.37%;
+  left: 67.08%;
+}
+.groupChild8 {
+  height: 47.37%;
+  width: 55.9%;
+  top: 12.63%;
+  right: 22.36%;
+  bottom: 40%;
+  left: 21.74%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.freshChineseSpinachPngClipIcon {
+  position: absolute;
+  height: 29.05%;
+  width: 43.48%;
+  top: 21.58%;
+  right: 27.95%;
+  bottom: 49.37%;
+  left: 28.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 16.01%;
+  right: 17.21%;
+  bottom: 44.49%;
+  left: 67.95%;
+}
+.popular,
+.sortBy {
+  font-weight: 300;
+  font-family: var(--font-ek-mukta);
+}
+.popular {
+  font-weight: 500;
+}
+.sortByPopularContainer {
+  position: absolute;
+  height: 100%;
+  width: 93.76%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+}
+.riarrowUpSLineIcon {
+  position: absolute;
+  width: 13.64%;
+  top: 7px;
+  right: 0;
+  left: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.sortByPopularParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 17%;
+  top: 22px;
+  right: 4%;
+  height: 31px;
+}
+.groupChild9 {
+  position: absolute;
+  height: 100%;
+  width: 99.7%;
+  top: 0;
+  right: 0.3%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.lettuce1,
+.n20006 {
+  position: absolute;
+  height: 15.79%;
+  width: 100%;
+  top: 66.32%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: inline-block;
+}
+.n20006 {
+  height: 14.21%;
+  top: 79.47%;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.groupChild10 {
+  position: absolute;
+  height: 47.37%;
+  width: 56.08%;
+  top: 12.63%;
+  right: 22.11%;
+  bottom: 40%;
+  left: 21.81%;
+  border-radius: 50%;
+  background-color: var(--color-papayawhip);
+}
+.lettuceRemovebgPreview2Icon1 {
+  position: absolute;
+  height: 34.21%;
+  width: 40.5%;
+  top: 19.47%;
+  right: 28.34%;
+  bottom: 46.32%;
+  left: 31.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6,
+.rectangleParent7,
+.rectangleParent8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 39.5%;
+  width: 14.84%;
+  top: 60.5%;
+  right: 84.43%;
+  bottom: 0;
+  left: 0.73%;
+}
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6,
+.rectangleParent7,
+.rectangleParent8 {
+  right: 50.82%;
+  left: 34.34%;
+}
+.rectangleParent5,
+.rectangleParent6,
+.rectangleParent7,
+.rectangleParent8 {
+  right: 34.02%;
+  left: 51.14%;
+}
+.rectangleParent6,
+.rectangleParent7,
+.rectangleParent8 {
+  right: 17.21%;
+  left: 67.95%;
+}
+.rectangleParent7,
+.rectangleParent8 {
+  right: 0.41%;
+  left: 84.75%;
+}
+.rectangleParent8 {
+  right: 67.62%;
+  left: 17.53%;
+}
+.off1 {
+  position: absolute;
+  height: 50%;
+  width: 92.45%;
+  top: 29.17%;
+  left: 7.55%;
+  line-height: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangleParent9 {
+  position: absolute;
+  height: 4.99%;
+  width: 4.84%;
+  top: 60.5%;
+  right: 67.58%;
+  bottom: 34.51%;
+  left: 27.58%;
+  text-align: justify;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.limitedStockDeals {
+  position: absolute;
+  width: 76.04%;
+  top: 2676px;
+  right: 10.9%;
+  left: 13.06%;
+  height: 481px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-ek-mukta);
+}
+@media screen and (max-width: 1200px) {
+  .limitedStockDeals {
+    left: 16%;
+    width: 76%;
+  }
+}

@@ -1,0 +1,69 @@
+.globalStorageCard4Child {
+  position: absolute;
+  height: 74.76%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 25.24%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div,
+.globalStorageFacility,
+.locationAbuja {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-gray-600);
+  text-align: center;
+  display: inline-block;
+}
+.globalStorageFacility {
+  width: 52%;
+  left: 0;
+  font-weight: 600;
+}
+.div,
+.locationAbuja {
+  width: 6.3%;
+  left: 93.7%;
+}
+.locationAbuja {
+  width: 27.71%;
+  top: 50%;
+  left: 0;
+}
+.materialSymbolsstarIcon {
+  position: absolute;
+  height: 39.29%;
+  width: 5.54%;
+  top: 0;
+  right: 7.05%;
+  bottom: 60.71%;
+  left: 87.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.globalStorageFacilityLtdParent {
+  position: absolute;
+  height: 18.12%;
+  width: 100%;
+  top: 81.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.globalStorageCard4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 397px;
+  height: 309px;
+}

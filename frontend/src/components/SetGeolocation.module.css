@@ -1,0 +1,94 @@
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.screenshot202308020921382 {
+  position: absolute;
+  height: 71.34%;
+  width: 78.72%;
+  top: 14.23%;
+  right: 10.64%;
+  bottom: 14.43%;
+  left: 10.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.currentGeolocation {
+  margin: 0;
+  font-weight: 500;
+}
+.latitude721 {
+  margin: 0;
+}
+.currentGeolocationLatitudeContainer {
+  position: absolute;
+  width: 78.72%;
+  top: 2.44%;
+  left: 10.64%;
+  line-height: 111%;
+  display: inline-block;
+}
+.groupParent {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupItem,
+.groupParent,
+.set {
+  position: absolute;
+}
+.groupItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 7%;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.set {
+  top: 17.39%;
+  left: 30.49%;
+  font-size: var(--font-size-4xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.35%;
+  width: 12.83%;
+  top: 87.8%;
+  right: 10.64%;
+  bottom: 2.85%;
+  left: 76.53%;
+}
+.setgeolocation {
+  position: relative;
+  width: 639px;
+  height: 492px;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-ek-mukta);
+}

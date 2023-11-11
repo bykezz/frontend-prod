@@ -1,0 +1,170 @@
+.groupChild,
+.storageFacilityChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.groupChild {
+  background-color: var(--color-seagreen);
+}
+.facility {
+  position: absolute;
+  top: 10%;
+  left: 32.14%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 5%;
+  width: 13.55%;
+  top: 2.93%;
+  right: 68.39%;
+  bottom: 90.9%;
+  left: 18.06%;
+}
+.profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+}
+.profileWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.63%;
+  width: 4.03%;
+  top: 3.86%;
+  right: 89.92%;
+  bottom: 91.51%;
+  left: 6.05%;
+}
+.groupItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.addNewFacility {
+  position: absolute;
+  top: 10%;
+  left: 6.21%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 5.17%;
+  width: 12.98%;
+  top: 90.85%;
+  right: 6.05%;
+  bottom: 18.98%;
+  left: 80.97%;
+}
+.storageFacility {
+  position: absolute;
+  top: 19px;
+  left: 144px;
+  width: 1240px;
+  height: 800px;
+}
+
+.groupParent {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  top: 12.47%;
+  right: 62.39%;
+  bottom: 68.89%;
+  left: 5%;
+  font-size: var(--font-size-xl);
+}
+
+.silo,
+.siloWrapper {
+  position: absolute;
+  left: 0;
+}
+.silo {
+  top: 0%;
+  font-weight: 500;
+  color: black;
+}
+.siloWrapper {
+  height: 12.69%;
+  width: 10%;
+  top: 67%;
+  right: 90%;
+  cursor: pointer;
+}
+.storageCapacity10000 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.barn,
+.storageCapacity1000 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  font-weight: 500;
+}
+.barn {
+  top: 67%;
+  font-size: var(--font-size-xl);
+}
+.storageCapacity1000100Parent,
+.storageCapacity50000100Parent {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  top: 12.47%;
+  right: 35.52%;
+  bottom: 68.89%;
+  left: 33%;
+}
+.storageCapacity50000100Parent {
+  right: 8.65%;
+  left: 61%;
+}

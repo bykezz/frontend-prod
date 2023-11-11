@@ -1,0 +1,173 @@
+.addNewVehicleChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.addNewVehicleWrapper {
+  position: absolute;
+  height: 7.72%;
+  width: 17.18%;
+  top: 3.86%;
+  right: 77.98%;
+  bottom: 88.43%;
+  left: 4.84%;
+  font-size: var(--font-size-11xl);
+}
+.vehicleType {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.sizeOfVehicleWrapper,
+.vehicleTypeWrapper,
+.vehicleTypeWrapper1,
+.vehicleTypeWrapper2 {
+  position: absolute;
+  height: 6.17%;
+  width: 10.32%;
+  top: 17.13%;
+  right: 84.76%;
+  bottom: 76.7%;
+  left: 4.92%;
+  text-align: left;
+}
+.sizeOfVehicleWrapper {
+  width: 11.77%;
+  top: 36.42%;
+  right: 83.31%;
+  bottom: 57.41%;
+}
+.vehicleTypeWrapper1,
+.vehicleTypeWrapper2 {
+  width: 11.77%;
+  right: 83.31%;
+  left: 50%;
+  bottom: 57.41%;
+}
+.vehicleTypeWrapper2 {
+  top: 37%;
+}
+.uploadAnImageOfYourVehiclWrapper {
+  position: absolute;
+  height: 6.17%;
+  width: 30%;
+  top: 55.86%;
+  right: 68.71%;
+  bottom: 37.96%;
+  left: 4.76%;
+}
+.groupChild,
+.selectAFile {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-seagreen);
+}
+.selectAFile {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent,
+.selectAFileJpgPngWrapper {
+  position: absolute;
+  height: 82.5%;
+  width: 94.68%;
+  top: 7.5%;
+  right: 2.66%;
+  bottom: 10%;
+  left: 2.66%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 6.17%;
+  width: 15.16%;
+  top: 63.58%;
+  right: 79.92%;
+  bottom: 30.25%;
+  left: 4.92%;
+}
+.addNewVehicle {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}
+.truckParent,
+.Input {
+  position: absolute;
+  top: 160px;
+  left: 60px;
+}
+
+.Input {
+  top: 280px;
+}
+.Input1,
+.Input2 {
+  position: absolute;
+  top: 160px;
+  left: 620px;
+}
+.Input2 {
+  top: 280px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 143px;
+  height: 40px;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 550px;
+  left: 830px;
+  width: 143px;
+  height: 40px;
+}
+.addVehicle {
+  position: absolute;
+  top: 4px;
+  left: 22px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 412px;
+  left: 123px;
+
+  width: 300px;
+  height: 40px;
+  object-fit: cover;
+}

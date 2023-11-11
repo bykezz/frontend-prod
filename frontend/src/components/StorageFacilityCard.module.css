@@ -1,0 +1,43 @@
+.groupParent {
+  position: relative;
+  height: 320px;
+  width: 320px;
+  top: 12.47%;
+  right: 62.39%;
+  bottom: 68.89%;
+  left: 5%;
+  font-size: var(--font-size-xl);
+}
+
+.silo,
+.siloWrapper {
+  position: absolute;
+  left: 0;
+}
+.silo {
+  top: 0%;
+  font-weight: 500;
+  color: black;
+}
+.siloWrapper {
+  height: 12.69%;
+  width: 10%;
+  top: 67%;
+  right: 90%;
+  cursor: pointer;
+}
+.storageCapacity10000 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}

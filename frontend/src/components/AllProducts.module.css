@@ -1,0 +1,68 @@
+.all {
+  font-weight: 500;
+}
+.products {
+  font-weight: 300;
+}
+.allProducts1 {
+  position: absolute;
+  height: 2.78%;
+  width: 45.65%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.allProducts {
+  position: absolute;
+  top: 2px;
+  left: 196px;
+  width: 1080px;
+  height: 1761px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-ek-mukta);
+}
+.sortByPopularParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 26.67%;
+  top: 11px;
+  right: 11.39%;
+  left: 74%;
+  height: 31px;
+}
+.riarrowUpSLineIcon {
+  position: absolute;
+  height: 76.69%;
+  width: 7.48%;
+  top: 11.43%;
+  right: 0;
+  bottom: 11.88%;
+  left: 92.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular,
+.sortBy {
+  font-weight: 300;
+  font-family: var(--font-ek-mukta);
+}
+.popular {
+  font-weight: 500;
+}
+.sortByPopularContainer {
+  position: absolute;
+  width: 92.71%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+  height: 31px;
+}

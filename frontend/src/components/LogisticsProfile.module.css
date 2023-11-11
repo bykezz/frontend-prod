@@ -1,0 +1,117 @@
+.logisticsProfileChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.nameOfLogistics,
+.vehicles {
+  position: absolute;
+  font-weight: 500;
+}
+.vehicles {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 3.55%;
+  left: 24.68%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-500);
+  text-align: center;
+  display: inline-block;
+}
+.nameOfLogistics {
+  top: 18.52%;
+  left: 2.42%;
+}
+.emailTranslogisticsgmailco,
+.officeAddressArea {
+  position: absolute;
+  top: 25.46%;
+  left: 2.42%;
+  font-weight: 500;
+}
+.officeAddressArea {
+  top: 32.41%;
+  text-align: center;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen);
+}
+.profile {
+  position: absolute;
+  top: 12.5%;
+  left: 32.14%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.17%;
+  width: 11.29%;
+  top: 3.09%;
+  right: 86.29%;
+  bottom: 90.74%;
+  left: 2.42%;
+}
+.logisticsProfile {
+  position: absolute;
+  top: 53px;
+  left: 144px;
+  width: 1240px;
+  height: 648px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-ek-mukta);
+}
+
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 161px;
+  height: 40px;
+}
+.editProfile {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 376px;
+  left: 174px;
+  width: 161px;
+  height: 40px;
+}

@@ -1,0 +1,130 @@
+.groupChild {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.dashboardSearchbarInner,
+.groupItem {
+  position: absolute;
+  width: 68.62%;
+  top: 8px;
+  right: 31.38%;
+  left: 0;
+  height: 49px;
+}
+.groupItem {
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen);
+  height: 46px;
+}
+.register {
+  position: absolute;
+  width: 68.85%;
+  top: 12px;
+  left: 18.29%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 13.54%;
+  top: 8px;
+  right: 12.71%;
+  left: 73.75%;
+  height: 46px;
+}
+.cart {
+  position: absolute;
+  width: 80%;
+  top: 28px;
+  left: 13.33%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+}
+.bibasketFillIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.cartParent {
+  position: absolute;
+  width: 88.24%;
+  top: 8px;
+  right: 11.76%;
+  left: 0;
+  height: 50px;
+}
+.div,
+.groupInner {
+  position: absolute;
+  top: 0;
+}
+.groupInner {
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+  height: 17px;
+}
+.div {
+  width: 35.29%;
+  left: 35.29%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.ellipseParent,
+.groupParent {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  left: 50%;
+  height: 17px;
+}
+.groupParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 3.15%;
+  left: 96.85%;
+  height: 58px;
+}
+.dashboardSearchbar {
+  position: absolute;
+  width: 75.9%;
+  top: 7px;
+  right: 10.63%;
+  left: 13.47%;
+  height: 58px;
+}
+@media screen and (max-width: 1200px) {
+  .dashboardSearchbar {
+    height: 58px;
+  }
+}

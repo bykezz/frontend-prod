@@ -1,0 +1,704 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.frameChild {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  height: 3930px;
+}
+.rectangleWrapper {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  width: 1340px;
+  height: 3928px;
+}
+.farmersOfThe {
+  font-weight: 500;
+}
+.week {
+  font-weight: 300;
+}
+.farmersOfTheContainer {
+  position: absolute;
+  width: 50.69%;
+  top: 978px;
+  left: 14%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  display: inline-block;
+  height: 49px;
+}
+.popular,
+.sortBy {
+  font-weight: 300;
+  font-family: var(--font-ek-mukta);
+}
+.popular {
+  font-weight: 500;
+}
+.sortByPopularContainer {
+  position: absolute;
+  width: 218.75%;
+  top: 0;
+  left: -134.66%;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+  height: 31px;
+}
+.riarrowUpSLineIcon {
+  position: absolute;
+  width: 13.64%;
+  top: 7px;
+  right: 0;
+  left: 86.36%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.sortByPopularParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 12.22%;
+  top: 1447px;
+  right: 12.08%;
+  left: 75.69%;
+  height: 31px;
+}
+.ezgif1Icon {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 5%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.caption {
+  position: absolute;
+  display: block;
+  left: 0;
+  margin-top: -400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: #ffffff;
+  padding: 10px;
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-size: 60px;
+  visibility: visible;
+}
+.slideshow {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.groupChild,
+.slideshow {
+  position: relative;
+  top: 0;
+  left: 13.5%;
+  width: 76%;
+  height: 417px;
+}
+.groupChild {
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: #ff9393;
+  height: 137px;
+}
+.bba003827272830485a6b84d4dLarIcon,
+.bba003827272830485a6b84d4dLarIcon1 {
+  position: absolute;
+  width: 6.92%;
+  top: 28px;
+  right: 17.03%;
+  left: 76.05%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 76px;
+  object-fit: cover;
+}
+.bba003827272830485a6b84d4dLarIcon1 {
+  right: 65.39%;
+  left: 27.69%;
+}
+.lettuceRemovebgPreview3Icon,
+.lettuceRemovebgPreview4Icon,
+.pngTomato187024Icon {
+  position: absolute;
+  width: 6.01%;
+  top: 27px;
+  right: 76.32%;
+  left: 17.67%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 63.26px;
+  object-fit: cover;
+}
+.lettuceRemovebgPreview3Icon,
+.lettuceRemovebgPreview4Icon {
+  width: 5.92%;
+  top: 31px;
+  right: 86.34%;
+  left: 7.74%;
+  height: 65px;
+}
+.lettuceRemovebgPreview4Icon {
+  right: 28.6%;
+  left: 65.48%;
+}
+.getUpTo {
+  position: absolute;
+  width: 30.81%;
+  top: 16px;
+  left: 34.64%;
+  font-weight: 600;
+  display: inline-block;
+}
+.groupItem {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #151515;
+  height: 30px;
+}
+.shopNow {
+  position: absolute;
+  width: 99.42%;
+  top: 5px;
+  left: 0.29%;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 17px;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 13.66%;
+  top: 89px;
+  right: 43.17%;
+  left: 43.17%;
+  height: 30px;
+  opacity: 1;
+}
+.rectangleGroup.animate {
+  animation: 3s ease 0s 3 normal forwards jello-horizontal;
+}
+.vEG {
+  position: absolute;
+  width: 49.5%;
+  top: 41px;
+  left: 25.52%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-fascinate);
+  color: #fbff4b;
+  display: inline-block;
+}
+.sweetRedPeppersCopy600x6Icon {
+  position: absolute;
+  width: 6.38%;
+  top: 28px;
+  right: 5.92%;
+  left: 87.7%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 70px;
+  object-fit: cover;
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 137px;
+}
+.groupWrapper {
+  width: 76.18%;
+  top: 1971px;
+  right: 10.21%;
+  left: 13.61%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-ek-mukta);
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 280px;
+  height: 310px;
+}
+.abuja,
+.div,
+.mandraFarms {
+  position: absolute;
+  top: 168px;
+  left: 15px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 217px;
+  height: 49px;
+}
+.abuja,
+.div {
+  top: 213px;
+  font-size: var(--font-size-11xl);
+  font-weight: 300;
+  width: 201px;
+}
+.div {
+  top: 262px;
+  left: 222px;
+  width: 43px;
+}
+.groupIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 279px;
+  left: 15px;
+  width: 70px;
+  height: 17.16px;
+}
+.rectangleIcon {
+  top: 15px;
+  border-radius: var(--br-3xs);
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.groupButton,
+.rectangleContainer,
+.rectangleParent1,
+.rectangleParent2,
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 280px;
+  height: 311px;
+}
+.groupButton,
+.rectangleParent1,
+.rectangleParent2,
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  left: 300px;
+}
+.rectangleParent1,
+.rectangleParent2,
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  left: 600px;
+}
+.rectangleParent2,
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  top: 1px;
+  left: 900px;
+}
+.rectangleParent3,
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  left: 1200px;
+}
+.rectangleParent4,
+.rectangleParent5,
+.rectangleParent6 {
+  left: 1500px;
+}
+.rectangleParent5,
+.rectangleParent6 {
+  top: 0;
+  left: 1800px;
+}
+.rectangleParent6 {
+  left: 2100px;
+}
+.farmersoftheweekInner,
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2380px;
+  height: 315px;
+}
+.farmersoftheweekInner {
+  width: 1097px;
+  overflow-x: auto;
+}
+.farmersoftheweekChild {
+  position: absolute;
+  top: 133px;
+  left: 1019px;
+  width: 72px;
+  height: 72px;
+}
+.farmersoftheweek {
+  position: absolute;
+  width: 76.18%;
+  top: 1071px;
+  right: 10.21%;
+  left: 13.61%;
+  height: 315px;
+  overflow-x: auto;
+}
+.bestsellerChild {
+  position: absolute;
+  height: 95.54%;
+  width: 100%;
+  top: 4.46%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.bestSeller {
+  position: absolute;
+  top: 0;
+  left: 4.45%;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  text-align: center;
+}
+.bestsellerInner,
+.bestsellerItem,
+.lineDiv {
+  position: absolute;
+  height: 0.22%;
+  width: 92.71%;
+  top: 35.38%;
+  right: 5.47%;
+  bottom: 64.4%;
+  left: 1.82%;
+  border-top: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.bestsellerInner,
+.lineDiv {
+  top: 60.6%;
+  bottom: 39.17%;
+}
+.lineDiv {
+  top: 85.83%;
+  bottom: 13.95%;
+}
+.pngTomato187022Icon {
+  position: absolute;
+  height: 88.9%;
+  width: 36.07%;
+  top: 3.53%;
+  right: 63.93%;
+  bottom: 7.57%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tomatoes {
+  width: 53.42%;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupChild21,
+.n20000,
+.tomatoes {
+  position: absolute;
+  left: 46.58%;
+}
+.groupChild21 {
+  height: 20.18%;
+  width: 31.96%;
+  top: 38.82%;
+  right: 21.46%;
+  bottom: 40.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.n20000 {
+  width: 53.42%;
+  top: 61.18%;
+  font-weight: 600;
+  color: var(--color-olivedrab);
+  text-align: center;
+  display: inline-block;
+}
+.pngTomato187022Parent {
+  position: absolute;
+  height: 18.97%;
+  width: 88.66%;
+  top: 13.39%;
+  right: 0;
+  bottom: 67.63%;
+  left: 11.34%;
+}
+.onions {
+  width: 94.02%;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupChild22,
+.n200001,
+.onions {
+  position: absolute;
+  left: 0;
+}
+.groupChild22 {
+  height: 20.18%;
+  width: 59.83%;
+  top: 38.82%;
+  right: 40.17%;
+  bottom: 40.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.n200001 {
+  width: 100%;
+  top: 61.18%;
+  font-weight: 600;
+  color: var(--color-olivedrab);
+  text-align: center;
+  display: inline-block;
+}
+.onionsParent,
+.pngimg4Icon {
+  position: absolute;
+  height: 100%;
+  width: 53.42%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 46.58%;
+}
+.pngimg4Icon {
+  height: 84.77%;
+  width: 36.07%;
+  top: 14.12%;
+  right: 63.93%;
+  bottom: 1.11%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupContainer {
+  position: absolute;
+  height: 18.97%;
+  width: 88.66%;
+  top: 38.62%;
+  right: 0;
+  bottom: 42.41%;
+  left: 11.34%;
+}
+.potatoes {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv {
+  position: absolute;
+  height: 18.97%;
+  width: 47.37%;
+  top: 63.84%;
+  right: 0;
+  bottom: 17.19%;
+  left: 52.63%;
+}
+.potatoPngImages2Icon {
+  position: absolute;
+  height: 15.93%;
+  width: 32.39%;
+  top: 65.4%;
+  right: 56.68%;
+  bottom: 18.67%;
+  left: 10.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.viewMore {
+  position: absolute;
+  width: 136.54%;
+  top: 1px;
+  left: -62.5%;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-olivedrab);
+  text-align: right;
+  display: inline-block;
+}
+.riarrowUpSLineIcon1 {
+  position: absolute;
+  width: 28.85%;
+  top: 0;
+  right: 0;
+  left: 71.15%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.viewMoreParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.7%;
+  width: 42.11%;
+  top: 88.84%;
+  right: 25.1%;
+  bottom: 4.46%;
+  left: 32.79%;
+}
+
+.frameParent {
+  position: absolute;
+  width: 17.15%;
+  top: 2168px;
+
+  left: 33.06%;
+  height: 448px;
+}
+
+.frameParent {
+  right: 30.35%;
+  left: 52.5%;
+}
+
+.frameParent {
+  right: 10.9%;
+  left: 71.94%;
+}
+.bestseller {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 19%;
+  height: 448px;
+}
+.bestseller1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 38%;
+  height: 448px;
+}
+.bestseller2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 57%;
+  height: 448px;
+}
+.bestt {
+  width: 1440px;
+}
+.frameParent {
+  width: 100%;
+  top: 79px;
+  right: 0;
+  left: 0%;
+  height: 3940px;
+  overflow-y: auto;
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 1440px;
+  height: 800px;
+}
+@media screen and (max-width: 1200px) {
+  .footerInner {
+    display: flex;
+  }
+  .slideshow {
+    left: 16%;
+    width: 76%;
+  }
+  .farmersOfTheContainer {
+    left: 16%;
+  }
+  .farmersoftheweek {
+    left: 16%;
+    width: 76%;
+  }
+  .groupWrapper {
+    left: 16%;
+    width: 76%;
+  }
+}

@@ -1,0 +1,180 @@
+.registerAsABuyerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+}
+.back {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 92.01%;
+  left: 7.34%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.registerAsA {
+  position: absolute;
+  top: 2.24%;
+  left: 22%;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.username {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.emailWrapper,
+.usernameWrapper {
+  position: absolute;
+  height: 5.27%;
+  width: 15.78%;
+  top: 15.5%;
+  right: 76.88%;
+  bottom: 79.23%;
+  left: 7.34%;
+}
+.emailWrapper {
+  width: 8.44%;
+  top: 15%;
+  right: 84.04%;
+  bottom: 69.81%;
+  left: 7.52%;
+}
+.password {
+  position: absolute;
+  top: 53.04%;
+  left: 7.34%;
+}
+.firstName,
+.lastName,
+.phone {
+  position: absolute;
+  top: 25%;
+  left: 7.71%;
+}
+.lastName {
+  top: 35%;
+  left: 7.34%;
+}
+.phone {
+  top: 44%;
+  left: 7.34%;
+}
+.rectangleInput,
+.registerAsABuyerChild1,
+.registerAsABuyerChild2,
+.registerAsABuyerChild5,
+.registerAsABuyerInner,
+.registerAsABuyerItem {
+  border: 1px solid var(--color-lightgray-200);
+  background-color: var(--color-white);
+  position: absolute;
+  height: 6.39%;
+  width: 53.94%;
+  top: 14.38%;
+  right: 7.34%;
+  bottom: 79.23%;
+  left: 38.72%;
+  box-sizing: border-box;
+}
+.rectangleInput,
+.registerAsABuyerChild1,
+.registerAsABuyerChild2,
+.registerAsABuyerInner {
+  top: 15%;
+  bottom: 69.65%;
+}
+.rectangleInput,
+.registerAsABuyerChild1,
+.registerAsABuyerChild2 {
+  top: 25%;
+  bottom: 60.06%;
+}
+.registerAsABuyerChild1,
+.registerAsABuyerChild2 {
+  top: 35%;
+  bottom: 50.48%;
+}
+.registerAsABuyerChild2 {
+  top: 52.72%;
+  bottom: 40.89%;
+}
+.registerAsABuyerChild5 {
+  top: 44%;
+  bottom: 50.48%;
+}
+.confirmPassword {
+  position: absolute;
+  top: 62.62%;
+  left: 7.34%;
+}
+.registerAsABuyerChild3 {
+  border: 1px solid var(--color-lightgray-200);
+  background-color: var(--color-white);
+  position: absolute;
+  height: 6.39%;
+  width: 53.94%;
+  top: 62.3%;
+  right: 7.34%;
+  bottom: 31.31%;
+  left: 38.72%;
+  box-sizing: border-box;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seagreen);
+}
+.register {
+  position: absolute;
+  width: 23.81%;
+  top: 12.5%;
+  left: 38.1%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.39%;
+  width: 53.94%;
+  top: 79.87%;
+  right: 7.34%;
+  bottom: 13.74%;
+  left: 38.72%;
+}
+.registerAsABuyer {
+  position: relative;
+  width: 545px;
+  height: 626px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ek-mukta);
+}

@@ -1,0 +1,79 @@
+.button,
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 6.12%;
+  top: 16.67%;
+  left: 18.88%;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-gray-600);
+  text-align: center;
+  display: inline-block;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  left: 30.1%;
+  color: var(--color-darkgray-200);
+}
+.button2,
+.button3,
+.button4,
+.button5 {
+  left: 41.33%;
+}
+.button3,
+.button4,
+.button5 {
+  left: 52.55%;
+}
+.button4,
+.button5 {
+  left: 63.78%;
+}
+.button5 {
+  left: 75%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 54px;
+  height: 54px;
+}
+.nextPageBarChild,
+.nextPageBarInner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 13.78%;
+  top: 0;
+  right: 86.22%;
+  bottom: 0;
+  left: 0;
+}
+.nextPageBarChild {
+  right: 0;
+  left: 86.22%;
+}
+.nextPageBar {
+  position: absolute;
+  top: 1813px;
+  left: 574px;
+  width: 392px;
+  height: 54px;
+}

@@ -1,0 +1,97 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 352px;
+  height: 200px;
+}
+.areYouSure1 {
+  top: 46px;
+  left: 63px;
+  line-height: 125.4%;
+}
+.areYouSure1,
+.groupItem,
+.yes {
+  position: absolute;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 82px;
+  height: 46px;
+}
+.yes {
+  top: 8px;
+  left: 25px;
+  font-size: var(--font-size-4xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 110px;
+  left: 75px;
+  width: 82px;
+  height: 46px;
+}
+.groupInner,
+.no,
+.rectangleGroup {
+  position: absolute;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  background-color: #dddddd;
+  width: 82px;
+  height: 46px;
+}
+.no {
+  top: 8px;
+  left: 27px;
+  font-size: var(--font-size-4xl);
+  line-height: 125.4%;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-gray-900);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 110px;
+  left: 195px;
+  width: 82px;
+  height: 46px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 352px;
+  height: 200px;
+}
+.areYouSure {
+  position: relative;
+  width: 352px;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-ek-mukta);
+}

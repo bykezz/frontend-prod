@@ -1,0 +1,428 @@
+.groupChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.frameChild,
+.groupChild,
+.redPepperPopUpInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 784px;
+  height: 630px;
+}
+.frameChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 771px;
+  height: 1042px;
+}
+.cabbageIsA {
+  margin: 0;
+}
+.suggestedUses {
+  margin: 0;
+  font-weight: 600;
+}
+.itCanAlsoBeCookedSuchAs {
+  margin-bottom: 0;
+}
+.cabbageCanBeEatenRawInSa {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.cabbageIsAContainer {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  display: inline-block;
+  width: 747px;
+}
+.productDescription,
+.productRatings,
+.productSpecification {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-300);
+  text-align: center;
+  display: inline-block;
+}
+
+.component2 {
+  position: absolute;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-dimgray-300);
+}
+.component2 {
+  top: 362px;
+  left: 24px;
+  text-align: left;
+  font-size: inherit;
+  width: 100%;
+}
+.productDescription1,
+.productRatings1,
+.productSpecification1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+
+.groupInner {
+  position: absolute;
+  top: 50.5px;
+  left: 23.5px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.groupInner:active {
+  background-color: var(--color-white);
+  display: flex;
+}
+.cabbageIsAVersatileVegetabGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 748px;
+  height: 407px;
+}
+.sweetRedPeppersCopy600x6Icon {
+  position: absolute;
+  width: 30.05%;
+  top: 31px;
+  right: 63.21%;
+  left: 6.74%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 232px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 772px;
+  height: 1042px;
+}
+.n2000,
+.weight2kg {
+  position: absolute;
+  width: 55%;
+  top: 43.45px;
+  left: 7%;
+  display: inline-block;
+  height: 32.92px;
+  text-align: left;
+}
+.divi {
+  width: 30%;
+  font-weight: 600;
+  margin-top: 40%;
+  margin-left: -1%;
+}
+.n2000 {
+  left: 7%;
+  text-align: left;
+  width: 26.12%;
+  top: 81.31px;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  color: var(--color-yellowgreen-200);
+  height: 57.86px;
+}
+.groupChild1,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-11xl);
+  height: 48px;
+}
+.rectangleDiv {
+  width: 29.88%;
+  top: 165px;
+  right: 64.23%;
+  left: 20%;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.groupChild1 {
+  width: 80%;
+  top: 8%;
+  right: 0;
+  left: 25%;
+  background-color: var(--color-yellowgreen-200);
+}
+.addToCart {
+  position: absolute;
+  width: 48.45%;
+  top: 13.96px;
+  left: 40%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 32.92px;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 45.64%;
+  top: 159.56px;
+  right: 13.88%;
+  left: 40.47%;
+  height: 55.86px;
+}
+.button,
+.button1,
+.div {
+  position: absolute;
+  width: 4%;
+  top: 164.55px;
+  font-size: var(--font-size-11xl);
+  font-weight: 300;
+  color: var(--color-gray-200);
+  display: inline-block;
+  height: 30.92px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 42%;
+  font-family: var(--font-ek-mukta);
+  text-align: center;
+}
+.button1,
+.div {
+  left: 29%;
+}
+
+.div {
+  width: 11%;
+  margin-top: 1.6%;
+  text-align: center;
+  font-weight: 200;
+  font-size: var(--font-size-xl);
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 23%;
+  font-family: var(--font-ek-mukta);
+  text-align: center;
+}
+.lineDiv {
+  position: absolute;
+  width: 100.23%;
+  top: 248.34px;
+  right: -0.12%;
+  left: -0.12%;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.groupIcon {
+  position: absolute;
+  width: 28.23%;
+  top: 0;
+  right: 65.88%;
+  left: 5.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 23.49px;
+}
+.weight2kgParent {
+  position: absolute;
+  width: 55.92%;
+  top: 103.66px;
+  right: 0;
+  left: 44.08%;
+  height: 248.84px;
+}
+.redPepper,
+.voluptasExpeditaFuga {
+  position: absolute;
+  width: 49.6%;
+  top: 63px;
+  left: 47.37%;
+  display: inline-block;
+}
+.redPepper {
+  width: 50%;
+  top: 20px;
+  left: 48%;
+  font-size: var(--font-size-15xl);
+  font-weight: 600;
+  text-align: left;
+}
+.frameParent,
+.redPepperPopUpChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 772.82px;
+  height: 1042px;
+}
+.redPepperPopUpChild {
+  width: 784px;
+  height: 626px;
+  overflow-y: auto;
+}
+.redPepperPopUp {
+  position: relative;
+  width: 784px;
+  height: 630px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-ek-mukta);
+}
+
+.cabbageIsA1 {
+  margin: 0;
+}
+.suggestedUses1 {
+  margin: 0;
+  font-weight: 600;
+}
+.itCanAlsoBeCookedSuchAs1 {
+  margin-bottom: 0;
+}
+.cabbageCanBeEatenRawInSa1 {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.cabbageIsAContainer1 {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  font-size: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 747px;
+}
+.productDescription2,
+.productRatings2,
+.productSpecification2 {
+  position: absolute;
+  left: 0;
+  margin-top: 2.5%;
+}
+.productRatings2,
+.productSpecification2 {
+  left: 262px;
+}
+.productRatings2 {
+  left: 538px;
+}
+.groupChild2 {
+  position: absolute;
+  top: 50.5px;
+  left: 0;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.groupChild20 {
+  position: absolute;
+  top: 50.5px;
+  left: 35%;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.groupChild30 {
+  position: absolute;
+  top: 50.5px;
+  left: 69.5%;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 135px;
+  height: 3px;
+}
+.cabbageIsAVersatileVegetabParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 748px;
+  height: 407px;
+}
+.property1frame5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-ek-mukta);
+}
+.size1012InchesContainer {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  font-size: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 721px;
+}
+.groupItem {
+  position: absolute;
+  top: 50.5px;
+  left: 270px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 164.02px;
+  height: 3px;
+}
+.groupInner,
+.property1frame6,
+.size1012InchesInDiameterParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 722px;
+  height: 539px;
+}
+
+.property1frame6 {
+  margin-top: 10%;
+  left: 20px;
+  height: 521px;
+}
+.groupInner {
+  top: 50.5px;
+  left: 550.5px;
+  border-top: 3px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+  width: 146.02px;
+  height: 3px;
+}
