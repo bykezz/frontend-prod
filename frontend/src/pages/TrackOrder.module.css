@@ -2,14 +2,14 @@
   position: absolute;
   top: 19px;
   left: 100px;
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-whitesmoke-400);
   width: 1340px;
-  height: 800px;
+  height: 675px;
 }
 .pexelsTomFisk97080112Icon {
   position: absolute;
   top: 40px;
-  left: 0;
+  left: 20px;
   width: 1252px;
   height: 620px;
   object-fit: cover;
@@ -22,18 +22,19 @@
 }
 .groupItem,
 .pexelsTomFisk97080112Parent {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 137px;
   width: 1252px;
   height: 652px;
 }
 .groupItem {
+  position: absolute;
   width: 100%;
   right: 0;
   left: 0;
   background-color: var(--color-darkslategray-400);
-  height: 696px;
+  height: 100%;
 }
 .about,
 .blog,
@@ -446,10 +447,9 @@
   display: inline-block;
 }
 .footer {
-  width: 93.51%;
-  top: 960px;
+  width: 93.06%;
+  top: 700px;
   right: 0;
-  left: 100px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }

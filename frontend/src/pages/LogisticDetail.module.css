@@ -4,7 +4,7 @@
   left: 93px;
   background-color: var(--color-whitesmoke-100);
   width: 1340px;
-  height: 1819px;
+  height: 1000px;
 }
 .groupChild {
   position: absolute;
@@ -12,7 +12,7 @@
   left: 0;
   width: 1263px;
   height: 416px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .transLogistics {
   position: absolute;
@@ -535,10 +535,8 @@
 }
 .footer {
   width: 93.06%;
-  top: 1114px;
-  right: 0.56%;
-  left: 6.39%;
-  height: 696px;
+  top: 1000px;
+  right: 0%;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
@@ -547,7 +545,7 @@
   top: 106px;
   left: 7px;
   width: 1440px;
-  height: 1810px;
+  height: 1000px;
   overflow-y: auto;
 }
 .logisticsStorageChild {

@@ -511,10 +511,9 @@
 .footer {
   position: relative;
   width: 93.06%;
-  bottom: 0%;
   right: 0.56%;
   left: 100px;
-  height: 400px;
+  top: 120px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
   font-family: var(--font-ek-mukta);

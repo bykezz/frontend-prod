@@ -5,7 +5,7 @@
   left: 85px;
   background-color: var(--color-whitesmoke-100);
   width: 1340px;
-  height: 1819px;
+  height: 1000px;
 }
 .groupChild {
   left: 0;
@@ -42,7 +42,7 @@
   left: 0;
   width: 1263px;
   height: 416px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .kaniStorageHouse {
   position: absolute;
@@ -533,10 +533,8 @@
 }
 .footer {
   width: 94.04%;
-  top: 1123px;
+  top: 1000px;
   right: 0;
-  left: 5.96%;
-  height: 696px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
@@ -545,7 +543,7 @@
   top: 97px;
   left: 15px;
   width: 1425px;
-  height: 1819px;
+  height: 1000px;
   overflow-y: auto;
 }
 .kaniStorage {

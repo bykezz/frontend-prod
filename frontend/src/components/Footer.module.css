@@ -237,9 +237,8 @@
   max-height: 100%;
 }
 .rectangleParent {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  right: 0;
   width: 1340px;
   height: 273px;
   text-align: left;

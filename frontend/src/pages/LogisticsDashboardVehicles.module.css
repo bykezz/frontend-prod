@@ -402,6 +402,5 @@
   position: relative;
   background-color: var(--color-whitesmoke-100);
   width: 100%;
-  font-size: var(--font-size-base);
   color: var(--color-dimgray-500);
 }

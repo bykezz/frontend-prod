@@ -379,12 +379,9 @@
 }
 .footer {
   position: relative;
-  width: 100%;
-  bottom: 0;
-  top: 10%;
+  width: 93.06%;
+  top: 170px;
   right: 0;
-  left: 100px;
-  height: 400px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
@@ -467,15 +464,15 @@
 .pexelsTomFisk97080112Parent {
   position: relative;
   top: 19px;
-  left: 137px;
+  left: 50px;
   width: 1264px;
   height: 417px;
 }
 .frameParent {
   position: absolute;
   top: 85px;
-  left: 0;
-  width: 100%;
+  left: 100px;
+  width: 93%;
   height: 800px;
   overflow-y: auto;
 }

@@ -1,9 +1,9 @@
 .frameChild {
   position: absolute;
   top: 16px;
-  left: 100px;
+  left: 0px;
   background-color: var(--color-whitesmoke-100);
-  width: 1340px;
+  width: 100%;
 }
 .pexelsTomFisk97080112Icon {
   position: absolute;
@@ -16,7 +16,7 @@
 .pexelsTomFisk97080112Wrapper {
   position: relative;
   top: 19px;
-  left: 137px;
+  left: 50px;
   width: 1264px;
   height: 417px;
 }
@@ -24,7 +24,7 @@
   background-color: transparent;
   position: absolute;
   top: 203px;
-  left: 393px;
+  left: 293px;
 }
 .frameInner {
   border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
@@ -64,8 +64,8 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 203px;
-  left: 1146px;
+  top: 202.5px;
+  left: 1046px;
   width: 81px;
   height: 48px;
 }
@@ -446,19 +446,16 @@
 .footer {
   position: relative;
   width: 93.06%;
-  bottom: 0;
-  top: 10%;
+  top: 170px;
   right: 0;
-  left: 6.94%;
-  height: 400px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
 .rectangleParent {
   position: absolute;
   top: 85px;
-  left: 0;
-  width: 100%;
+  left: 100px;
+  width: 93%;
   height: 800px;
   overflow-y: auto;
 }

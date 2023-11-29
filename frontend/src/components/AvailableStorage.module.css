@@ -15,7 +15,7 @@
 .availableStorage {
   position: relative;
   top: 5%;
-  left: 150px;
+  left: 50px;
   width: 1279px;
   text-align: center;
   font-size: var(--font-size-21xl);

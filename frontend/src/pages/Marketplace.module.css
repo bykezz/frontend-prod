@@ -538,9 +538,8 @@
   position: relative;
   width: 93.06%;
   right: 0;
-  bottom: 0;
+  top: 120px;
   left: 6.94%;
-  height: 400px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
