@@ -112,7 +112,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
   useEffect(() => {
     if (!cartId) {
       axios
-        .post("http://13.53.125.166/carts/")
+        .post("http://127.0.0.1:8000/carts/")
         .then((response) => {
           setCartId(response.data.id);
           console.log(response.data);
@@ -126,7 +126,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
     if (currentPath === "/farmers-deals") {
       if (e.key === "Enter") {
         axios
-          .get(`http://13.53.125.166/product/?search=${input}`)
+          .get(`http://127.0.0.1:8000/product/?search=${input}`)
           .then((response) => {
             setProducts(response.data);
             console.log(response.data);
@@ -138,7 +138,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
     } else if (currentPath === "/marketplace") {
       if (e.key === "Enter") {
         axios
-          .get(`http://13.53.125.166/farmjointitem/?search=${input}`)
+          .get(`http://127.0.0.1:8000/farmjointitem/?search=${input}`)
           .then((response) => {
             setProducts1(response.data);
             console.log(response.data);
@@ -151,7 +151,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
       if (e.key === "Enter") {
         history("/farmers-deals");
         axios
-          .get(`http://13.53.125.166/product/?search=${input}`)
+          .get(`http://127.0.0.1:8000/product/?search=${input}`)
           .then((response) => {
             setProducts(response.data);
             console.log(response.data);
@@ -166,7 +166,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
   const getFilters = () => {
     if (currentPath === "/farmers-deals") {
       axios
-        .get(`http://13.53.125.166/product/?search=${input}`)
+        .get(`http://127.0.0.1:8000/product/?search=${input}`)
         .then((response) => {
           setSearch(response.data);
           console.log(response.data);
@@ -176,7 +176,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
         });
     } else if (currentPath === "/marketplace") {
       axios
-        .get(`http://13.53.125.166/farmjointitem/?search=${input}`)
+        .get(`http://127.0.0.1:8000/farmjointitem/?search=${input}`)
         .then((response) => {
           setSearch(response.data);
           console.log(response.data);
@@ -184,9 +184,9 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
         .catch((error) => {
           console.error("Error while searching:", error);
         });
-    } else {
+    } else if (currentPath !== "/farmers-deal" || "/marketplace") {
       axios
-        .get(`http://13.53.125.166/search/?query=${input}`)
+        .get(`http://127.0.0.1:8000/product/?search=${input}`)
         .then((response) => {
           setSearch(response.data);
           console.log(response.data);
@@ -217,7 +217,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
   const select = (item) => {
     if (currentPath === "/farmers-deals") {
       axios
-        .get(`http://13.53.125.166/product/?search=${input}`)
+        .get(`http://127.0.0.1:8000/product/?search=${item.name}`)
         .then((response) => {
           setProducts(response.data);
           console.log(response.data);
@@ -227,7 +227,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
         });
     } else if (currentPath === "/marketplace") {
       axios
-        .get(`http://13.53.125.166/farmjointitem/?search=${input}`)
+        .get(`http://127.0.0.1:8000/farmjointitem/?search=${item.name}`)
         .then((response) => {
           setProducts1(response.data);
           console.log(response.data);
@@ -238,7 +238,7 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
     } else if (currentPath !== "/farmers-deal" || "/marketplace") {
       history("/farmers-deals");
       axios
-        .get(`http://13.53.125.166/product/?select_search=${item.name}`)
+        .get(`http://127.0.0.1:8000/product/?search=${item.name}`)
         .then((response) => {
           setProducts(response.data);
           console.log(response.data);
@@ -272,7 +272,13 @@ const SearchBar = ({ dimensionText, dimensionText2, propRight }) => {
         {showDropdown && (
           <div className={styles.searchDropdown}>
             {search.slice(0, 10).map((item, index) => (
-              <div key={index} onClick={() => select(item)}>
+              <div
+                key={index}
+                onClick={() => {
+                  select(item);
+                  setShowDropdown(false);
+                }}
+              >
                 <img className={styles.pic} alt="" src={item.images[0].image} />{" "}
                 <span>
                   <b className={styles.item}>

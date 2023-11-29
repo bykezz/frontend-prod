@@ -12,6 +12,7 @@ import FarmersDealsNavigation from "../components/FarmersDealsNavigation";
 import styles from "./FarmersDeals.module.css";
 import FarmersDealProductDescripti from "../components/FarmersDealProductDescripti";
 import FdProductCard from "../components/FdProductCard";
+import Column from "antd/lib/table/Column";
 
 const FarmersDeals = () => {
   const groupButtonRef = useRef(null);
@@ -49,7 +50,7 @@ const FarmersDeals = () => {
   useEffect(() => {
     setChoice("Popularity");
     axios
-      .get("http://13.53.125.166/product/")
+      .get("http://127.0.0.1:8000/product/")
       .then((response) => {
         setProducts(response.data);
 
@@ -89,9 +90,7 @@ const FarmersDeals = () => {
               src="/riarrowupsline2.svg"
             />
           </button>
-          <footer className={styles.footer} id="footer">
-            <Footer />
-          </footer>
+
           <div className={styles.allProducts}>
             <span className={styles.all}>All</span>
             <span className={styles.products}> Products</span>
@@ -102,7 +101,7 @@ const FarmersDeals = () => {
             style={{
               display: "flex",
               flexWrap: "wrap",
-              gap: "15px",
+              gap: "10px",
               width: "78%",
               height: "auto",
             }}
@@ -115,6 +114,9 @@ const FarmersDeals = () => {
               />
             ))}
           </div>
+          <footer className={styles.footer} id="footer">
+            <Footer />
+          </footer>
         </div>
 
         <FarmersDealsNavigation />

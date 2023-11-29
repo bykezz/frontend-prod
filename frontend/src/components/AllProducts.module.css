@@ -13,11 +13,10 @@
   display: inline-block;
 }
 .allProducts {
-  position: absolute;
+  position: relative;
   top: 2px;
-  left: 196px;
-  width: 1080px;
-  height: 1761px;
+  left: 215px;
+  width: 1100px;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
@@ -32,7 +31,7 @@
   width: 26.67%;
   top: 11px;
   right: 11.39%;
-  left: 74%;
+  left: 70%;
   height: 31px;
 }
 .riarrowUpSLineIcon {

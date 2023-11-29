@@ -177,11 +177,11 @@
 }
 .hello {
   position: absolute;
-  top: 95%;
+  top: 85%;
   left: 55%;
-  font-weight: 800;
   width: 100%;
   color: seagreen;
+  font-weight: 800;
 }
 
 .profileButtonContainer {
@@ -204,7 +204,6 @@
   cursor: pointer;
   margin-top: 2%;
   margin-right: 2%; /* Use percentage for spacing */
-  font-weight: bold;
 }
 
 .groupWrapper1 {
@@ -250,6 +249,7 @@
   overflow-y: auto;
   z-index: 1;
   vertical-align: bottom;
+  font-size: var(--font-size-smi);
 }
 
 .searchDropdown div {
@@ -277,13 +277,13 @@
   left: 82%;
   font-style: italic;
   color: #aba8a8;
-  font-size: small;
+  font-size: var(--font-size-smi);
 }
 .cat {
   position: absolute;
   left: 85%;
   font-style: italic;
   color: #aba8a8;
-  font-size: small;
+  font-size: var(--font-size-smi);
   vertical-align: bottom;
 }

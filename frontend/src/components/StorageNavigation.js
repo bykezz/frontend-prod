@@ -49,7 +49,7 @@ const StorageNavigation = ({
           <img
             className={styles.antDesignhomeOutlinedIcon}
             alt=""
-            src="/antdesignhomeoutlined.svg"
+            src="/antdesignhomeoutlined2.svg"
           />
           <div className={styles.home}>Home</div>
         </button>
@@ -59,7 +59,8 @@ const StorageNavigation = ({
           onClick={onGroupButton0Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers' </div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
@@ -76,7 +77,7 @@ const StorageNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src="/claritystoreline2.svg"
+            src="/claritystoreline1.svg"
           />
         </button>
         <button
@@ -97,7 +98,7 @@ const StorageNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src="/mdisilooutline1.svg"
+            src="/mdisilooutline2.svg"
           />
         </button>
 
@@ -107,7 +108,7 @@ const StorageNavigation = ({
         >
           <div className={styles.groupChild} />
           <div className={styles.bulkOrders}>Track Order</div>
-          <img className={styles.carbonmapIcon} alt="" src="/carbonmap.svg" />
+          <img className={styles.carbonmapIcon} alt="" src="/carbonmap1.svg" />
         </button>
       </div>
       <button

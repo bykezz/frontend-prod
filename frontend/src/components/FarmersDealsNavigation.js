@@ -44,13 +44,14 @@ const FarmersDealsNavigation = () => {
           <img
             className={styles.antDesignhomeOutlinedIcon}
             alt=""
-            src="/antdesignhomeoutlined.svg"
+            src="/antdesignhomeoutlined2.svg"
           />
           <div className={styles.home}>Home</div>
         </button>
         <button className={styles.rectangleGroup}>
           <div className={styles.groupItem} />
-          <div className={styles.farmersDeals}>Farmers Deals</div>
+          <div className={styles.farmersDeals}>Farmers' </div>
+          <div className={styles.farmers}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
@@ -62,17 +63,12 @@ const FarmersDealsNavigation = () => {
           onClick={onGroupButton26Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.marketplace}>Marketplace</div>
-          <img
-            className={styles.claritystoreLineIcon}
-            alt=""
-            src="/claritystoreline.svg"
-          />
+
           <div className={styles.marketplace1}>Marketplace</div>
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src="/claritystoreline2.svg"
+            src="/claritystoreline1.svg"
           />
         </button>
         <button className={styles.groupButton} onClick={onGroupButton27Click}>
@@ -102,7 +98,7 @@ const FarmersDealsNavigation = () => {
         >
           <div className={styles.groupChild} />
           <div className={styles.trackOrder}>Track Order</div>
-          <img className={styles.carbonmapIcon} alt="" src="/carbonmap.svg" />
+          <img className={styles.carbonmapIcon} alt="" src="/carbonmap1.svg" />
         </button>
       </div>
     </div>

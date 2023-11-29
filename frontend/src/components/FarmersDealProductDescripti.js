@@ -30,7 +30,7 @@ const FarmersDealProductDescripti = ({ product, productImage }) => {
 
     axios
       .post(
-        `http://13.53.125.166/carts/${cartId}/items/`,
+        `http://127.0.0.1:8000/carts/${cartId}/items/`,
         JSON.stringify(data),
         {
           headers: {
@@ -40,7 +40,7 @@ const FarmersDealProductDescripti = ({ product, productImage }) => {
       )
       .then((response) => {
         console.log(response.data);
-        return axios.get(`http://13.53.125.166/carts/${cartId}/`);
+        return axios.get(`http://127.0.0.1:8000/carts/${cartId}/`);
       })
       .then((response) => {
         setCartItems1(response.data.items);

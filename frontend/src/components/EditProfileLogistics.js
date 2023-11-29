@@ -24,14 +24,14 @@ const EditProfileLogistics = ({ setEdit }) => {
   const onGroupButtonClick = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .put("http://13.53.125.166/logistics/my_profile/", editedLogisticsName)
+      .put("http://127.0.0.1:8000/logistics/my_profile/", editedLogisticsName)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setLogisticsName(response.data.logistics_name);
       });
 
     axios
-      .post("http://13.53.125.166/address/", editedAddress)
+      .post("http://127.0.0.1:8000/address/", editedAddress)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setStreet2(response.data.street);

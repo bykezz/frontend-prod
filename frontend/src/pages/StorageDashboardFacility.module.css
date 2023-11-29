@@ -1,10 +1,10 @@
 .frameChild {
   position: absolute;
-  top: 19px;
+  top: 0;
   left: 94px;
   background-color: var(--color-whitesmoke-100);
   width: 1340px;
-  height: 1390px;
+  height: 900px;
 }
 
 .rectangleParent {
@@ -12,15 +12,13 @@
   top: 101px;
   left: 7px;
   width: 1433px;
-  height: 1395px;
+  height: 800px;
   overflow-y: auto;
 }
 .storageDashboardFacility {
   position: relative;
   background-color: var(--color-whitesmoke-100);
-  width: 1440px;
-  height: 800px;
-
+  width: 100%;
   font-size: var(--font-size-base);
   color: var(--color-dimgray-500);
 }

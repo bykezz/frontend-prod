@@ -15,10 +15,8 @@ const Marketplace = () => {
       <div className={styles.marketplace}>
         <div className={styles.rectangleParent}>
           <div className={styles.frameChild} />
-          <img className={styles.frameItem} alt="" src="/group-182.svg" />
 
           <AllProducts />
-
           <footer className={styles.footer} id="footer">
             <Footer />
           </footer>

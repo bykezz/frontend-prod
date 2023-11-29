@@ -3,31 +3,7 @@ import LogisticsNavigation from "../components/LogisticsNavigation";
 import "antd/dist/antd.min.css";
 import { Input } from "antd";
 import Footer from "../components/Footer";
-import {
-  DownOutlined,
-  ArrowLeftOutlined,
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CheckOutlined,
-  ClockCircleOutlined,
-  CloseOutlined,
-  DeleteOutlined,
-  EditOutlined,
-  ExclamationCircleOutlined,
-  HeartOutlined,
-  LeftOutlined,
-  LockOutlined,
-  MailOutlined,
-  PaperClipOutlined,
-  PhoneOutlined,
-  QuestionCircleOutlined,
-  ReloadOutlined,
-  RightOutlined,
-  SearchOutlined,
-  SendOutlined,
-  ShareAltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { SearchOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import NextPageBar from "../components/NextPageBar";
 import AvailableLogistics from "../components/AvailableLogistics";
@@ -52,11 +28,6 @@ const Logistics = () => {
   return (
     <div className={styles.logistics}>
       <div className={styles.frameParent}>
-        <div className={styles.rectangleParent}>
-          <div className={styles.frameChild} />
-          <Footer />
-          <NextPageBar frameButtonTop="2035px" />
-        </div>
         <div className={styles.pexelsTomFisk97080112Parent}>
           <img
             className={styles.pexelsTomFisk97080112Icon}
@@ -81,7 +52,10 @@ const Logistics = () => {
             size="large"
             placeholder="Find a Logistic Company around you. Enter an address, neigbhourhood or ZIP code"
           />
-          <AvailableLogistics />
+        </div>
+        <AvailableLogistics />
+        <div className={styles.footer}>
+          <Footer />
         </div>
         <LogisticsNavigation />
 

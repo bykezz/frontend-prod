@@ -53,7 +53,7 @@ const BuyersDashboardEditProfil = () => {
   const handleSave = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .put("http://13.53.125.166/auth/users/me/", editedUsername)
+      .put("http://127.0.0.1:8000/auth/users/me/", editedUsername)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setfirst_name1(response.data.first_name);
@@ -61,7 +61,7 @@ const BuyersDashboardEditProfil = () => {
       });
 
     axios
-      .post("http://13.53.125.166/address/", editedAddress)
+      .post("http://127.0.0.1:8000/address/", editedAddress)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setStreet1(response.data.street);
@@ -88,12 +88,6 @@ const BuyersDashboardEditProfil = () => {
         </footer>
       </div>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline8.svg"
-        imageDimensionsCode="/fa6solidtruckfast4.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-        imageDimensionsTextCode2="/carbonmap5.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

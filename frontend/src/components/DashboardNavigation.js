@@ -26,7 +26,7 @@ const DashboardNavigation = ({
           <img
             className={styles.antDesignhomeOutlinedIcon}
             alt=""
-            src={imageDimensions}
+            src="/antdesignhomeoutlined2.svg"
           />
           <div className={styles.home}>Home</div>
         </button>
@@ -36,11 +36,12 @@ const DashboardNavigation = ({
           onClick={onGroupButton6Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers' </div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
-            src={imageDimensionsTextCode}
+            src="/healthiconsfruitsoutline1.svg"
           />
         </button>
 
@@ -53,7 +54,7 @@ const DashboardNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src={imageDimensionsText}
+            src="/claritystoreline1.svg"
           />
         </button>
         <button
@@ -65,7 +66,7 @@ const DashboardNavigation = ({
           <img
             className={styles.fa6SolidtruckFastIcon}
             alt=""
-            src={imageDimensionsCode}
+            src="/fa6solidtruckfast1.svg"
           />
         </button>
         <button
@@ -77,7 +78,7 @@ const DashboardNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src={imageDimensionsCodeText}
+            src="/mdisilooutline1.svg"
           />
         </button>
 
@@ -87,11 +88,7 @@ const DashboardNavigation = ({
         >
           <div className={styles.groupChild} />
           <div className={styles.bulkOrders}>Track Order</div>
-          <img
-            className={styles.carbonmapIcon}
-            alt=""
-            src={imageDimensionsTextCode2}
-          />
+          <img className={styles.carbonmapIcon} alt="" src="/carbonmap1.svg" />
         </button>
       </div>
       <button className={styles.farmjointLogo2} />

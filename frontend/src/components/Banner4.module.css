@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+:root {
+  --font-size-45xl: 3.5rem;
+  --font-weight-21xl: 900;
+}
+
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild {
+  background-color: #f9c645;
+  width: 1093px;
+  height: 417px;
+}
+.groupItem {
+  border-radius: 40px;
+  background-color: var(--color-black);
+  width: 300px;
+  height: 60px;
+}
+.hireAVehicle {
+  position: absolute;
+  width: 69%;
+  top: 13px;
+  left: 15.33%;
+  font-size: var(--font-size-11xl);
+  line-height: 36px;
+  font-weight: 800;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 34px;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 256px;
+  left: 95px;
+  width: 300px;
+  height: 60px;
+}
+.trucks1RemovebgPreview1Icon {
+  position: absolute;
+  top: 179px;
+  left: 452px;
+  width: 627px;
+  height: 214px;
+  object-fit: cover;
+}
+.getYourProduce {
+  position: absolute;
+  width: 73.56%;
+  top: 54px;
+  left: 2.01%;
+  line-height: 65px;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 198px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1093px;
+  height: 417px;
+}
+.groupParent {
+  width: 1093px;
+  height: 417px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: "Archivo Black", sans-serif;
+}

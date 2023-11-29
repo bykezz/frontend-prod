@@ -48,7 +48,7 @@ const MarketplaceNavigation = () => {
           <img
             className={styles.antDesignhomeOutlinedIcon}
             alt=""
-            src="/antdesignhomeoutlined3.svg"
+            src="/antdesignhomeoutlined2.svg"
           />
           <div className={styles.home}>Home</div>
         </button>
@@ -58,11 +58,12 @@ const MarketplaceNavigation = () => {
           onClick={onGroupButton11Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers' </div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
-            src="/healthiconsfruitsoutline5.svg"
+            src="/healthiconsfruitsoutline1.svg"
           />
         </button>
 
@@ -106,7 +107,7 @@ const MarketplaceNavigation = () => {
         >
           <div className={styles.groupChild2} onClick={onRectangle86Click} />
           <div className={styles.bulkOrders}>Track Order</div>
-          <img className={styles.carbonmapIcon} alt="" src="/carbonmap3.svg" />
+          <img className={styles.carbonmapIcon} alt="" src="/carbonmap1.svg" />
         </button>
       </div>
     </div>

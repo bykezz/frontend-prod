@@ -4,79 +4,37 @@ import styles from "./CarrotCard.module.css";
 import ProductPopup from "./ProductPopup";
 import { usePopupContext } from "../context/PopupContext";
 
-const CarrotCard = ({
-  carrotCardPosition,
-  carrotCardWidth,
-  carrotCardHeight,
-  carrotCardTop,
-  carrotCardRight,
-  carrotCardBottom,
-  carrotCardLeft,
-}) => {
-  const { setSelectedProduct } = usePopupContext();
-  const openPopup = () => {
-    setSelectedProduct({
-      name: "Carrot",
-      price: "2000",
-      weight: "2",
-      imageSrc:
-        "/851951bba003827272830485a6b84d4d-largeremovebgpreview-3@2x.png",
-    });
-    openCarrotPopUp();
+const CarrotCard = ({}) => {
+  const [isHeart, setHeart] = useState(true);
+  const handleHeart = () => {
+    setHeart(!isHeart);
   };
-  const [isCarrotPopUpOpen, setCarrotPopUpOpen] = useState(false);
-  const carrotCardStyle = useMemo(() => {
-    return {
-      position: carrotCardPosition,
-      width: carrotCardWidth,
-      height: carrotCardHeight,
-      top: carrotCardTop,
-      right: carrotCardRight,
-      bottom: carrotCardBottom,
-      left: carrotCardLeft,
-    };
-  }, [
-    carrotCardPosition,
-    carrotCardWidth,
-    carrotCardHeight,
-    carrotCardTop,
-    carrotCardRight,
-    carrotCardBottom,
-    carrotCardLeft,
-  ]);
-
-  const openCarrotPopUp = useCallback(() => {
-    setCarrotPopUpOpen(true);
-  }, []);
-
-  const closeCarrotPopUp = useCallback(() => {
-    setCarrotPopUpOpen(false);
-  }, []);
 
   return (
     <>
-      <div>
-        <button className={styles.carrotCard} style={carrotCardStyle}>
-          <div className={styles.carrotCardChild} />
-          <div className={styles.carrot}>Carrot</div>
-          <div className={styles.n2000}>N2,000</div>
-          <div className={styles.carrotCardItem} />
+      <div className={styles.rectangleParent}>
+        <div className={styles.componentChild} />
+        <div className={styles.lettuce}>Carrot</div>
+        <b className={styles.n180kg}>₦2000/kg</b>
+        <img
+          className={styles.lettuceRemovebgPreview2Icon}
+          alt=""
+          src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-3@2x.png"
+        />
+        <button className={styles.rectangleGroup}>
+          <div className={styles.groupChild} />
+          <div className={styles.viewProduct}>View Product</div>
+        </button>
+
+        <img className={styles.componentInner} alt="" src="/group-344.svg" />
+        <button onClick={handleHeart}>
           <img
-            className={styles.bba003827272830485a6b84d4dLarIcon}
+            className={styles.vectorIcon}
             alt=""
-            src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-3@2x.png"
+            src={isHeart ? "/phheartthin.svg" : "/phheartthin1.svg"}
           />
         </button>
       </div>
-      {isCarrotPopUpOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeCarrotPopUp}
-        >
-          <ProductPopup onClose={closeCarrotPopUp} />
-        </PortalPopup>
-      )}
     </>
   );
 };

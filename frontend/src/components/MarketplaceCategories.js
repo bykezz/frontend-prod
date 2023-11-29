@@ -1,6 +1,7 @@
 import { useCallback, useState, useEffect } from "react";
 import styles from "./MarketplaceCategories.module.css";
 import { useSearch } from "../context/SearchContext";
+import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
 
@@ -104,7 +105,7 @@ const MarketplaceCategories = () => {
   useEffect(() => {
     if (currentPath === "/farmers-deals" && categoryFilter !== "Latest") {
       axios
-        .get(`http://13.53.125.166/product/?category__name=${categoryFilter}`)
+        .get(`http://127.0.0.1:8000/product/?select_search=${categoryFilter}`)
         .then((response) => {
           setProducts(response.data);
           console.log(response.data);
@@ -115,7 +116,7 @@ const MarketplaceCategories = () => {
     } else if (currentPath === "/marketplace" && categoryFilter !== "Latest") {
       axios
         .get(
-          `http://13.53.125.166/farmjointitem/?category__name=${categoryFilter}`
+          `http://127.0.0.1:8000/farmjointitem/?select_search=${categoryFilter}`
         )
         .then((response) => {
           setProducts1(response.data);
@@ -129,7 +130,7 @@ const MarketplaceCategories = () => {
       categoryFilter === "Latest"
     ) {
       axios
-        .get(`http://13.53.125.166/product/`)
+        .get(`http://127.0.0.1:8000/product/`)
         .then((response) => {
           setProducts(response.data);
           console.log(response.data);
@@ -139,7 +140,7 @@ const MarketplaceCategories = () => {
         });
     } else if (currentPath === "/marketplace" && categoryFilter === "Latest") {
       axios
-        .get(`http://13.53.125.166/farmjointitem/`)
+        .get(`http://127.0.0.1:8000/farmjointitem/`)
         .then((response) => {
           setProducts1(response.data);
           console.log(response.data);
@@ -160,7 +161,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup1.map((isActive, index) => (
             <button
               className={styles.frameWrapper}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Fish");
                 toggleStyle(index, 1);
@@ -223,7 +224,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup2.map((isActive, index) => (
             <button
               className={styles.rectangleParent}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Nuts");
                 toggleStyle(index, 2);
@@ -264,7 +265,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup11.map((index) => (
             <button
               className={styles.rectangleGroup}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Latest");
                 toggleStyle(index, 11);
@@ -296,7 +297,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup3.map((isActive, index) => (
             <button
               className={styles.rectangleContainer}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Vegetables");
                 toggleStyle(index, 3);
@@ -334,7 +335,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup4.map((isActive, index) => (
             <button
               className={styles.groupButton}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Fruits");
                 toggleStyle(index, 4);
@@ -392,7 +393,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup6.map((isActive, index) => (
             <button
               className={styles.rectangleParent2}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Tubers");
                 toggleStyle(index, 6);
@@ -435,7 +436,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup7.map((isActive, index) => (
             <button
               className={styles.rectangleParent3}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Legumes");
                 toggleStyle(index, 7);
@@ -485,7 +486,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup8.map((isActive, index) => (
             <button
               className={styles.rectangleParent4}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Grains");
                 toggleStyle(index, 8);
@@ -525,7 +526,7 @@ const MarketplaceCategories = () => {
           {buttonDataGroup9.map((isActive, index) => (
             <button
               className={styles.rectangleParent6}
-              key={index}
+              key={uuidv4()}
               onClick={() => {
                 setCategoryFilter("Seafoods");
                 toggleStyle(index, 9);
@@ -574,7 +575,7 @@ const MarketplaceCategories = () => {
         {buttonDataGroup10.map((isActive, index) => (
           <button
             className={styles.marketplaceCategoriesInner}
-            key={index}
+            key={uuidv4()}
             onClick={() => {
               setCategoryFilter("Processed Foods");
               toggleStyle(index, 10);
@@ -630,7 +631,7 @@ const MarketplaceCategories = () => {
         {buttonDataGroup12.map((isActive, index) => (
           <button
             className={styles.rectangleParent5}
-            key={index}
+            key={uuidv4()}
             onClick={() => {
               setCategoryFilter("Livestock");
               toggleStyle(index, 12);
@@ -674,7 +675,7 @@ const MarketplaceCategories = () => {
         {buttonDataGroup5.map((isActive, index) => (
           <button
             className={styles.rectangleParent1}
-            key={index}
+            key={uuidv4()}
             onClick={() => {
               setCategoryFilter("Poultry");
               toggleStyle(index, 5);

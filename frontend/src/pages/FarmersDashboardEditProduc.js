@@ -1,8 +1,8 @@
 import { useCallback, useState, useEffect } from "react";
 import { Form } from "react-bootstrap";
-import { Input, Textarea } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Select, Stack, Input, Textarea } from "@chakra-ui/react";
 import styles from "./FarmersDashboardEditProduc.module.css";
 import DashboardNavigation from "../components/DashboardNavigation";
 import SearchBar from "../components/SearchBar";
@@ -27,6 +27,165 @@ const FarmersDashboardEditProduc = () => {
     slug: "",
     image: "",
   });
+  const subcategoryOptions = {
+    Vegetables: [
+      "Carrots",
+      "Spinach",
+      "Cucumber",
+      "Lettuce",
+      "Broccoli",
+      "Tomatoes",
+      "Bell Peppers",
+      "Onions",
+      "Cauliflower",
+      "Cabbage",
+      "Leeks",
+      "Eggplant",
+      "Thyme",
+    ],
+    Fruits: [
+      "Apple",
+      "Banana",
+      "Orange",
+      "Grapes",
+      "Mango",
+      "Pineapple",
+      "Kiwi",
+      "Watermelon",
+      "Strawberries",
+      "Blueberries",
+      "Raspberries",
+      "Blackberries",
+      "Peaches",
+      "Plums",
+      "Cherries",
+      "Pears",
+      "Lemons",
+      "Limes",
+      "Grapefruit",
+      "Pomegranate",
+      "Papaya",
+      "Guava",
+      "Avocado",
+    ],
+    Grains: [
+      "Rice",
+      "Wheat",
+      "Oats",
+      "Maize",
+      "Millet",
+      "Wild Rice",
+      "Brown Rice",
+      "Couscous",
+    ],
+    Livestock: [
+      "Cow",
+      "Goat",
+      "Sheep",
+      "Pig",
+      "Horse",
+      "Donkey",
+      "Camel",
+      "Buffalo",
+      "Rabbit",
+      "Guinea Pig",
+    ],
+    Poultry: [
+      "Chicken",
+      "Duck",
+      "Turkey",
+      "Pigeon",
+      "Goose",
+      "Guinea Fowl",
+      "Ostrich",
+      "Mallard Duck",
+    ],
+    Legumes: [
+      "Chickpeas",
+      "Black Beans",
+      "Green Peas",
+      "Soybeans",
+      "Kidney Beans",
+      "Black-Eyed Peas",
+      "Brown Beans",
+      "Small Brown Beans",
+      "White Beans",
+    ],
+    Tubers: [
+      "Irish Potatoes",
+      "Sweet Potatoes",
+      "Yams",
+      "Cassava",
+      "Beets",
+      "Garlic",
+      "Ginger",
+    ],
+    "Processed Foods": [
+      "Canned Foods",
+      "Frozen Foods",
+      "Dried Foods",
+      "Snacks",
+      "Beverages",
+      "Sauces",
+      "Spices",
+      "Seasonings",
+      "Oils",
+      "Vinegars",
+      "Sweeteners",
+      "Baking Powder",
+      "Cereals",
+      "Pasta",
+      "Rice",
+      "Grains",
+      "Canned Vegetables",
+      "Canned Fruits",
+      "Frozen Vegetables",
+      "Frozen Fruits",
+      "Dried Fruits",
+      "Juice",
+      "Tea",
+    ],
+    Seafoods: [
+      "Shrimp",
+      "Crab",
+      "Lobster",
+      "Oysters",
+      "Squid",
+      "Octopus",
+      "Calamari",
+    ],
+    Nuts: [
+      "Almonds",
+      "Walnuts",
+      "Peanuts",
+      "Cashews",
+      "Hazelnuts",
+      "Brazil Nuts",
+      "Pecans",
+      "Coconuts",
+      "Sunflower Seeds",
+      "Pumpkin Seeds",
+      "Soy Nuts",
+      "Tiger Nuts",
+      "Watermelon Seeds",
+      "Kola Nuts",
+      "Betel Nuts",
+      "Areca Nuts",
+      "Aleurites Nuts",
+      "Beechnuts",
+      "Butternuts",
+      "Candlenuts",
+    ],
+    Fish: [
+      "Crocker",
+      "Tuna",
+      "Swordfish",
+      "Mackerel",
+      "Catfish",
+      "Tilapia",
+      "Sardines",
+    ],
+  };
 
   const onGroupButtonClick = useCallback(() => {
     navigate("/farmers-dashboard-product");
@@ -80,7 +239,7 @@ const FarmersDashboardEditProduc = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     if (id) {
       axios
-        .get(`http://13.53.125.166/product/${id}/`)
+        .get(`http://127.0.0.1:8000/product/${id}/`)
         .then((response) => {
           setSelectedProduct(response.data);
           setSelectedCategory(response.data.category);
@@ -106,7 +265,7 @@ const FarmersDashboardEditProduc = () => {
 
   const fetchCategories = () => {
     axios
-      .get("http://13.53.125.166/category")
+      .get("http://127.0.0.1:8000/category")
       .then((response) => {
         setCategories(response.data);
         console.log(response.data);
@@ -119,12 +278,6 @@ const FarmersDashboardEditProduc = () => {
   return (
     <div className={styles.farmersDashboardAddNewPr}>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline8.svg"
-        imageDimensionsCode="/fa6solidtruckfast4.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-        imageDimensionsTextCode2="/carbonmap5.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}
@@ -147,21 +300,23 @@ const FarmersDashboardEditProduc = () => {
         <div className={styles.regularPrice}>Regular price:</div>
         <div className={styles.salePrice}>Sale price:</div>
 
-        <Form.Select className={styles.carrotsParent}>
-          <option>{selectedProduct.name}</option>
-          <option value="Carrots">Carrots</option>
-          <option value="Spinach">Spinach</option>
-          <option value="Cucumber">Cucumber</option>
-          <option value="Lettuce">Lettuce</option>
-          <option value="Broccoli">Broccoli</option>
-          <option value="Tomatoes">Tomatoes</option>
-          <option value="Bell peppers">Bell peppers</option>
-          <option value="Onions">Onions</option>
-          <option value="Cauliflower">Cauliflower</option>
-          <option value="Cabbage">Cabbage</option>
-          <option value="Leeks">Leeks</option>
-          <option value="Rice">Rice</option>
-        </Form.Select>
+        <Stack className={styles.carrotsParent} w="241px">
+          <Select
+            id="productNameInput"
+            variant="outline"
+            placeholder={selectedProduct.name}
+          >
+            {subcategoryOptions[selectedCategory || "Vegetables"] &&
+              subcategoryOptions[selectedCategory || "Vegetables"].map(
+                (subCategory, index) => (
+                  <option key={index} value={subCategory}>
+                    {subCategory}
+                  </option>
+                )
+              )}
+          </Select>
+        </Stack>
+
         <Input
           className={styles.frameInner}
           width="120px"
@@ -180,20 +335,24 @@ const FarmersDashboardEditProduc = () => {
             setFormData({ ...formData, sale_price: e.target.value })
           }
         />
-        <Form.Select
-          className={styles.vegetablesParent}
-          id="productCategorySelect"
-          variant="outline"
-          value={selectedCategory}
-          onChange={(e) => setSelectedCategory(e.target.value)}
-        >
-          {categories.map((category) => (
-            <option key={category.id} value={category.id}>
-              {" "}
-              {category.name}
-            </option>
-          ))}
-        </Form.Select>
+
+        <Stack className={styles.vegetablesParent} w="210px">
+          <Select
+            id="productCategorySelect"
+            variant="outline"
+            placeholder={selectedProduct.category_name}
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            {categories.map((category) => (
+              <option key={category.id} value={category.name}>
+                {" "}
+                {category.name}
+              </option>
+            ))}
+          </Select>
+        </Stack>
+
         <img className={styles.rectangleIcon} alt="" src={formData.image} />
         <Textarea
           className={styles.rectangleTextarea}

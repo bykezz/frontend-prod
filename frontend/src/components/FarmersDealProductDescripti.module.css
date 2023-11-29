@@ -219,7 +219,7 @@
   left: 52px;
   width: 232px;
   height: 232px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .lettuce {
   position: absolute;

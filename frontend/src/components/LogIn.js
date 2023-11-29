@@ -12,11 +12,14 @@ import { useCustomerProfile } from "../context/CustomerProfileContext";
 import { useStorageProfile } from "../context/StorageProfileContext";
 
 const LogIn = ({ onClose }) => {
+  const [keepLoggedIn, setKeepLoggedIn] = useState(false);
+
   const {
     handleLoginSuccess,
     userRole,
     setUserRole,
     userName,
+    setIsLoggedIn,
     setUserName,
     setUserId,
     userId,
@@ -68,10 +71,12 @@ const LogIn = ({ onClose }) => {
 
   const openRegisterAsPopup = useCallback(() => {
     setRegisterAsPopupOpen(true);
+    setLoginOpen(false);
   }, []);
 
   const closeRegisterAsPopup = useCallback(() => {
     setRegisterAsPopupOpen(false);
+    setLoginOpen(true);
   }, []);
   const openForgotPassword = useCallback(() => {
     setForgotPasswordOpen(true);
@@ -96,6 +101,10 @@ const LogIn = ({ onClose }) => {
     }
   };
 
+  const handleCheckboxChange = (event) => {
+    setKeepLoggedIn(event.target.checked);
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setIsLoading(true);
@@ -103,7 +112,7 @@ const LogIn = ({ onClose }) => {
 
     try {
       const response = await Axios.post(
-        "http://13.53.125.166/login",
+        "http://127.0.0.1:8000/login",
         formData,
         {
           headers: {
@@ -113,7 +122,11 @@ const LogIn = ({ onClose }) => {
       );
 
       if (response.status === 200) {
-        // Handle success (e.g., show a success message)
+        if (keepLoggedIn) {
+          localStorage.setItem("isLoggedIn", "true");
+        } else {
+          localStorage.removeItem("isLoggedIn");
+        }
         console.log("login successful!");
         console.log(response);
         const token = response.data.access;
@@ -128,8 +141,8 @@ const LogIn = ({ onClose }) => {
         setUserId(user_id);
         handleLoginSuccess(token, user_type, user_name, user_id);
         console.log("token:", token);
-        const api1 = "http://13.53.125.166/auth/users/me/";
-        const api3 = "http://13.53.125.166/address/";
+        const api1 = "http://127.0.0.1:8000/auth/users/me/";
+        const api3 = "http://127.0.0.1:8000/address/";
         Axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
         Axios.get(api1)
           .then((response1) => {
@@ -222,6 +235,8 @@ const LogIn = ({ onClose }) => {
               className={styles.groupItem}
               type="checkbox"
               defaultChecked={true}
+              checked={keepLoggedIn}
+              onChange={handleCheckboxChange}
             />
             <div className={styles.logIn1}>{`Log in `}</div>
             <Input

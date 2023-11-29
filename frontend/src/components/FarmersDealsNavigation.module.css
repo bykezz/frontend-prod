@@ -14,12 +14,11 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  height: 9.25%;
-  width: 83.5%;
-  top: 1.63%;
-  right: 8.5%;
+  height: 75px;
+  width: 80px;
+  top: 1%;
   bottom: 89.13%;
-  left: 8%;
+  left: 16px;
   background-image: url(/public/farmjointlogo2@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,24 +32,26 @@
   background-color: var(--color-whitesmoke-200);
   border: 1px solid var(--color-whitesmoke-400);
   box-sizing: border-box;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .antDesignhomeOutlinedIcon {
   position: absolute;
-  top: 9.35px;
-  left: 16px;
-  width: 28px;
-  height: 28px;
+  top: 15px;
+  left: 22.5px;
+  width: 35px;
+  height: 35px;
   overflow: hidden;
 }
 .home {
   position: absolute;
-  top: 38px;
-  left: 17px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  width: 100%;
+  font-weight: 900;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-silver-300);
+  color: black;
   text-align: center;
 }
 .groupItem,
@@ -58,8 +59,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .rectangleParent {
   cursor: pointer;
@@ -75,22 +76,35 @@
 }
 .farmersDeals {
   position: absolute;
-  top: 38px;
-  left: 6px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0px;
+  font-weight: 900;
+  font-size: var(--font-size-s);
+  line-height: 9px;
+  text-align: center;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  width: 100%;
+}
+.farmers {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  font-weight: 900;
+  font-size: var(--font-size-s);
   line-height: 9px;
   font-family: var(--font-ek-mukta);
   color: var(--color-white);
   text-align: center;
   display: inline-block;
-  width: 49px;
+  width: 100%;
 }
 .healthiconsfruitsOutline {
   position: absolute;
   top: 2px;
-  left: 11px;
-  width: 38px;
-  height: 38px;
+  left: 17.5px;
+  width: 45px;
+  height: 45px;
   overflow: hidden;
 }
 .rectangleGroup {
@@ -101,33 +115,36 @@
   position: absolute;
   top: 108px;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .marketplace {
   position: absolute;
-  top: 40px;
-  left: 4px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  font-weight: 900;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-white);
+  color: black;
   text-align: center;
 }
 .claritystoreLineIcon {
   position: absolute;
   top: 9px;
-  left: 15px;
-  width: 30px;
-  height: 30px;
+  left: 21.5px;
+  width: 37px;
+  height: 37px;
   overflow: hidden;
 }
 .marketplace1 {
   position: absolute;
-  top: 40px;
-  left: 4px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  font-weight: 900;
+  width: 100%;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-silver-300);
+  color: black;
   text-align: center;
 }
 .rectangleContainer {
@@ -138,24 +155,26 @@
   position: absolute;
   top: 216px;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .logistics {
   position: absolute;
-  top: 42px;
-  left: 12px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  font-weight: 900;
+  width: 100%;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-silver-300);
+  color: black;
   text-align: center;
 }
 .fa6SolidtruckFastIcon {
   position: absolute;
   top: 15px;
-  left: 15px;
-  width: 30px;
-  height: 24px;
+  left: 22.5px;
+  width: 35px;
+  height: 35px;
   overflow: hidden;
 }
 .groupButton {
@@ -166,16 +185,18 @@
   position: absolute;
   top: 324px;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .storage {
   position: absolute;
-  top: 39px;
-  left: 14px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  width: 100%;
+  font-weight: 900;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-silver-300);
+  color: black;
   text-align: center;
 }
 .rectangleParent1 {
@@ -186,24 +207,26 @@
   position: absolute;
   top: 432px;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .trackOrder {
   position: absolute;
-  top: 39px;
-  left: 6px;
-  font-size: var(--font-size-3xs);
+  top: 48px;
+  left: 0;
+  width: 100%;
+  font-weight: 900;
+  font-size: var(--font-size-s);
   font-family: var(--font-ek-mukta);
-  color: var(--color-silver-300);
+  color: black;
   text-align: center;
 }
 .carbonmapIcon {
   position: absolute;
   top: 8px;
-  left: 17px;
-  width: 26px;
-  height: 26px;
+  left: 22.5px;
+  width: 35px;
+  height: 35px;
   overflow: hidden;
 }
 .rectangleParent2 {
@@ -214,23 +237,26 @@
   position: absolute;
   top: 540px;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 .groupParent {
   position: absolute;
-  height: 74.35%;
-  width: 60%;
-  top: 15.21%;
-  right: 20%;
-  bottom: 10.44%;
-  left: 20%;
+  top: 121.65px;
+  left: 19px;
+  height: 594.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
 }
 .farmersdealsNavigation {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100px;
-  height: 800px;
+  width: 120px;
+  height: 100%;
   z-index: 20;
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.25);
 }

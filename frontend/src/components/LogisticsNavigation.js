@@ -47,7 +47,7 @@ const LogisticsNavigation = ({
           <img
             className={styles.antDesignhomeOutlinedIcon}
             alt=""
-            src="/antdesignhomeoutlined.svg"
+            src="/antdesignhomeoutlined2.svg"
           />
           <div className={styles.home}>Home</div>
         </button>
@@ -57,7 +57,8 @@ const LogisticsNavigation = ({
           onClick={onGroupButton0Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers' </div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
@@ -74,7 +75,7 @@ const LogisticsNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src="/claritystoreline2.svg"
+            src="/claritystoreline1.svg"
           />
         </button>
         <button className={styles.rectangleParent}>
@@ -83,7 +84,7 @@ const LogisticsNavigation = ({
           <img
             className={styles.fa6SolidtruckFastIcon}
             alt=""
-            src="/fa6solidtruckfast1.svg"
+            src="/fa6solidtruckfast5.svg"
           />
         </button>
         <button
@@ -105,7 +106,7 @@ const LogisticsNavigation = ({
         >
           <div className={styles.groupChild} />
           <div className={styles.bulkOrders}>Track Order</div>
-          <img className={styles.carbonmapIcon} alt="" src="/carbonmap.svg" />
+          <img className={styles.carbonmapIcon} alt="" src="/carbonmap1.svg" />
         </button>
       </div>
       <button

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+:root {
+  --font-size-45xl: 3.5rem;
+  --font-weight-21xl: 900;
+}
+
+.banner2Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(104.23deg, #000, #ffb800);
+}
+.banner2Item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #ff842b;
+  position: absolute;
+  height: 14.39%;
+  width: 27.45%;
+  top: 71.22%;
+  right: 58.65%;
+  bottom: 14.39%;
+  left: 13.91%;
+  border-radius: 40px;
+}
+.shopNow {
+  position: absolute;
+  height: 8.15%;
+  width: 50%;
+  top: 25%;
+  left: 20.68%;
+  line-height: 36px;
+  font-weight: 800;
+  display: inline-block;
+}
+.products2RemovebgPreview2Icon {
+  position: absolute;
+  height: 81.29%;
+  width: 52.52%;
+  top: 6.47%;
+  right: 0;
+  bottom: 12.23%;
+  left: 47.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.findHugeDiscounts {
+  position: absolute;
+  height: 47.48%;
+  width: 53.61%;
+  top: 13.19%;
+  left: 6.4%;
+  font-size: var(--font-size-45xl);
+  line-height: 65px;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  text-align: left;
+  display: inline-block;
+}
+.banner2 {
+  width: 1093px;
+  height: 417px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-ek-mukta);
+}

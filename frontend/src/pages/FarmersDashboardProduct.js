@@ -74,7 +74,7 @@ const FarmersDashboardProduct = () => {
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .get("http://13.53.125.166/farmers/my_products/")
+      .get("http://127.0.0.1:8000/farmers/my_products/")
       .then((response) => {
         setFarmersProducts(response.data);
 
@@ -177,12 +177,6 @@ const FarmersDashboardProduct = () => {
         </div>
         <div className={styles.dashboardNavigation}>
           <DashboardNavigation
-            imageDimensions="/antdesignhomeoutlined2.svg"
-            imageDimensionsText="/claritystoreline8.svg"
-            imageDimensionsCode="/fa6solidtruckfast4.svg"
-            imageDimensionsCodeText="/mdisilooutline3.svg"
-            imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-            imageDimensionsTextCode2="/carbonmap5.svg"
             onGroupButton2Click={onGroupButton2Click}
             onGroupButton3Click={onGroupButton3Click}
             onGroupButton4Click={onGroupButton4Click}

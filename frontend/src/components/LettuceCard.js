@@ -1,80 +1,38 @@
 import { useState, useMemo, useCallback } from "react";
 import PortalPopup from "./PortalPopup";
 import styles from "./LettuceCard.module.css";
-import ProductPopup from "./ProductPopup";
-import { usePopupContext } from "../context/PopupContext";
-import { Button } from "antd";
-const LettuceCard = ({
-  lettuceCardPosition,
-  lettuceCardWidth,
-  lettuceCardHeight,
-  lettuceCardTop,
-  lettuceCardRight,
-  lettuceCardBottom,
-  lettuceCardLeft,
-}) => {
-  const { setSelectedProduct } = usePopupContext();
-  const openPopup = () => {
-    setSelectedProduct({
-      name: "Lettuce",
-      price: "2000",
-      weight: "2",
-      imageSrc: "/lettuceremovebgpreview-23@2x.png",
-    });
-    openLettucePopUp();
+
+const LettuceCard = ({}) => {
+  const [isHeart, setHeart] = useState(true);
+  const handleHeart = () => {
+    setHeart(!isHeart);
   };
-
-  const [isLettucePopUpOpen, setLettucePopUpOpen] = useState(false);
-  const lettuceCardStyle = useMemo(() => {
-    return {
-      position: lettuceCardPosition,
-      width: lettuceCardWidth,
-      height: lettuceCardHeight,
-      top: lettuceCardTop,
-      right: lettuceCardRight,
-      bottom: lettuceCardBottom,
-      left: lettuceCardLeft,
-    };
-  }, [
-    lettuceCardPosition,
-    lettuceCardWidth,
-    lettuceCardHeight,
-    lettuceCardTop,
-    lettuceCardRight,
-    lettuceCardBottom,
-    lettuceCardLeft,
-  ]);
-
-  const openLettucePopUp = useCallback(() => {
-    setLettucePopUpOpen(true);
-  }, []);
-
-  const closeLettucePopUp = useCallback(() => {
-    setLettucePopUpOpen(false);
-  }, []);
 
   return (
     <>
-      <div className={styles.lettuceCard} style={lettuceCardStyle}>
-        <div className={styles.lettuceCardChild} />
+      <div className={styles.rectangleParent}>
+        <div className={styles.componentChild} />
         <div className={styles.lettuce}>Lettuce</div>
-        <div className={styles.n2000}>N2,000</div>
-        <div className={styles.lettuceCardItem} />
+        <b className={styles.n180kg}>₦1,500/kg</b>
         <img
           className={styles.lettuceRemovebgPreview2Icon}
           alt=""
           src="/lettuceremovebgpreview-23@2x.png"
         />
+        <button className={styles.rectangleGroup}>
+          <div className={styles.groupChild} />
+          <div className={styles.viewProduct}>View Product</div>
+        </button>
+
+        <img className={styles.componentInner} alt="" src="/group-344.svg" />
+        <button onClick={handleHeart}>
+          <img
+            className={styles.vectorIcon}
+            alt=""
+            src={isHeart ? "/phheartthin.svg" : "/phheartthin1.svg"}
+          />
+        </button>
       </div>
-      {isLettucePopUpOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeLettucePopUp}
-        >
-          <ProductPopup onClose={closeLettucePopUp} />
-        </PortalPopup>
-      )}
     </>
   );
 };

@@ -78,7 +78,7 @@ const FarmersDashboardProfile = () => {
   }, [navigate]);
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
-    const api = "http://13.53.125.166/farmers/my_profile/";
+    const api = "http://127.0.0.1:8000/farmers/my_profile/";
 
     axios
       .get(api)
@@ -121,7 +121,7 @@ const FarmersDashboardProfile = () => {
           <p className={styles.farmNameHab}>Email: {email} </p>
           <p className={styles.farmNameHab}>&nbsp;</p>
           <p className={styles.farmNameHab}>
-            Farm address: {street}, {city}, {farmState}.
+            Farm address: {street ? `${street}, ${city}, ${farmState}.` : ""}
           </p>
         </div>
         <div className={styles.farmerProfileItem} />
@@ -163,12 +163,6 @@ const FarmersDashboardProfile = () => {
         <div className={styles.profile}>Profile</div>
       </button>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline8.svg"
-        imageDimensionsCode="/fa6solidtruckfast4.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-        imageDimensionsTextCode2="/carbonmap5.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

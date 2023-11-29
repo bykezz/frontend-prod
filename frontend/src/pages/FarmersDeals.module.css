@@ -6,8 +6,7 @@
 .frameChild {
   top: 75px;
   left: 87px;
-  background-color: var(--color-whitesmoke-100);
-  height: 2664px;
+  background-color: var(--color-white);
 }
 .frameItem {
   top: 2043px;
@@ -510,11 +509,12 @@
   text-align: left;
 }
 .footer {
+  position: relative;
   width: 93.06%;
-  top: 2106px;
+  bottom: 0%;
   right: 0.56%;
-  left: 6.39%;
-  height: 696px;
+  left: 100px;
+  height: 400px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
   font-family: var(--font-ek-mukta);
@@ -1429,7 +1429,6 @@
   top: 269px;
   left: 13px;
   width: 1440px;
-  height: 2802px;
   overflow-y: auto;
 }
 .frameChild6 {
@@ -1936,7 +1935,7 @@
 }
 .farmersDeals {
   position: relative;
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-white);
   width: 100%;
   height: auto;
   font-size: var(--font-size-l);
@@ -1946,6 +1945,6 @@
   position: fixed;
   width: 100%;
   height: 32%;
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-white);
   z-index: 1;
 }

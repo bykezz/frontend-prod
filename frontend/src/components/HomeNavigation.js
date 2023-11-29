@@ -51,7 +51,8 @@ const HomeNavigation = () => {
           onClick={onGroupButton21Click}
         >
           <div className={styles.groupItem} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers'</div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""

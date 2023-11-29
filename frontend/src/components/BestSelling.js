@@ -13,6 +13,7 @@ import GoatCard from "./GoatCard";
 import TurkeyCard from "./TurkeyCard";
 import CowCard from "./CowCard";
 import { useSearch } from "../context/SearchContext";
+
 const BestSelling = () => {
   const { choice } = useSearch();
   const groupButton11Ref = useRef(null);
@@ -38,54 +39,6 @@ const BestSelling = () => {
           <span className={styles.bestselling1}>Bestselling</span>
           <span className={styles.products}> Products</span>
         </div>
-        <button className={styles.rectangleParent}>
-          <GoatCard />
-        </button>
-        <button className={styles.rectangleGroup}>
-          <LettuceCard />
-        </button>
-        <button className={styles.rectangleContainer}>
-          <GoatCard />
-        </button>
-        <button className={styles.groupButton}>
-          <GoatCard />
-        </button>
-        <div className={styles.rectangleParent1}>
-          <TurkeyCard />
-        </div>
-        <div className={styles.rectangleParent2}>
-          <CarrotCard />
-        </div>
-        <div className={styles.rectangleParent3}>
-          <OnionCard />
-        </div>
-        <div className={styles.rectangleParent4}>
-          <RedPepperCard />
-        </div>
-        <div className={styles.rectangleParent5}>
-          <SpinachCard />
-          <div className={styles.groupDiv}>
-            <div className={styles.groupChild13} />
-            <div className={styles.off}>20% Off</div>
-          </div>
-        </div>
-        <button className={styles.frameButton} onClick={handleSeeMore}>
-          <div className={styles.frameChild} />
-          <div className={styles.seeMoreParent}>
-            <div className={styles.seeMore}>See More</div>
-            <img
-              className={styles.teenyiconsarrowUpOutline}
-              alt=""
-              src="/teenyiconsarrowupoutline.svg"
-            />
-          </div>
-        </button>
-        <div className={styles.rectangleParent6}>
-          <TomatoCard />
-        </div>
-        <div className={styles.rectangleParent7}>
-          <CowCard />
-        </div>
         <button
           className={styles.sortByPopularParent}
           ref={groupButton11Ref}
@@ -101,10 +54,30 @@ const BestSelling = () => {
             src="/riarrowupsline3.svg"
           />
         </button>
-        <div className={styles.rectangleParent8}>
-          <div className={styles.groupChild13} />
-          <div className={styles.off1}>20% Off</div>
-        </div>
+
+        <GoatCard />
+
+        <LettuceCard />
+
+        <GoatCard />
+
+        <GoatCard />
+
+        <TurkeyCard />
+
+        <CarrotCard />
+
+        <OnionCard />
+
+        <SpinachCard />
+
+        <RedPepperCard />
+
+        <SpinachCard />
+
+        <TomatoCard />
+
+        <CowCard />
       </div>
 
       {isSortByOpen && (

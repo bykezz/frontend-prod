@@ -62,9 +62,9 @@ const OrderTracking = () => {
         </footer>
       </div>
       <TrackOrderNavigation
-        imageDimensions="/antdesignhomeoutlined4.svg"
-        imageDimensionsText="/claritystoreline9.svg"
-        imageDimensionsCode="/healthiconsfruitsoutline13.svg"
+        imageDimensions="/antdesignhomeoutlined2.svg"
+        imageDimensionsText="/claritystoreline1.svg"
+        imageDimensionsCode="/healthiconsfruitsoutline1.svg"
         onGroupButtonClick={onGroupButtonClick}
         onGroupButton0Click={onGroupButton0Click}
         onGroupButton1Click={onGroupButton1Click}

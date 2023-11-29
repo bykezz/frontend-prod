@@ -59,10 +59,12 @@ export const AuthProvider = ({ children }) => {
     setUserRole("");
     setUserName("");
     setUserId("");
+    localStorage.setItem("isLoggedIn", "false");
   }, []);
 
   const value = {
     isLoggedIn,
+    setIsLoggedIn,
     token,
     handleLoginSuccess,
     handleLogout,

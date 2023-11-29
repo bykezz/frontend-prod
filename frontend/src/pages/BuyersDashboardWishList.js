@@ -83,12 +83,6 @@ const BuyersDashboardWishList = () => {
         </footer>
       </div>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined.svg"
-        imageDimensionsText="/claritystoreline6.svg"
-        imageDimensionsCode="/fa6solidtruckfast.svg"
-        imageDimensionsCodeText="/mdisilooutline.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline7.svg"
-        imageDimensionsTextCode2="/carbonmap4.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

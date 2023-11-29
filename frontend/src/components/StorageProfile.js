@@ -29,7 +29,7 @@ const StorageProfile = ({ setEdit }) => {
 
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
-    const api = "http://13.53.125.166/storage/my_profile/";
+    const api = "http://127.0.0.1:8000/storage/my_profile/";
 
     axios
       .get(api)
@@ -55,7 +55,7 @@ const StorageProfile = ({ setEdit }) => {
       </div>
       <div className={styles.emailKanistoragegmailcom}>Email: {email3}</div>
       <div className={styles.officeAddressArea}>
-        Office Address: {street3},{city3},{state3}.
+        Office Address: {street3 ? `${street3}, ${city3}, ${state3}.` : ""}
       </div>
       <button className={styles.rectangleParent}>
         <div className={styles.groupChild} />

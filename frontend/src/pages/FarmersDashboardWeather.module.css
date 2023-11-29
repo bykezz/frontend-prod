@@ -154,12 +154,12 @@
   left: 0;
   background-color: var(--color-white);
   width: 1140px;
-  height: 1528px;
+  height: 2050px;
 }
 .noteThisWeather {
   position: absolute;
   top: 150px;
-  left: 255px;
+  left: 150px;
   line-height: 125.4%;
 }
 .farmerWeatherForecastItem {
@@ -474,4 +474,81 @@
   height: 800px;
   font-size: var(--font-size-smi);
   color: var(--color-gainsboro-500);
+}
+.weathericon {
+  width: 100px;
+  height: 100px;
+}
+
+.weatherCard {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  top: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.forecastItem {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  top: 100px;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.forecasticon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 90%;
+}
+.feelLike {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  font-size: medium;
+}
+.precipitation {
+  color: #33cc33; /* Adjust color as needed */
+}
+.windSpeed {
+  color: #3366ff; /* Adjust color as needed */
+}
+.datetime {
+  font-style: italic;
+  font-size: large;
+}
+
+.temperature {
+  color: #ff5733;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.precipitation1 {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-size: medium;
+  color: #33cc33; /* Adjust color as needed */
+}
+
+.description {
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  font-size: medium;
 }

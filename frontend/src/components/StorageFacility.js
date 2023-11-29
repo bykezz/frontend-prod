@@ -21,7 +21,7 @@ const StorageFacility = () => {
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .get("http://13.53.125.166/storage/my_facilities/")
+      .get("http://127.0.0.1:8000/storage/my_facilities/")
       .then((response) => {
         setFacilities(response.data);
 

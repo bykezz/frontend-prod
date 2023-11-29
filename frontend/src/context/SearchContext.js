@@ -9,6 +9,8 @@ export const useSearch = () => {
 export const SearchProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [products1, setProducts1] = useState([]);
+  const [facilities, setFacilities] = useState([]);
+  const [facilities1, setFacilities1] = useState([]);
   const [choice, setChoice] = useState("Popularity");
   const [choice1, setChoice1] = useState("Popularity");
   const [choice2, setChoice2] = useState("Popularity");
@@ -38,6 +40,10 @@ export const SearchProvider = ({ children }) => {
         setChoice1,
         choice2,
         setChoice2,
+        facilities,
+        setFacilities,
+        facilities1,
+        setFacilities1,
       }}
     >
       {children}

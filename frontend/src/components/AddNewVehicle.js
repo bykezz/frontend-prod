@@ -45,13 +45,13 @@ const AddNewVehicle = () => {
 
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .post(`http://13.53.125.166/logistics/${userId}/vehicles/`, formData)
+      .post(`http://127.0.0.1:8000/logistics/${userId}/vehicles/`, formData)
       .then((response) => {
         const id = response.data.id;
         onGroupButton1Click();
         console.log("Data submitted successfully:", response.data);
         return axios.post(
-          `http://13.53.125.166/logistics/${userId}/vehicles/${id}/image/`,
+          `http://127.0.0.1:8000/logistics/${userId}/vehicles/${id}/image/`,
           formData1
         );
       })

@@ -46,12 +46,6 @@ const LogisticsDashboardProfile = () => {
         </footer>
       </div>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined.svg"
-        imageDimensionsText="/claritystoreline2.svg"
-        imageDimensionsCode="/fa6solidtruckfast.svg"
-        imageDimensionsCodeText="/mdisilooutline.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline.svg"
-        imageDimensionsTextCode2="/carbonmap.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

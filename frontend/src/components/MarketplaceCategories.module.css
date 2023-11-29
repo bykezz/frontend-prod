@@ -432,6 +432,6 @@
   height: 110px;
   text-align: center;
   font-size: var(--font-size-xs);
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-white);
   font-family: var(--font-ek-mukta);
 }

@@ -112,7 +112,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 232px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .rectangleParent {
   position: absolute;

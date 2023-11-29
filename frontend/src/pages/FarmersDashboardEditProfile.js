@@ -72,7 +72,7 @@ const FarmersDashboardEditProfile = () => {
   const handleSave = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .put("http://13.53.125.166/auth/users/me/", editedUsername)
+      .put("http://127.0.0.1:8000/auth/users/me/", editedUsername)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setfirst_name(response.data.first_name);
@@ -80,13 +80,13 @@ const FarmersDashboardEditProfile = () => {
         handleImageChange();
       });
     axios
-      .put("http://13.53.125.166/farmers/my_profile/", editedFarmInfo)
+      .put("http://127.0.0.1:8000/farmers/my_profile/", editedFarmInfo)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setFarmName(response.data.farm_name);
       });
     axios
-      .post("http://13.53.125.166/address/", editedFarmAddress)
+      .post("http://127.0.0.1:8000/address/", editedFarmAddress)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setStreet(response.data.street);
@@ -106,11 +106,11 @@ const FarmersDashboardEditProfile = () => {
 
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .post("http://13.53.125.166/farm-images/profile_image/", formData)
+      .post("http://127.0.0.1:8000/farm-images/profile_image/", formData)
 
       .then((response) => {
         console.log("Profile picture posted successfully", response.data);
-        const pic = `http://13.53.125.166${response.data.image}`;
+        const pic = `http://127.0.0.1:8000${response.data.image}`;
         setProfilePicture(pic);
       })
 
@@ -213,9 +213,9 @@ const FarmersDashboardEditProfile = () => {
               })
             }
           />
-          <div className={styles.farmAddress}>street:</div>
-          <div className={styles.farmAddress1}>city:</div>
-          <div className={styles.farmAddress2}>state:</div>
+          <div className={styles.farmAddress}>Street:</div>
+          <div className={styles.farmAddress1}>City:</div>
+          <div className={styles.farmAddress2}>State:</div>
           <img
             className={styles.groupIcon}
             alt=""
@@ -266,12 +266,6 @@ const FarmersDashboardEditProfile = () => {
         propRight="5.4%"
       />
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline8.svg"
-        imageDimensionsCode="/fa6solidtruckfast4.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-        imageDimensionsTextCode2="/carbonmap5.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

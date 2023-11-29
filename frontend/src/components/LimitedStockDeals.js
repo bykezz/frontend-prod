@@ -33,28 +33,19 @@ const LimitedStockDeals = () => {
           <span className={styles.span}>{` `}</span>
           <span className={styles.deals}>Deals</span>
         </div>
-        <button className={styles.rectangleParent}>
-          <LettuceCard />
-        </button>
-        <div className={styles.rectangleGroup}>
-          <CarrotCard />
-        </div>
-        <div className={styles.rectangleContainer}>
-          <TomatoCard />
-        </div>
-        <div className={styles.groupButton}>
-          <OnionCard />
-        </div>
-        <div className={styles.rectangleParent1}>
-          <RedPepperCard />
-        </div>
-        <div className={styles.rectangleParent2}>
-          <SpinachCard />
-          <div className={styles.groupDiv}>
-            <div className={styles.groupChild7} />
-            <div className={styles.off}>20% Off</div>
-          </div>
-        </div>
+
+        <GoatCard />
+
+        <CarrotCard />
+
+        <ChickenCard />
+
+        <OnionCard />
+
+        <RedPepperCard />
+
+        <SpinachCard />
+
         <button
           className={styles.sortByPopularParent}
           ref={frameButton1Ref}
@@ -70,28 +61,6 @@ const LimitedStockDeals = () => {
             src="/riarrowupsline1.svg"
           />
         </button>
-        <button className={styles.rectangleParent3}>
-          <GoatCard />
-        </button>
-        <button className={styles.rectangleParent4}>
-          <CarrotCard />
-        </button>
-        <button className={styles.rectangleParent5}>
-          <GoatCard />
-        </button>
-        <button className={styles.rectangleParent6}>
-          <SpinachCard />
-        </button>
-        <button className={styles.rectangleParent7}>
-          <ChickenCard />
-        </button>
-        <button className={styles.rectangleParent8}>
-          <RedPepperCard />
-        </button>
-        <div className={styles.rectangleParent9}>
-          <div className={styles.groupChild7} />
-          <div className={styles.off1}>20% Off</div>
-        </div>
       </div>
 
       {isSortBy1Open && (

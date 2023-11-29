@@ -1,4 +1,4 @@
-.onionCardChild {
+.componentChild {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -6,58 +6,154 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
+  background-color: var(--color-whitesmoke-100);
 }
-.n2000,
-.onions {
-  position: absolute;
-  top: 66.32%;
-  left: 0%;
-  width: 100%;
-  font-size: var(--font-size-lg);
-  font-weight: 500;
-  font-family: var(--font-ek-mukta);
-  color: var(--color-dimgray-200);
+.lettuce,
+.n180kg,
+.n200kg,
+.sunnyFarms {
   text-align: center;
+  width: 30%;
+  position: absolute;
+  top: 60.56%;
+  left: 35.41%;
+  line-height: 10px;
 }
-.n2000 {
-  top: 79.47%;
+.n180kg {
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  top: 60.56%;
+  text-align: center;
+  line-height: 10px;
+  top: 67.61%;
   left: 0%;
+  color: var(--color-black);
+}
+.n200kg,
+.sunnyFarms {
+  top: 67.61%;
+  left: 54.11%;
+  color: var(--color-black);
+}
+.n200kg {
+  text-align: center;
+  width: 35%;
+  position: absolute;
+  line-height: 10px;
+  left: 13%;
+  text-align: right;
+  color: var(--color-darkgray-400);
+}
+.sunnyFarms {
+  left: 24.86%;
+  text-align: center;
+  color: var(--color-darkgray-400);
+}
+.sunnyFarms {
+  top: 92.96%;
+  left: 28.17%;
   font-size: var(--font-size-base);
-  color: var(--color-silver-100);
+  color: var(--color-seagreen);
 }
-.onionCardItem {
+.lettuceRemovebgPreview2Icon {
   position: absolute;
-  height: 47.37%;
-  width: 56.25%;
-  top: 12.63%;
-  right: 21.88%;
-  bottom: 40%;
-  left: 21.88%;
-  border-radius: 50%;
-  background-color: var(--color-papayawhip);
-}
-.pngimg5Icon {
-  position: absolute;
-  height: 30.85%;
-  width: 40%;
-  top: 22.11%;
-  right: 31.25%;
-  bottom: 47.05%;
-  left: 28.75%;
+  height: 180px;
+  width: 180px;
+  top: 5.63%;
+  right: 23.94%;
+  bottom: 43.66%;
+  left: 25.35%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  cursor: pointer;
 }
-.onionCard {
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+}
+.viewProduct {
+  position: absolute;
+  top: 37.78%;
+  left: 16.67%;
+  font-size: var(--font-size-lg);
+  line-height: 10px;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+}
+.rectangleGroup {
   cursor: pointer;
   border: 0;
   padding: 0;
-  top: 45%;
   background-color: transparent;
+  position: absolute;
+  height: 12.68%;
+  width: 42.25%;
+  top: 74.65%;
+  right: 28.45%;
+  bottom: 12.68%;
+  left: 29.3%;
+}
+.componentItem {
+  position: absolute;
+  height: 2.25%;
+  width: 23.4%;
+  top: 68.17%;
+  right: 49.58%;
+  bottom: 29.58%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.componentInner,
+.vectorIcon {
+  position: absolute;
+  height: 2.25%;
+  width: 23.4%;
+  top: 68.17%;
+  right: 49.58%;
+  bottom: 29.58%;
+  left: 27.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.componentInner,
+.vectorIcon {
+  height: 3.47%;
+  width: 17.75%;
+  top: 92.39%;
+  right: 27.32%;
+  bottom: 4.14%;
+  left: 63%;
+}
+.vectorIcon {
+  height: 8.45%;
+  width: 9.86%;
+  top: 4.23%;
+  right: 86.62%;
+  bottom: 87.33%;
+  left: 3.52%;
+}
+.rectangleParent {
   position: relative;
-  width: 160px;
-  height: 190px;
+  top: 82px;
+  left: 0px;
+  width: 355px;
+  height: 355px;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-ek-mukta);
 }

@@ -10,10 +10,10 @@ const AreYouSure = ({ onClose, id }) => {
   const onYes = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .delete(`http://13.53.125.166/product/${id}/`)
+      .delete(`http://127.0.0.1:8000/product/${id}/`)
       .then((response) => {
         console.log(response.data);
-        return axios.get(`http://13.53.125.166/farmers/my_products/`);
+        return axios.get(`http://127.0.0.1:8000/farmers/my_products/`);
       })
       .then((response2) => {
         setFarmersProducts(response2.data);

@@ -44,7 +44,7 @@ const ProductPopup1 = ({ onClose, product, productImage }) => {
 
     axios
       .post(
-        `http://13.53.125.166/carts/${cartId}/fjitems/`,
+        `http://127.0.0.1:8000/carts/${cartId}/fjitems/`,
         JSON.stringify(data),
         {
           headers: {
@@ -54,7 +54,7 @@ const ProductPopup1 = ({ onClose, product, productImage }) => {
       )
       .then((response) => {
         console.log(response.data);
-        return axios.get(`http://13.53.125.166/carts/${cartId}/`);
+        return axios.get(`http://127.0.0.1:8000/carts/${cartId}/`);
       })
       .then((response) => {
         setCartItems2(response.data.farmjointitems);

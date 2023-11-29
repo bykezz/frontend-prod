@@ -1,102 +1,80 @@
-.groupChild {
+.componentChild {
   position: absolute;
+  height: 100%;
   width: 100%;
   top: 0;
   right: 0;
+  bottom: 0;
   left: 0;
   background-color: var(--color-darkslategray-400);
-  height: 696px;
 }
-.about,
-.blog,
-.contact,
 .copyright2023Farmjoint,
-.myAccount,
-.service,
 .signUpAnd {
   position: absolute;
-  width: 29.1%;
-  top: 348px;
+  width: 21.94%;
+  top: 46.15%;
   left: 70.9%;
-  font-size: var(--font-size-6xl);
-  color: var(--color-silver-200);
   display: inline-block;
 }
-.about,
-.blog,
-.contact,
-.copyright2023Farmjoint,
-.myAccount,
-.service {
-  width: 60.67%;
-  top: 627px;
+.copyright2023Farmjoint {
+  width: 13.66%;
+  top: 86.08%;
   left: 4.4%;
 }
-.about,
-.blog,
-.contact,
-.myAccount,
-.service {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 17.84%;
-  top: 348px;
-  left: 50.22%;
-  font-family: var(--font-ek-mukta);
-  text-align: left;
+.about {
+  margin: 0;
 }
-.blog,
-.contact,
-.myAccount,
-.service {
-  top: 383px;
-}
-.contact,
-.myAccount,
-.service {
-  top: 418px;
-}
-.myAccount,
-.service {
-  top: 453px;
-}
-.myAccount {
-  width: 17.99%;
-  top: 348px;
-  left: 28.36%;
-}
-.groupInner,
-.groupItem {
+.aboutBlogContactContainer {
   position: absolute;
+  width: 7.39%;
+  top: 46.15%;
+  left: 50.22%;
+  display: inline-block;
+}
+.myAccountShoppingContainer,
+.myAccountShoppingContainer1 {
+  position: absolute;
+  width: 12.84%;
+  top: 46.15%;
+  left: 28.36%;
+  display: inline-block;
+}
+.myAccountShoppingContainer1 {
+  left: 4.4%;
+}
+.componentInner,
+.componentItem {
+  position: absolute;
+  height: 0.37%;
   width: 100.07%;
-  top: 229.5px;
+  top: 33.88%;
   right: -0.04%;
+  bottom: 65.75%;
   left: -0.04%;
   border-top: 1px solid var(--color-gray-400);
   box-sizing: border-box;
-  height: 1px;
 }
-.groupInner {
-  top: 597.5px;
+.componentInner {
+  top: 81.5%;
+  bottom: 18.13%;
 }
 .fa6SolidenvelopeOpenTextIcon {
   position: absolute;
-  width: 3.81%;
-  top: 101px;
-  right: 52.76%;
-  left: 43.43%;
+  height: 9.16%;
+  width: 1.87%;
+  top: 16.85%;
+  right: 69.78%;
+  bottom: 73.99%;
+  left: 28.36%;
   max-width: 100%;
   overflow: hidden;
-  height: 51px;
+  max-height: 100%;
 }
 .callUs247 {
   position: absolute;
-  width: 28.88%;
-  top: 95px;
-  left: 9.7%;
-  font-size: var(--font-size-lg);
+  width: 5.07%;
+  top: 13.55%;
+  left: 6.72%;
   color: var(--color-white);
   display: inline-block;
 }
@@ -105,24 +83,24 @@
 .information,
 .subscribe {
   position: absolute;
-  width: 13.13%;
-  top: 302px;
+  width: 6.27%;
+  top: 39.19%;
   left: 4.4%;
   display: inline-block;
+  color: var(--color-whitesmoke-300);
 }
 .account,
 .information,
 .subscribe {
-  width: 17.99%;
+  width: 6.49%;
   left: 28.36%;
 }
 .information,
 .subscribe {
-  width: 17.84%;
+  width: 9.78%;
   left: 50.22%;
 }
 .subscribe {
-  width: 25.75%;
   left: 70.9%;
 }
 .contactfarmjointcom,
@@ -130,259 +108,142 @@
 .emailUs,
 .followUs {
   position: absolute;
-  width: 25.45%;
-  top: 95px;
-  left: 47.84%;
-  font-size: var(--font-size-lg);
+  width: 5.67%;
+  top: 13.55%;
+  left: 31.12%;
   color: var(--color-white);
   display: inline-block;
 }
 .contactfarmjointcom,
 .div,
 .followUs {
-  width: 14.1%;
-  left: 80.07%;
+  width: 7.46%;
+  left: 50%;
 }
 .contactfarmjointcom,
 .div {
-  width: 31.57%;
-  top: 115px;
-  left: 9.7%;
-  font-size: var(--font-size-11xl);
+  width: 10%;
+  top: 19.05%;
+  left: 6.72%;
+  font-size: var(--font-size-base);
   color: var(--color-yellowgreen-200);
 }
 .contactfarmjointcom {
-  width: 30.22%;
-  left: 47.84%;
+  width: 12.61%;
+  left: 31.12%;
 }
-.faSolidheadphonesAltIcon {
-  width: 4.03%;
-  top: 249px;
-  right: 91.57%;
-  left: 4.4%;
-  max-width: 100%;
-  height: 54px;
-}
-.faSolidheadphonesAltIcon,
-.fafacebook,
-.vectorIcon {
+.fafacebookIcon,
+.mdiinstagramIcon,
+.mdilinkedinIcon,
+.mditwitterIcon {
   position: absolute;
+  height: 3.66%;
+  width: 0.37%;
+  top: 22.34%;
+  right: 49.63%;
+  bottom: 73.99%;
+  left: 50%;
+  max-width: 100%;
   overflow: hidden;
-}
-.vectorIcon {
-  height: 100%;
-  width: 96.43%;
-  top: 0;
-  right: 0.11%;
-  bottom: 0;
-  left: 3.46%;
-  max-width: 100%;
   max-height: 100%;
 }
-.fafacebook {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 0.75%;
-  top: 132px;
-  right: 19.03%;
-  left: 80.22%;
-  height: 18px;
+.mdiinstagramIcon,
+.mdilinkedinIcon,
+.mditwitterIcon {
+  height: 4.4%;
+  width: 0.9%;
+  top: 21.98%;
+  right: 48.51%;
+  bottom: 73.63%;
+  left: 50.6%;
 }
-.vectorIcon1 {
-  height: 83.33%;
-  width: 83.33%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 8.33%;
-  left: 8.33%;
-  max-width: 100%;
-  max-height: 100%;
+.mdilinkedinIcon,
+.mditwitterIcon {
+  height: 4.76%;
+  width: 0.97%;
+  right: 47.39%;
+  bottom: 73.26%;
+  left: 51.64%;
 }
-.mdiinstagram,
-.vectorIcon1,
-.vectorIcon2 {
-  position: absolute;
-  overflow: hidden;
+.mdilinkedinIcon {
+  right: 46.34%;
+  left: 52.69%;
 }
-.mdiinstagram {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 1.64%;
-  top: 129px;
-  right: 17.09%;
-  left: 81.27%;
-  height: 22px;
-}
-.vectorIcon2 {
-  height: 70.83%;
-  width: 87.17%;
-  top: 16.67%;
-  right: 6.42%;
-  bottom: 12.5%;
-  left: 6.42%;
-  max-width: 100%;
-  max-height: 100%;
-}
-.mditwitter {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 1.79%;
-  top: 129px;
-  right: 15%;
-  left: 83.21%;
-  height: 24px;
-}
-.mdilinkedin,
-.mditwitter,
-.vectorIcon3 {
-  position: absolute;
-  overflow: hidden;
-}
-.vectorIcon3 {
-  height: 75%;
-  width: 75%;
-  top: 12.5%;
-  right: 12.5%;
-  bottom: 12.5%;
-  left: 12.5%;
-  max-width: 100%;
-  max-height: 100%;
-}
-.mdilinkedin {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 1.79%;
-  top: 129px;
-  right: 12.91%;
-  left: 85.3%;
-  height: 24px;
-}
+.groupChild,
 .rectangleInput {
   border: 1px solid var(--color-yellowgreen-200);
+  box-sizing: border-box;
+}
+.rectangleInput {
   background-color: var(--color-gainsboro-200);
   position: absolute;
-  width: 19.63%;
-  top: 453px;
-  right: 10.75%;
-  left: 69.63%;
-  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
-  box-sizing: border-box;
-  height: 52px;
+  height: 10.99%;
+  width: 13.06%;
+  top: 56.41%;
+  right: 16.04%;
+  bottom: 32.6%;
+  left: 70.9%;
+  border-radius: var(--br-21xl);
 }
-.rectangleParent {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 696px;
-}
-.faSolidheadphonesAltIcon1 {
-  position: absolute;
-  width: 4.03%;
-  top: 102px;
-  right: 91.57%;
-  left: 4.4%;
-  max-width: 100%;
-  overflow: hidden;
-  height: 54px;
-}
-.frameChild,
-.rectangleWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 52px;
-}
-.frameChild {
-  width: 100%;
-  right: 0;
+.groupChild {
   border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
   background-color: var(--color-yellowgreen-200);
-  border: 1px solid var(--color-yellowgreen-200);
-  box-sizing: border-box;
 }
+.groupChild,
 .rectangleWrapper {
-  width: 85px;
-}
-.submit,
-.submitWrapper {
   position: absolute;
-  height: 22px;
-}
-.submit {
+  height: 100%;
   width: 100%;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  font-size: var(--font-size-sm);
+}
+.submit {
+  position: absolute;
+  height: 46.67%;
+  width: 70.45%;
+  top: 23.33%;
+  left: 11.36%;
+  font-size: var(--font-size-3xs);
   font-family: var(--font-ek-mukta);
   color: var(--color-white);
   text-align: center;
   display: inline-block;
 }
-.submitWrapper {
-  width: 92.94%;
-  top: 15px;
-  right: 3.53%;
-  left: 3.53%;
-}
-.footerInner,
-.frameParent {
-  position: absolute;
-  height: 52px;
-}
-.frameParent {
+.groupParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 85px;
-}
-.footerInner {
-  width: 6.34%;
-  top: 453px;
-  right: 4.4%;
-  left: 89.25%;
-}
-.footer,
-.shoppingCart {
   position: absolute;
-  text-align: left;
-  font-family: var(--font-ek-mukta);
+  height: 10.99%;
+  width: 3.28%;
+  top: 56.41%;
+  right: 16.04%;
+  bottom: 32.6%;
+  left: 80.67%;
 }
-.shoppingCart {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 17.99%;
-  top: 383px;
-  left: 28.36%;
-  font-size: var(--font-size-6xl);
-  color: var(--color-silver-200);
-  display: inline-block;
+.faSolidheadphonesAltIcon {
+  position: absolute;
+  height: 9.16%;
+  width: 1.87%;
+  top: 16.85%;
+  right: 93.73%;
+  bottom: 73.99%;
+  left: 4.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
-.footer {
-  width: 100%;
+.rectangleParent {
+  position: absolute;
   bottom: 0;
-  right: 0;
   left: 0;
-  height: 696px;
-  font-size: var(--font-size-xl);
-  color: var(--color-whitesmoke-300);
-}
-@media screen and (max-width: 1200px) {
-  .footerInner {
-    display: flex;
-  }
+  width: 1340px;
+  height: 273px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-silver-200);
+  font-family: var(--font-ek-mukta);
 }

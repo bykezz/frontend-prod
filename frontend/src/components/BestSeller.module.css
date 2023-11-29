@@ -228,9 +228,9 @@
 }
 .bestseller {
   position: absolute;
-  top: 2168px;
+  top: 0%;
   left: 196px;
-  width: 247px;
+  width: 17.15%;
   height: 448px;
   text-align: left;
   font-size: var(--font-size-xl);

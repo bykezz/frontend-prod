@@ -13,11 +13,10 @@
   display: inline-block;
 }
 .availableStorage {
-  position: absolute;
-  top: 475px;
-  left: 122px;
+  position: relative;
+  top: 5%;
+  left: 150px;
   width: 1279px;
-  height: 1437px;
   text-align: center;
   font-size: var(--font-size-21xl);
   color: var(--color-black);

@@ -620,14 +620,15 @@
   color: var(--color-white);
 }
 .flashsales {
-  position: absolute;
-  width: 76.32%;
-  top: 1423px;
-  right: 11.25%;
+  position: relative;
+  width: 76.5%;
+  top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   left: 14%;
-  height: 480px;
-  text-align: left;
   font-size: var(--font-size-21xl);
+  background-color: white;
   color: var(--color-black);
   font-family: var(--font-ek-mukta);
 }
@@ -640,20 +641,18 @@
   font-weight: 500;
 }
 .sortByPopularContainer {
-  position: absolute;
-  height: 100%;
+  position: relative;
   width: 93.76%;
   top: 0;
   left: 0;
   font-size: var(--font-size-4xl);
   color: var(--color-black);
-  text-align: right;
   display: inline-block;
 }
 .riarrowUpSLineIcon {
   position: absolute;
   width: 13.64%;
-  top: 7px;
+  top: 28px;
   right: 0;
   left: 100%;
   max-width: 100%;
@@ -666,9 +665,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  height: 31px;
-  width: 14.35%;
-  top: 36.5%;
-  right: 12%;
+  height: 10%;
+  width: 18%;
+  top: 0;
+  right: 3%;
   z-index: 2;
 }

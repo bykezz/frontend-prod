@@ -2,31 +2,7 @@ import { useCallback } from "react";
 import "antd/dist/antd.min.css";
 import { Input } from "antd";
 import Footer from "../components/Footer";
-import {
-  DownOutlined,
-  ArrowLeftOutlined,
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CheckOutlined,
-  ClockCircleOutlined,
-  CloseOutlined,
-  DeleteOutlined,
-  EditOutlined,
-  ExclamationCircleOutlined,
-  HeartOutlined,
-  LeftOutlined,
-  LockOutlined,
-  MailOutlined,
-  PaperClipOutlined,
-  PhoneOutlined,
-  QuestionCircleOutlined,
-  ReloadOutlined,
-  RightOutlined,
-  SearchOutlined,
-  SendOutlined,
-  ShareAltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { SearchOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import TrackOrderNavigation from "../components/TrackOrderNavigation";
 import SearchBar from "../components/SearchBar";
@@ -93,8 +69,8 @@ const TrackOrder = () => {
         </footer>
       </div>
       <TrackOrderNavigation
-        imageDimensions="/antdesignhomeoutlined.svg"
-        imageDimensionsText="/claritystoreline2.svg"
+        imageDimensions="/antdesignhomeoutlined2.svg"
+        imageDimensionsText="/claritystoreline1.svg"
         imageDimensionsCode="/healthiconsfruitsoutline2.svg"
         onGroupButtonClick={onGroupButtonClick}
         onGroupButton1Click={onGroupButton1Click}

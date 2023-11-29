@@ -2,37 +2,9 @@ import { useState, useMemo, useCallback } from "react";
 import PortalPopup from "./PortalPopup";
 import styles from "./MpProductCard.module.css";
 import ProductPopup1 from "./ProductPopup1";
-const MpProductCard = ({
-  onionCardPosition,
-  onionCardWidth,
-  onionCardHeight,
-  onionCardTop,
-  onionCardRight,
-  onionCardBottom,
-  onionCardLeft,
-  product,
-  productImage,
-}) => {
+const MpProductCard = ({ product, productImage }) => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
-  const onionCardStyle = useMemo(() => {
-    return {
-      position: onionCardPosition,
-      width: onionCardWidth,
-      height: onionCardHeight,
-      top: onionCardTop,
-      right: onionCardRight,
-      bottom: onionCardBottom,
-      left: onionCardLeft,
-    };
-  }, [
-    onionCardPosition,
-    onionCardWidth,
-    onionCardHeight,
-    onionCardTop,
-    onionCardRight,
-    onionCardBottom,
-    onionCardLeft,
-  ]);
+  const [isHeart, setHeart] = useState(true);
 
   const openPopUp = useCallback(() => {
     setPopUpOpen(true);
@@ -41,20 +13,34 @@ const MpProductCard = ({
   const closePopUp = useCallback(() => {
     setPopUpOpen(false);
   }, []);
+  const handleHeart = () => {
+    setHeart(!isHeart);
+  };
 
   return (
     <>
-      <div>
-        <button
-          className={styles.onionCard}
+      <div className={styles.rectangleParent}>
+        <div className={styles.componentChild} />
+        <div className={styles.lettuce}>{product.name}</div>
+        <b className={styles.n180kg}>₦{product.price}/kg</b>
+        <img
+          className={styles.lettuceRemovebgPreview2Icon}
+          alt=""
+          src={productImage}
           onClick={openPopUp}
-          style={onionCardStyle}
-        >
-          <div className={styles.onionCardChild} />
-          <div className={styles.onions}>{product.name}</div>
-          <div className={styles.n2000}>₦{product.price}</div>
-          <div className={styles.onionCardItem} />
-          <img className={styles.pngimg5Icon} alt="" src={productImage} />
+        />
+        <button className={styles.rectangleGroup} onClick={openPopUp}>
+          <div className={styles.groupChild} />
+          <div className={styles.viewProduct}>View Product</div>
+        </button>
+
+        <img className={styles.componentInner} alt="" src="/group-344.svg" />
+        <button onClick={handleHeart}>
+          <img
+            className={styles.vectorIcon}
+            alt=""
+            src={isHeart ? "/phheartthin.svg" : "/phheartthin1.svg"}
+          />
         </button>
       </div>
       {isPopUpOpen && (

@@ -23,14 +23,14 @@ const EditProfileStorage = ({ setEdit }) => {
   const editHandle = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .put("http://13.53.125.166/storage/my_profile/", editedStorageName)
+      .put("http://127.0.0.1:8000/storage/my_profile/", editedStorageName)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setStorageName(response.data.storage_name);
       });
 
     axios
-      .post("http://13.53.125.166/address/", editedAddress)
+      .post("http://127.0.0.1:8000/address/", editedAddress)
       .then((response) => {
         console.log("Profile updated successfully", response.data);
         setStreet3(response.data.street);

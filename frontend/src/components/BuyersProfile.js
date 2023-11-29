@@ -37,7 +37,7 @@ const BuyersProfile = () => {
       </div>
       <div className={styles.emailJamesokekegmailcom}>Email: {email1}</div>
       <div className={styles.addressArea2}>
-        Address: {street1},{city1},{state1}.
+        Address: {street1 ? `${street1}, ${city1}, ${state1}.` : ""}
       </div>
       <button className={styles.rectangleParent}>
         <div className={styles.groupChild} />

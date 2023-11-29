@@ -19,7 +19,7 @@ const FarmersDashboardAddNewPr = () => {
   const { generateRandomSlug } = useSlug();
 
   const subcategoryOptions = {
-    1: [
+    Vegetables: [
       "Carrots",
       "Spinach",
       "Cucumber",
@@ -34,7 +34,7 @@ const FarmersDashboardAddNewPr = () => {
       "Eggplant",
       "Thyme",
     ],
-    2: [
+    Fruits: [
       "Apple",
       "Banana",
       "Orange",
@@ -59,7 +59,7 @@ const FarmersDashboardAddNewPr = () => {
       "Guava",
       "Avocado",
     ],
-    3: [
+    Grains: [
       "Rice",
       "Wheat",
       "Oats",
@@ -69,7 +69,7 @@ const FarmersDashboardAddNewPr = () => {
       "Brown Rice",
       "Couscous",
     ],
-    4: [
+    Livestock: [
       "Cow",
       "Goat",
       "Sheep",
@@ -81,7 +81,7 @@ const FarmersDashboardAddNewPr = () => {
       "Rabbit",
       "Guinea Pig",
     ],
-    5: [
+    Poultry: [
       "Chicken",
       "Duck",
       "Turkey",
@@ -91,7 +91,7 @@ const FarmersDashboardAddNewPr = () => {
       "Ostrich",
       "Mallard Duck",
     ],
-    6: [
+    Legumes: [
       "Chickpeas",
       "Black Beans",
       "Green Peas",
@@ -102,7 +102,7 @@ const FarmersDashboardAddNewPr = () => {
       "Small Brown Beans",
       "White Beans",
     ],
-    7: [
+    Tubers: [
       "Irish Potatoes",
       "Sweet Potatoes",
       "Yams",
@@ -111,7 +111,7 @@ const FarmersDashboardAddNewPr = () => {
       "Garlic",
       "Ginger",
     ],
-    8: [
+    "Processed Foods": [
       "Canned Foods",
       "Frozen Foods",
       "Dried Foods",
@@ -136,8 +136,16 @@ const FarmersDashboardAddNewPr = () => {
       "Juice",
       "Tea",
     ],
-    9: ["Shrimp", "Crab", "Lobster", "Oysters", "Squid", "Octopus", "Calamari"],
-    10: [
+    Seafoods: [
+      "Shrimp",
+      "Crab",
+      "Lobster",
+      "Oysters",
+      "Squid",
+      "Octopus",
+      "Calamari",
+    ],
+    Nuts: [
       "Almonds",
       "Walnuts",
       "Peanuts",
@@ -159,7 +167,7 @@ const FarmersDashboardAddNewPr = () => {
       "Butternuts",
       "Candlenuts",
     ],
-    11: [
+    Fish: [
       "Crocker",
       "Tuna",
       "Swordfish",
@@ -175,7 +183,7 @@ const FarmersDashboardAddNewPr = () => {
   }, []);
   const fetchCategories = async () => {
     try {
-      const response = await axios.get("http://13.53.125.166/category");
+      const response = await axios.get("http://127.0.0.1:8000/category");
       setCategories(response.data);
       console.log(response.data);
     } catch (error) {
@@ -279,13 +287,13 @@ const FarmersDashboardAddNewPr = () => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
 
     axios
-      .post("http://13.53.125.166/product/", formData)
+      .post("http://127.0.0.1:8000/product/", formData)
       .then((response) => {
         const id = response.data.id;
 
         console.log(response.data);
         return axios.post(
-          `http://13.53.125.166/product/${id}/images/`,
+          `http://127.0.0.1:8000/product/${id}/images/`,
           formData1
         );
       })
@@ -325,7 +333,7 @@ const FarmersDashboardAddNewPr = () => {
             variant="outline"
             placeholder="--select--"
           >
-            {subcategoryOptions[selectedCategory || 1].map(
+            {subcategoryOptions[selectedCategory || "Vegetables"].map(
               (subCategory, index) => (
                 <option key={index} value={subCategory}>
                   {subCategory}
@@ -367,7 +375,7 @@ const FarmersDashboardAddNewPr = () => {
             onChange={(e) => setSelectedCategory(e.target.value)}
           >
             {categories.map((category) => (
-              <option key={category.id} value={category.id}>
+              <option key={category.id} value={category.name}>
                 {" "}
                 {category.name}
               </option>
@@ -424,12 +432,6 @@ const FarmersDashboardAddNewPr = () => {
         </button>
       </div>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline8.svg"
-        imageDimensionsCode="/fa6solidtruckfast4.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-        imageDimensionsTextCode2="/carbonmap5.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

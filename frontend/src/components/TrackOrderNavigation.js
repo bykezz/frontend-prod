@@ -28,7 +28,8 @@ const TrackOrderNavigation = ({
           onClick={onGroupButton0Click}
         >
           <div className={styles.groupChild} />
-          <div className={styles.bulkOrders}>Farmers Deals</div>
+          <div className={styles.bulkOrders}>Farmers' </div>
+          <div className={styles.bulk}>Deals</div>
           <img
             className={styles.healthiconsfruitsOutline}
             alt=""
@@ -68,7 +69,7 @@ const TrackOrderNavigation = ({
           <img
             className={styles.claritystoreLineIcon}
             alt=""
-            src="/mdisilooutline.svg"
+            src="/mdisilooutline1.svg"
           />
         </button>
 

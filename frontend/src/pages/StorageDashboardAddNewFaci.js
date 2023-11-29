@@ -40,12 +40,6 @@ const StorageDashboardAddNewFaci = () => {
         <AddNewFacility />
       </div>
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined2.svg"
-        imageDimensionsText="/claritystoreline3.svg"
-        imageDimensionsCode="/fa6solidtruckfast.svg"
-        imageDimensionsCodeText="/mdisilooutline3.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline6.svg"
-        imageDimensionsTextCode2="/carbonmap2.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

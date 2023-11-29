@@ -13,9 +13,15 @@ import Trending from "../components/Trending";
 import DealsOfTheDay from "../components/DealsOfTheDay";
 import NewArrivals from "../components/NewArrivals";
 import { useSearch } from "../context/SearchContext";
+import Banner1 from "../components/Banner1";
+import Banner2 from "../components/Banner2";
+import { useAuth } from "../context/AuthContext";
+import Banner3 from "../components/Banner3";
+import Banner4 from "../components/Banner4";
 
 const Homepage = () => {
   const { setChoice, setChoice1, setChoice2 } = useSearch();
+  const { setIsLoggedIn } = useAuth();
 
   useEffect(() => {
     setChoice("Popularity");
@@ -50,17 +56,21 @@ const Homepage = () => {
     };
   }, []);
   const images = [
-    "/storage.jpg",
-    "/farm.jpeg",
-    "/logistics.jpeg",
-    "/livestock.jpeg",
+    // <img src="/storage.jpg" alt="Storage" />,
+    // <img src="/farm.jpeg" alt="Farm" />,
+    // <img src="/logistics.jpeg" alt="Logistics" />,
+    // <img src="/livestock.jpeg" alt="Livestock" />,
+    <Banner1 />,
+    <Banner2 />,
+    <Banner3 />,
+    <Banner4 />,
   ];
-  const captions = [
-    "Kani Silos",
-    "Mayor Farms",
-    "Xpo Logistics",
-    "Sunny Livestocks",
-  ];
+  // const captions = [
+  //   "Kani Silos",
+  //   "Mayor Farms",
+  //   "Xpo Logistics",
+  //   "Sunny Livestocks",
+  // ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const goToNextImage = () => {
@@ -72,81 +82,26 @@ const Homepage = () => {
     return () => clearInterval(interval);
   }, [currentImageIndex]);
 
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    if (isLoggedIn === "true") {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
   return (
     <>
       <div className={styles.homepage}>
         <div className={styles.frameParent}>
-          <div className={styles.rectangleWrapper}>
-            <div className={styles.frameChild} />
-            <Footer />
+          <div className={styles.slideshow}>
+            <div className={styles.ezgif1Icon}>{images[currentImageIndex]}</div>
+            {/* <div className={styles.caption}>{captions[currentImageIndex]}</div> */}
           </div>
-
+          <BestSelling />
           <div className={styles.farmersOfTheContainer}>
             <span className={styles.farmersOfThe}>Trending </span>
             <span className={styles.week}>Farms</span>
           </div>
-
-          <FlashSales />
-
-          <LimitedStockDeals />
-          <BestSeller />
-
-          <NewArrivals />
-
-          <DealsOfTheDay />
-
-          <Trending />
-
-          <div className={styles.slideshow}>
-            <img
-              className={styles.ezgif1Icon}
-              src={process.env.PUBLIC_URL + images[currentImageIndex]}
-              alt={`Slide ${currentImageIndex + 1}`}
-            />
-            <div className={styles.caption}>{captions[currentImageIndex]}</div>
-          </div>
-
-          <section className={styles.groupWrapper}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.groupChild} />
-              <img
-                className={styles.bba003827272830485a6b84d4dLarIcon}
-                alt=""
-                src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-4@2x.png"
-              />
-              <img
-                className={styles.bba003827272830485a6b84d4dLarIcon1}
-                alt=""
-                src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-5@2x.png"
-              />
-              <img
-                className={styles.pngTomato187024Icon}
-                alt=""
-                src="/png-tomato-18702-4@2x.png"
-              />
-              <img
-                className={styles.lettuceRemovebgPreview3Icon}
-                alt=""
-                src="/lettuceremovebgpreview-3@2x.png"
-              />
-              <img
-                className={styles.lettuceRemovebgPreview4Icon}
-                alt=""
-                src="/lettuceremovebgpreview-4@2x.png"
-              />
-              <div className={styles.getUpTo}>Get up to 60% OFF</div>
-              <button className={styles.rectangleGroup} data-animate-on-scroll>
-                <div className={styles.groupItem} />
-                <div className={styles.shopNow}>SHOP NOW</div>
-              </button>
-              <div className={styles.vEG}>V E G E T A B L E S</div>
-              <img
-                className={styles.sweetRedPeppersCopy600x6Icon}
-                alt=""
-                src="/sweetredpeppers--copy600x600removebgpreview-3@2x.png"
-              />
-            </div>
-          </section>
           <div className={styles.farmersoftheweek}>
             <div className={styles.farmersoftheweekInner}>
               <div className={styles.groupParent}>
@@ -286,8 +241,60 @@ const Homepage = () => {
               src="/group-328.svg"
             />
           </div>
-          <BestSelling />
+          <FlashSales />
+          <section className={styles.groupWrapper}>
+            <div className={styles.rectangleParent}>
+              <div className={styles.groupChild} />
+              <img
+                className={styles.bba003827272830485a6b84d4dLarIcon}
+                alt=""
+                src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-4@2x.png"
+              />
+              <img
+                className={styles.bba003827272830485a6b84d4dLarIcon1}
+                alt=""
+                src="/851951bba003827272830485a6b84d4d-largeremovebgpreview-5@2x.png"
+              />
+              <img
+                className={styles.pngTomato187024Icon}
+                alt=""
+                src="/png-tomato-18702-4@2x.png"
+              />
+              <img
+                className={styles.lettuceRemovebgPreview3Icon}
+                alt=""
+                src="/lettuceremovebgpreview-3@2x.png"
+              />
+              <img
+                className={styles.lettuceRemovebgPreview4Icon}
+                alt=""
+                src="/lettuceremovebgpreview-4@2x.png"
+              />
+              <div className={styles.getUpTo}>Get up to 60% OFF</div>
+              <button className={styles.rectangleGroup} data-animate-on-scroll>
+                <div className={styles.groupItem} />
+                <div className={styles.shopNow}>SHOP NOW</div>
+              </button>
+              <div className={styles.vEG}>V E G E T A B L E S</div>
+              <img
+                className={styles.sweetRedPeppersCopy600x6Icon}
+                alt=""
+                src="/sweetredpeppers--copy600x600removebgpreview-3@2x.png"
+              />
+            </div>
+          </section>
+          <div className={styles.ban}>
+            <BestSeller />
+            <NewArrivals />
+            <DealsOfTheDay />
+            <Trending />
+          </div>
+          <LimitedStockDeals />
+          <div className={styles.rectangleWrapper}>
+            <Footer />
+          </div>
         </div>
+
         <SearchBar
           dimensionText="/phuserlight.svg"
           dimensionText2="/bibasketfill.svg"

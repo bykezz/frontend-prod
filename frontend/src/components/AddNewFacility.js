@@ -40,12 +40,12 @@ const AddNewFacility = () => {
 
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .post("http://13.53.125.166/storage/my_facilities/", formData)
+      .post("http://127.0.0.1:8000/storage/my_facilities/", formData)
       .then((response) => {
         const id = response.data.id;
         console.log("Data submitted successfully:", response.data);
         return axios.post(
-          `http://13.53.125.166/storage/${userId}/facilities/${id}/image/`,
+          `http://127.0.0.1:8000/storage/${userId}/facilities/${id}/image/`,
           formData1
         );
       })

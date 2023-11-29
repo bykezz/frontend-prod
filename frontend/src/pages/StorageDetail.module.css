@@ -553,7 +553,6 @@
   background-color: var(--color-whitesmoke-100);
   width: 100%;
   height: 800px;
-  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 @media screen and (max-width: 1200px) {

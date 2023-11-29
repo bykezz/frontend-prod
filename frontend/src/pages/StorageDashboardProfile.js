@@ -50,12 +50,6 @@ const StorageDashboardProfile = () => {
         dimensionText2="/bibasketfill.svg"
       />
       <DashboardNavigation
-        imageDimensions="/antdesignhomeoutlined.svg"
-        imageDimensionsText="/claritystoreline6.svg"
-        imageDimensionsCode="/fa6solidtruckfast.svg"
-        imageDimensionsCodeText="/mdisilooutline.svg"
-        imageDimensionsTextCode="/healthiconsfruitsoutline11.svg"
-        imageDimensionsTextCode2="/carbonmap7.svg"
         onGroupButton2Click={onGroupButton2Click}
         onGroupButton3Click={onGroupButton3Click}
         onGroupButton4Click={onGroupButton4Click}

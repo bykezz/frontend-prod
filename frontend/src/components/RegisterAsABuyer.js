@@ -42,7 +42,7 @@ const RegisterAsABuyer = ({ onClose }) => {
 
     if (selectedOption) {
       try {
-        const response = await axios.post("http://13.53.125.166/auth/users/", {
+        const response = await axios.post("http://127.0.0.1:8000/auth/users/", {
           ...formData,
         });
 

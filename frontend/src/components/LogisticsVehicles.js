@@ -20,7 +20,7 @@ const LogisticsVehicles = () => {
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
     axios
-      .get(`http://13.53.125.166/logistics/${userId}/vehicles/`)
+      .get(`http://127.0.0.1:8000/logistics/${userId}/vehicles/`)
       .then((response) => {
         setVehicles(response.data);
 

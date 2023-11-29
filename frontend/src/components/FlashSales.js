@@ -27,72 +27,39 @@ const FlashSales = () => {
   }, []);
   return (
     <>
-      <button
-        className={styles.sortByPopularParent}
-        ref={frameButtonRef}
-        onClick={openSortBy}
-      >
-        <div className={styles.sortByPopularContainer}>
-          <span className={styles.sortBy}>Sort By</span>
-          <span className={styles.popular}> {choice1}</span>
-        </div>
-        <img
-          className={styles.riarrowUpSLineIcon}
-          alt=""
-          src="/riarrowupsline2.svg"
-        />
-      </button>
       <div className={styles.flashsales}>
+        <button
+          className={styles.sortByPopularParent}
+          ref={frameButtonRef}
+          onClick={openSortBy}
+        >
+          <div className={styles.sortByPopularContainer}>
+            <span className={styles.sortBy}>Sort By</span>
+            <span className={styles.popular}> {choice1}</span>
+          </div>
+          <img
+            className={styles.riarrowUpSLineIcon}
+            alt=""
+            src="/riarrowupsline2.svg"
+          />
+        </button>
         <div className={styles.flashSales}>
           <span className={styles.flash}>Flash</span>
           <span className={styles.span}>{` `}</span>
           <span className={styles.sales}>Sales</span>
         </div>
-        <button className={styles.rectangleParent}>
-          <LettuceCard />
-        </button>
-        <div className={styles.rectangleGroup}>
-          <CarrotCard />
-        </div>
-        <div className={styles.rectangleContainer}>
-          <TomatoCard />
-        </div>
-        <div className={styles.groupButton}>
-          <OnionCard />
-        </div>
-        <div className={styles.rectangleParent1}>
-          <TurkeyCard />
-        </div>
-        <div className={styles.rectangleParent2}>
-          <SpinachCard />
-          <div className={styles.groupDiv}>
-            <div className={styles.groupChild7} />
-            <div className={styles.off}>20% Off</div>
-          </div>
-        </div>
 
-        <button className={styles.rectangleParent3}>
-          <RedPepperCard />
-        </button>
-        <button className={styles.rectangleParent5}>
-          <CowCard />
-        </button>
-        <button className={styles.rectangleParent6}>
-          <ChickenCard />
-        </button>
-        <button className={styles.rectangleParent7}>
-          <SpinachCard />
-        </button>
-        <button className={styles.rectangleParent8}>
-          <LettuceCard />
-        </button>
-        <button className={styles.rectangleParent9}>
-          <OnionCard />
-        </button>
-        <div className={styles.rectangleParent10}>
-          <div className={styles.groupChild7} />
-          <div className={styles.off1}>20% Off</div>
-        </div>
+        <LettuceCard />
+
+        <TomatoCard />
+
+        <TurkeyCard />
+
+        <RedPepperCard />
+
+        <CowCard />
+
+        <ChickenCard />
       </div>
       {isSortByOpen && (
         <PortalPopup

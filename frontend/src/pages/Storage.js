@@ -3,31 +3,7 @@ import StorageNavigation from "../components/StorageNavigation";
 import "antd/dist/antd.min.css";
 import Footer from "../components/Footer";
 import { Input } from "antd";
-import {
-  DownOutlined,
-  ArrowLeftOutlined,
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CheckOutlined,
-  ClockCircleOutlined,
-  CloseOutlined,
-  DeleteOutlined,
-  EditOutlined,
-  ExclamationCircleOutlined,
-  HeartOutlined,
-  LeftOutlined,
-  LockOutlined,
-  MailOutlined,
-  PaperClipOutlined,
-  PhoneOutlined,
-  QuestionCircleOutlined,
-  ReloadOutlined,
-  RightOutlined,
-  SearchOutlined,
-  SendOutlined,
-  ShareAltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { SearchOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import AvailableStorage from "../components/AvailableStorage";
 import StorageFilter from "../components/StorageFilter";
@@ -64,7 +40,7 @@ const Storage = () => {
             src="/pexelstomfisk9708011-22@2x.png"
           />
         </div>
-        <AvailableStorage />
+
         <StorageFilter />
         <Input
           className={styles.frameItem}
@@ -74,6 +50,7 @@ const Storage = () => {
           size="large"
           placeholder="   Find a facility around you. Enter an address, neigbhourhood or ZIP code"
         />
+
         <button className={styles.frameParent}>
           <div className={styles.rectangleWrapper}>
             <div className={styles.frameInner} />
@@ -82,10 +59,10 @@ const Storage = () => {
             <div className={styles.search}>Search</div>
           </div>
         </button>
+        <AvailableStorage />
         <footer className={styles.footer} id="footer">
           <Footer />
         </footer>
-        <NextPageBar frameButtonTop="2035px" />
       </div>
       <StorageNavigation />
       <SearchBar

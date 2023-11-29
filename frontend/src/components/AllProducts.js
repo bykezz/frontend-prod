@@ -23,7 +23,7 @@ const AllProducts = () => {
   useEffect(() => {
     setChoice("Popularity");
     axios
-      .get("http://13.53.125.166/farmjointitem/")
+      .get("http://127.0.0.1:8000/farmjointitem/")
       .then((response) => {
         setProducts1(response.data);
 
@@ -61,7 +61,7 @@ const AllProducts = () => {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            gap: "24px",
+            gap: "10px",
             width: "100%",
             height: "auto",
           }}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+:root {
+  --font-size-45xl: 3.5rem;
+  --font-weight-21xl: 900;
+}
+
+.maizeBadRemovebgPreview1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267.4px;
+  height: 241.4px;
+  object-fit: cover;
+}
+.maizeBadRemovebgPreview1Wrapper {
+  position: absolute;
+  top: 83px;
+  left: 565px;
+  width: 267.4px;
+  height: 241.4px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild {
+  background: linear-gradient(104.23deg, #2ca43f, #f90);
+  width: 1093px;
+  height: 417px;
+}
+.groupItem {
+  border-radius: 40px;
+  background-color: #ff842b;
+  width: 386px;
+  height: 60px;
+}
+.findAStorage {
+  position: absolute;
+  width: 91.19%;
+  top: 13px;
+  left: 4.66%;
+  font-size: var(--font-size-11xl);
+  line-height: 36px;
+  font-weight: 800;
+  font-family: var(--font-ek-mukta);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 34px;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 297px;
+  left: 82px;
+  width: 386px;
+  height: 60px;
+}
+.protectYourProduce {
+  position: absolute;
+  width: 53.61%;
+  top: 55px;
+  left: 6.4%;
+  line-height: 65px;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 198px;
+}
+.cabbageBadRemovebgPreviewIcon,
+.tomatoBadRemovebgPreviewIcon {
+  position: absolute;
+  top: 55px;
+  left: 613px;
+  width: 469px;
+  height: 328px;
+  object-fit: cover;
+}
+.tomatoBadRemovebgPreviewIcon {
+  top: 174px;
+  left: 586px;
+  width: 318px;
+  height: 217px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1093px;
+  height: 417px;
+}
+.groupParent {
+  width: 1093px;
+  height: 417px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: "Archivo Black", sans-serif;
+}

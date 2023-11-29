@@ -27,7 +27,7 @@ const LogisticsProfile = ({ setEdit }) => {
   };
   useEffect(() => {
     axios.defaults.headers.common["Authorization"] = `JWT ${token}`;
-    const api = "http://13.53.125.166/logistics/my_profile/";
+    const api = "http://127.0.0.1:8000/logistics/my_profile/";
 
     axios
       .get(api)
@@ -54,7 +54,7 @@ const LogisticsProfile = ({ setEdit }) => {
       </div>
       <div className={styles.emailTranslogisticsgmailco}>Email: {email2}</div>
       <div className={styles.officeAddressArea}>
-        Office Address: {street2},{city2},{state2}.
+        Office Address: {street2 ? `${street2}, ${city2}, ${state2}.` : ""}
       </div>
       <button className={styles.rectangleParent}>
         <div className={styles.groupChild} />

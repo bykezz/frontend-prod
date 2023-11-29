@@ -35,7 +35,7 @@ const FarmersProducts = ({ product, productImage }) => {
         <img
           className={styles.farmersProductDetailsItem}
           alt=""
-          src={`http://13.53.125.166${productImage}`}
+          src={`http://127.0.0.1:8000${productImage}`}
         />
         <b className={styles.carrots}>{product.name}</b>
         {product.is_available === true ? (

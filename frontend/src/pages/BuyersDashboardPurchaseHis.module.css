@@ -4,7 +4,7 @@
   left: 94px;
   background-color: var(--color-whitesmoke-100);
   width: 1340px;
-  height: 1390px;
+  height: 1000px;
 }
 .cabbage,
 .kg,
@@ -591,25 +591,23 @@
 .footer {
   width: 93.51%;
   top: 714px;
-  right: -0.07%;
-  left: 6.56%;
-  height: 696px;
+  left: 100px;
+  height: 300px;
   font-size: var(--font-size-xl);
   color: var(--color-whitesmoke-300);
 }
 .rectangleParent {
   position: absolute;
-  top: 107px;
+  top: 85px;
   left: 7px;
   width: 1433px;
-  height: 1408px;
+  height: 800px;
   overflow-y: auto;
 }
 .buyersDashboardPurchaseHis {
   position: relative;
   background-color: var(--color-whitesmoke-100);
   width: 100%;
-  height: 800px;
   font-size: var(--font-size-base);
 }
 @media screen and (max-width: 1200px) {

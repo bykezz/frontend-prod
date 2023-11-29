@@ -190,12 +190,6 @@ const FarmersDashboardGeolocation = () => {
 
         <div className={styles.dashboardNavigation}>
           <DashboardNavigation
-            imageDimensions="/antdesignhomeoutlined2.svg"
-            imageDimensionsText="/claritystoreline8.svg"
-            imageDimensionsCode="/fa6solidtruckfast4.svg"
-            imageDimensionsCodeText="/mdisilooutline3.svg"
-            imageDimensionsTextCode="/healthiconsfruitsoutline9.svg"
-            imageDimensionsTextCode2="/carbonmap5.svg"
             onGroupButton2Click={onGroupButton2Click}
             onGroupButton3Click={onGroupButton3Click}
             onGroupButton4Click={onGroupButton4Click}
